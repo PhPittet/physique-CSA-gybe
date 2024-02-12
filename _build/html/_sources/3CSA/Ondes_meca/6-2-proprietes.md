@@ -3,12 +3,11 @@
 
 ## Caractéristiques d'onde
 
-Dans ce chapitre, nous allons définir les caractéristiques suivantes pour décrire une onde :
+Dans ce chapitre, nous allons définir quelques notion qui permettent de décrire une onde :
 
-Amplitude :
-: L'amplitude $A$ d'une onde est la distance entre la position de repos et le déplacement maximal de l'onde.
-
-  Elle se mesure en mètre ($\text{m}$)
+::::{admonition} Caractéristiques d'une onde
+:class: formule
+Une onde mécanique est définie par son :
 
 Fréquence :
 : La fréquence $f$ est le nombre d'ondes passant par un point spécifique par seconde.
@@ -30,10 +29,100 @@ Vitesse d'onde :
 
   Elle se mesure en ($\text{m/s}$)
 
+Amplitude :
+: L'amplitude $A$ d'une onde est la distance entre la position de repos et le déplacement maximal de l'onde.
+
+  Elle se mesure en mètre ($\text{m}$)
+
+  *L'amplitude n'est pas vraiment une grandeur importante pour comprendre les ondes mécaniques.*
+
+::::
+
 :::{admonition} Conseils pour réussir
 :class: astuce
 La vitesse des vagues est parfois aussi appelée *vitesse de propagation* (ou *célérité*) car la perturbation se propage d'un endroit à un autre.
 :::
+
+### Vitesse d'une onde.
+Comme une onde se propage, on peut lui associer une vitesse.
+:::{figure} figures/Celerite.png
+:name: DefOnde
+:align: center
+:width: 50%
+*Une impulsion sur une corde à quatre instants successifs.*
+:::
+
+::::{admonition} Vitesse $v_w$ d'une onde
+:class: formule
+La vitesse de propagation d'une onde est le rapport entre la distance $d$ parcourue par la perturbation et la durée écoulée $t$. Elle se
+mesure en $(\text{m/s})$
+:::{math}
+v_w=\dfrac{d}{t}
+:::
+avec $d$ en mètre et $t$ en seconde.
+
+::::
+
+La force de tension $F_T$ d'une corde tendue, joue également un rôle dans la vitesse de propagation : on observe que plus une corde est tendue, plus la vitesse de propagation des ondes est grande. Des mesures expérimentales nous montrent que le carré de la vitesse de propagation $v-w$ d'une onde dans une corde est :
+- proportionnel à la force de tension $F_T$ de la corde ;
+- inversement proportionnel à la masse linéaire $\mu$ de la corde.
+Ces propriétés se traduisent par la relation algébrique :
+:::{math}
+v_w=\sqrt{\dfrac{F_{T}}{\mu}}
+:::
+avec :
+- $v$ vitesse de propagation en $(\text{m/s})$
+- $F_T$ : tension de la corde en $(\text{N})$
+- $\mu$ : masse linéaire de la corde en $(\text{kg/m})$
+
+### Période et fréquence
+Les ondes périodiques correspondent à des phénomènes qui se répètent périodiquement. Ces ondes sont caractérisées par une période $T$ et par une fréquence $f$.
+
+::::{admonition} Période
+:class: formule
+La période $T$ d'une onde progressive périodique est le temps le plus court au bout duquel un point se retrouve dans le même état vibratoire. La période $T$ se mesure en secondes $(\text{s})$.
+::::
+
+La période correspond au temps qu'il y a entre deux répétions d'un signal périodique. La période du mouvement de l'aiguille des secondes d'une montre est $T=60\,\text{s}$, car elle revient au même endroit toutes les $60\,\text{s}$. En astronomie, la période de révolution désigne l'intervalle de temps entre deux passages consécutifs d'un astre en un point quelconque de son orbite. La période de rotation correspond à la durée nécessaire à un astre pour faire un tour sur lui-même.
+
+La période d'une onde périodique peut être déterminée graphiquement : elle correspond à la durée du motif élémentaire ({numref}`MotifElementaire`).
+
+:::{figure} figures/MotifElementaire.jpg
+:name: MotifElementaire
+:align: center
+:width: 35%
+*La période de ce signal périodique vaut $T=4.0\,\text{s}$*
+:::
+
+Pour caractériser une onde progressive périodique, on utilise souvent la fréquence au lieu de la période.
+
+::::{admonition} Fréquence
+:class: formule
+Par définition, la fréquence temporelle $f$, exprimée en Hertz $\text{Hz}$, est l'inverse de la période $T$, exprimée en secondes $\text{s}$
+:::{math}
+f=\dfrac{1}{T}
+:::
+Dans cette relation, la période doit obligatoirement être exprimée en secondes. Le Hertz est l'inverse de la seconde : $1\,\text{Hz}=1\,\text{s}^{-1}$
+
+La fréquence correspond au nombre de répétition d'un signal périodique pendant $1$ seconde.
+::::
+
+### Longueur d'onde
+La longueur d'onde est la période spatiale d'une onde, c'est-à-dire la plus petite distance séparant deux points dans le même état. Les ondes progressives périodiques étant des perturbations se propageant de façon périodique, on peut, à un instant figé (photo), définir une périodicité spatiale en plus de la périodicité temporelle :
+
+:::{figure} figures/Lambda.jpg
+:name: Lambda
+:align: center
+:width: 50%
+*Définition de la longueur d'onde $\lambda$.*
+:::
+
+Tout comme la périodicité temporelle est mesurée par la période $T$, la périodicité spatiale est mesurée par longueur d'onde $\lambda$ ({numref}`Lambda`).
+
+::::{admonition} Longueur d'onde
+:class: formule
+La longueur d'onde $\lambda$ est la distance la plus courte qui sépare deux points dans le même état vibratoire à un instant $t$ et son unité est le mètre ($\text{m}$). On dit que ces deux points vibrent *en phase*.
+::::
 
 Considérons la vague d'eau périodique dans {numref}`wavelenght`. Sa longueur d'onde $\lambda$ est la distance d'une crête à l'autre ou d'un creux à l'autre. La longueur d'onde peut également être considérée comme la distance parcourue par une onde après un cycle complet - ou une période $T$. Le temps d'un mouvement complet de haut en bas est également la période $T$ de la vague. Sur la figure, l'onde elle-même se déplace vers la droite avec une vitesse d'onde $v_{w}$. Son amplitude $A$ est la distance entre la position de repos et le déplacement maximal - *soit la crête ou le creux* - de la vague. Il est important de noter que ce mouvement de la vague est en fait la `perturbation` qui se déplace vers la droite, et non l'eau elle-même ; sinon, la mouette se déplacerait aussi vers la droite. Au lieu de cela, la mouette se déplace uniquement de haut en bas sur place au fur et à mesure que les vagues passent en dessous, parcourant une distance totale de $2A$ en un cycle. Cependant, comme mentionné dans le texte sur le surf, les vagues réelles de l'océan sont plus complexes que cet exemple simplifié.
 
@@ -41,17 +130,7 @@ Considérons la vague d'eau périodique dans {numref}`wavelenght`. Sa longueur d
 :name: wavelenght
 :align: center
 :width: 50%
-*L'onde a une longueur d'onde $\lambda$, qui est la distance entre les parties identiques adjacentes de l'onde. La perturbation de haut en bas de la surface se propage parallèlement à la surface à une vitesse $v_w$.*
-:::
-
-:::{admonition} YouTube
-:class: dropdown admonition-youtube
-Cette vidéo est la suite de la vidéo *Introduction aux vagues* de la section [Types d'ondes](sect:TypesOndes). Il traite des propriétés d'une onde périodique : amplitude, période, fréquence, longueur d'onde et vitesse d'onde.
-%%HTML [--isolated]
-<div align="center">
- <iframe width="600" height="400" src="https://www.youtube.com/embed/ipRVXarbK3k" allowfullscreen></iframe>
-</div>
-
+*L'onde a une longueur d'onde $\lambda$, qui est la distance entre deux crêtes de l'onde. La perturbation verticale, de haut en bas, de la surface se déplace parallèlement à la surface avec une vitesse $v_w$.*
 :::
 
 :::{admonition} Remarque
@@ -75,9 +154,17 @@ L'amplitude est la distance entre la position de repos et le déplacement maxima
 :::
 ::::
 
+:::{admonition} YouTube
+:class: dropdown admonition-youtube
+Cette vidéo est la suite de la vidéo *Introduction aux vagues* de la section [Types d'ondes](sect:TypesOndes). Il traite des propriétés d'une onde périodique : amplitude, période, fréquence, longueur d'onde et vitesse d'onde.
+%%HTML [--isolated]
+<div align="center">
+ <iframe width="600" height="400" src="https://www.youtube.com/embed/ipRVXarbK3k" allowfullscreen></iframe>
+</div>
 
-## Relation entre la fréquence d'onde, la période, la longueur d'onde et la vitesse
+:::
 
+## Relation fondamentale entre la fréquence, la période, la vitesse et la longueur d'onde
 Étant donné que la fréquence d'onde est le nombre d'ondes par seconde, et que la période est essentiellement le nombre de secondes par onde, la relation entre la fréquence et la période est
 :::{math}
 f = \frac{1}{T}
@@ -112,8 +199,22 @@ v_{w} = \lambda\cdot f
 *Parce qu'ils se déplacent à la même vitesse dans un milieu donné, les sons à basse fréquence doivent avoir une longueur d'onde plus grande que les sons à haute fréquence. Ici, les sons de basse fréquence sont émis par le grand haut-parleur, appelé woofer, tandis que les sons de haute fréquence sont émis par le petit haut-parleur, appelé tweeter.*
 :::
  
-
 Ces relations fondamentales sont vraies pour tous les types d'ondes. Par exemple, pour les vagues d'eau, $v_{w}$ est la vitesse d'une onde de surface ; pour le son, $v_{w}$ est la vitesse du son ; Et pour la lumière visible, $v_{w}$ est la vitesse de la lumière. L'amplitude $A$ est complètement indépendante de la vitesse de propagation $v_{w}$ et ne dépend que de la quantité d'énergie dans l'onde.
+
+::::{admonition} Exemple
+:class: exores
+Pour produire la note ***La***, la membrane d'un haut parleur bat $440$ fois par seconde.\
+*La vitesse du son est de $340\,\text{m/s}$.*
+1. Quelle est la fréquence de cette onde sonore ?
+2. Quelle est la période de cette onde sonore ?
+3. Quelle est la longueur d'onde de cette note ? 
+:::{admonition} *solution*
+:class: dropdown solution
+1. $440$ fois par seconde donne une fréquence de : $f=440\,\text{Hz}$
+2. $T=\dfrac{1}{T}=0.00227\,\text{s}=2.27\,\text{ms}$
+3. $\lambda=\frac{v}{f}=\frac{340}{440}=0.773\,\text{m})77.3\,\text{cm}$
+:::
+::::
 
 :::::{admonition} Géologie : Physique des ondes sismiques 
 :class: dropdown weblink
@@ -170,9 +271,9 @@ Réponse 3. L'amortissement diminue l'amplitude de l'onde au fur et à mesure qu
 ::::
 :::::
 
-:::::{admonition} Calculer la vitesse de propagation des vagues : Goéland dans l'océan
+:::::{admonition} Calculer la vitesse de propagation des vagues : Mouette dans l'océan
 :class: exores
-Calculez la vitesse des vagues de l'océan dans la figure précédente si la distance entre les crêtes des vagues est de $10.0\,\text{m}$ et que le temps nécessaire à une mouette pour monter et descendre est de $5.00\,\text{s}$
+Calculez la vitesse des vagues de l'océan dans la figure {numref}`wavelenght` si la distance entre les crêtes des vagues est de $10.0\,\text{m}$ et que le temps nécessaire à une mouette pour monter et descendre est de $5.00\,\text{s}$
 ::::{admonition} *stratégie*
 :class: dropdown strategie
 Les valeurs de la longueur d'onde : $\lambda = 10.0\,\text{m}$ et la période $\text{T} = 5.00\,\text{s}$ sont données et on nous demande de trouver $v_{w}$ Par conséquent, nous pouvons utiliser $v_{w} = \frac{\lambda}{T}$ pour trouver la vitesse de l'onde.
@@ -201,7 +302,7 @@ Stratégie pour 1.
 : Pour trouver la période, nous résolvons $T = \frac{1}{f}$, étant donné la valeur de la fréquence $f = 2\,\text{Hz}$
 
 Stratégie pour 2.
-: Étant donné qu'une définition de la longueur d'onde est la distance parcourue par une onde après un cycle complet -ou une période - les valeurs de la longueur d'onde ($\lambda = 0.9\,\text{m}$) ainsi que la fréquence sont données. Par conséquent, nous pouvons utiliser $v_{w} = \lambda\cdot f$ pour trouver la vitesse de l'onde.
+: Étant donné qu'une définition de la longueur d'onde est la distance parcourue par une onde après un cycle complet - ou une période - les valeurs de la longueur d'onde ($\lambda = 0.9\,\text{m}$) ainsi que la fréquence sont données. Par conséquent, nous pouvons utiliser $v_{w} = \lambda\cdot f$ pour trouver la vitesse de l'onde.
 ::::
 ::::{admonition} *solution*
 :class: dropdown solution
@@ -235,7 +336,7 @@ La fréquence d'une onde est de $10\,\text{Hz}$. Quelle est sa période ?
 4.  La période de l'onde est de $0.1\,\text{s}$
 :::{admonition} *solution*
 :class: dropdown exohomesol
-Réponse 4. La période de l'onde est de $0.1\,\text{s}$
+Réponse 4. la période de l'onde est de $0.1\,\text{s}$
 
 $T=\dfrac{1}{f}=\dfrac{1}{10}=0.1\,\text{s}$
 :::
@@ -245,13 +346,13 @@ $T=\dfrac{1}{f}=\dfrac{1}{10}=0.1\,\text{s}$
 :class: exohome
 Quelle est la vitesse d'une onde dont la longueur d'onde est de $2\,\text{m}$ et dont la fréquence est de $5\,\text{Hz}$ ?
 
-1.  $20\,\text{m/s}$
-2.  $2.5\,\text{m/s}$
-3.  $0.4\,\text{m/s}$
-4.  $10\,\text{m/s}$
+1. La vitesse est de $20\,\text{m/s}$
+2. La vitesse est de $2.5\,\text{m/s}$
+3. La vitesse est de $0.4\,\text{m/s}$
+4. La vitesse est de $10\,\text{m/s}$
 :::{admonition} *solution*
 :class: dropdown exohomesol
-Réponse 4. $10\,\text{m/s}$
+Réponse 4. la vitesse est de $10\,\text{m/s}$
 
 $v=\lambda\cdot f=2\cdot 5=10\,\text{m/s}$
 :::
