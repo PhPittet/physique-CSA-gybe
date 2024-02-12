@@ -1,0 +1,46 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: index
+parts:
+  - caption: 
+    chapters:
+    - file: 2CSA/Rappel_Math/lecon0 # Notions de bases en mathématique
+      sections:
+      - file: 2CSA/Rappel_Math/0-0-puissance
+      - file: 2CSA/Rappel_Math/0-1-equations
+      - file: 2CSA/Rappel_Math/0-2-vecteurs
+      - file: 2CSA/Rappel_Math/0-3-incertitudes
+  - caption: 2CSA
+    numbered: 2
+    chapters:
+    - file: 2CSA/Energie/Intro_energie # L'énergie
+      sections:
+      - file: 2CSA/Energie/1-1-energie
+  - caption: 3CSA
+    numbered: 2
+    chapters:
+    - file: 3CSA/Ondes_meca/6-intro # Les ondes mécaniques
+      sections:
+      - file: 3CSA/Ondes_meca/6-1-types-ondes
+      - file: 3CSA/Ondes_meca/6-2-proprietes
+      - file: 3CSA/Ondes_meca/6-3-interactions
+#      - file: 3CSA/Ondes_meca/
+#      - file: 3CSA/Ondes_meca/
+#      - file: 3CSA/Ondes_meca/
+      - file: 3CSA/Ondes_meca/6-resume
+      - file: 3CSA/Ondes_meca/6-glossaire
+  - caption:
+    numbered: 2
+    chapters:
+    - file: 3CSA/Son/7-intro # Le Son (ondes sonores)
+      sections:
+      - file: 3CSA/Son/7-1-vitesse
+      - file: 3CSA/Son/7-2-intensite
+      - file: 3CSA/Son/7-3-Doppler
+      - file: 3CSA/Son/7-4-interferences
+#      - file: 3CSA/Son/
+#      - file: 3CSA/Son/
+      - file: 3CSA/Son/7-resume
+      - file: 3CSA/Son/7-glossaire
