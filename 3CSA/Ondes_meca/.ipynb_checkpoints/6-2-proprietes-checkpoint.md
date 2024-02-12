@@ -7,33 +7,27 @@ Dans ce chapitre, nous allons définir quelques notion qui permettent de décrir
 
 ::::{admonition} Caractéristiques d'une onde
 :class: formule
-Une onde mécanique est définie par son :
+Une onde mécanique est définie par sa :
 
 Fréquence :
-: La fréquence $f$ est le nombre d'ondes passant par un point spécifique par seconde.
-
+: La fréquence $f$ est le nombre d'ondes passant par un point spécifique par seconde.\
   Elle se mesure en inverse de seconde  ($\text{s}^{-1}$) ou en Hertz  ($\text{Hz}$)
 
 Période :
-: La période $T$ d'une d'une onde est le temps nécessaire à la réalisation d'un cycle d'onde.
-
+: La période $T$ d'une d'une onde est le temps nécessaire à la réalisation d'un cycle d'onde.\
   Elle se mesure en seconde ($\text{s}$)
 
 Longueur d'onde :
-: La longueur d'onde $\lambda$ est la distance entre les parties identiques adjacentes d'une onde, parallèle à la direction de propagation.
-
+: La longueur d'onde $\lambda$ est la distance entre les parties identiques adjacentes d'une onde, parallèle à la direction de propagation.\
   Elle se mesure en ($\text{m}$)
 
 Vitesse d'onde :
-: La vitesse de l'onde $v_{w}$ est la vitesse à laquelle la perturbation se déplace.
-
+: La vitesse de l'onde $v_{w}$ est la vitesse à laquelle la perturbation se déplace.\
   Elle se mesure en ($\text{m/s}$)
 
 Amplitude :
-: L'amplitude $A$ d'une onde est la distance entre la position de repos et le déplacement maximal de l'onde.
-
-  Elle se mesure en mètre ($\text{m}$)
-
+: L'amplitude $A$ d'une onde est la distance entre la position de repos et le déplacement maximal de l'onde.\
+  Elle se mesure en mètre ($\text{m}$)\
   *L'amplitude n'est pas vraiment une grandeur importante pour comprendre les ondes mécaniques.*
 
 ::::
@@ -48,7 +42,7 @@ Comme une onde se propage, on peut lui associer une vitesse.
 :::{figure} figures/Celerite.png
 :name: DefOnde
 :align: center
-:width: 50%
+:width: 60%
 *Une impulsion sur une corde à quatre instants successifs.*
 :::
 
@@ -70,10 +64,10 @@ Ces propriétés se traduisent par la relation algébrique :
 :::{math}
 v_w=\sqrt{\dfrac{F_{T}}{\mu}}
 :::
-avec :
-- $v$ vitesse de propagation en $(\text{m/s})$
-- $F_T$ : tension de la corde en $(\text{N})$
-- $\mu$ : masse linéaire de la corde en $(\text{kg/m})$
+ou :
+- $v$ est la vitesse de propagation en $(\text{m/s})$
+- $F_T$ la force de tension de la corde en $(\text{N})$
+- $\mu$ la masse linéaire de la corde en $(\text{kg/m})$
 
 ### Période et fréquence
 Les ondes périodiques correspondent à des phénomènes qui se répètent périodiquement. Ces ondes sont caractérisées par une période $T$ et par une fréquence $f$.
@@ -129,7 +123,7 @@ Considérons la vague d'eau périodique dans {numref}`wavelenght`. Sa longueur d
 :::{figure} figures/wavelenght.jpg
 :name: wavelenght
 :align: center
-:width: 50%
+:width: 60%
 *L'onde a une longueur d'onde $\lambda$, qui est la distance entre deux crêtes de l'onde. La perturbation verticale, de haut en bas, de la surface se déplace parallèlement à la surface avec une vitesse $v_w$.*
 :::
 
@@ -211,7 +205,7 @@ Pour produire la note ***La***, la membrane d'un haut parleur bat $440$ fois par
 :::{admonition} *solution*
 :class: dropdown solution
 1. $440$ fois par seconde donne une fréquence de : $f=440\,\text{Hz}$
-2. $T=\dfrac{1}{T}=0.00227\,\text{s}=2.27\,\text{ms}$
+2. $T=\dfrac{1}{f}=0.00227\,\text{s}=2.27\,\text{ms}$
 3. $\lambda=\frac{v}{f}=\frac{340}{440}=0.773\,\text{m})77.3\,\text{cm}$
 :::
 ::::
@@ -324,7 +318,7 @@ Nous aurions également pu utiliser l'équation $v_{\text{w}} = \frac{\lambda}{T
 ::::
 :::::
 
-## Problèmes
+## Exercices
 
 ::::{admonition} Exercice 1
 :class: exohome
