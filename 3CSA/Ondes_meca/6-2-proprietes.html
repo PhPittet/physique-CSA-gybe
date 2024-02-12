@@ -1,0 +1,851 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>2.2. Propriétés de l’onde : vitesse, amplitude, fréquence et période &#8212; Physique CSA</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../_static/styles/theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../../_static/styles/bootstrap.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+
+  
+  <link href="../../_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" href="../../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/exercise.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/myadmonition.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/myexercices-Gaming76.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/myexercices.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/myfont.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/.ipynb_checkpoints/myadmonition-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/.ipynb_checkpoints/myexercices-checkpoint-Gaming76.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/.ipynb_checkpoints/myexercices-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/.ipynb_checkpoints/myfont-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
+<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
+  <script src="../../_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
+    <script src="../../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = '3CSA/Ondes_meca/6-2-proprietes';</script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="2.3. Interaction des ondes : superposition et interférence" href="6-3-interactions.html" />
+    <link rel="prev" title="2.1. Types d’ondes" href="6-1-types-ondes.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+
+<a class="navbar-brand logo" href="../../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../../_static/Logo.png" class="logo__image only-light" alt="Physique CSA - Home"/>
+    <script>document.write(`<img src="../../_static/Logo.png" class="logo__image only-dark" alt="Physique CSA - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../../index.html">
+                    Bienvenue
+                </a>
+            </li>
+        </ul>
+        <ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../2CSA/Rappel_Math/lecon0.html">Rappels Mathématiques</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../2CSA/Rappel_Math/0-0-puissance.html">Les puissances de 10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../2CSA/Rappel_Math/0-1-equations.html">Manipulation des équations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../2CSA/Rappel_Math/0-2-vecteurs.html">Vecteurs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../2CSA/Rappel_Math/0-3-incertitudes.html">Erreurs &amp; incertitudes</a></li>
+</ul>
+</li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">2CSA</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../2CSA/Energie/Intro_energie.html">1. Energie</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../2CSA/Energie/1-1-energie.html">1.1. L’Energie ?</a></li>
+</ul>
+</li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">3CSA</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="6-intro.html">2. Ondes Mécaniques</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="6-1-types-ondes.html">2.1. Types d’ondes</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">2.2. Propriétés de l’onde : vitesse, amplitude, fréquence et période</a></li>
+<li class="toctree-l2"><a class="reference internal" href="6-3-interactions.html">2.3. Interaction des ondes : superposition et interférence</a></li>
+<li class="toctree-l2"><a class="reference internal" href="6-resume.html">2.4. Résumé de la section</a></li>
+<li class="toctree-l2"><a class="reference internal" href="6-glossaire.html">2.5. Glossaire</a></li>
+</ul>
+</li>
+</ul>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../Son/7-intro.html">3. Ondes Sonores</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Son/7-1-vitesse.html">3.2. Vitesse du son, fréquence et longueur d’onde</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Son/7-2-intensite.html">3.3. 14.2 Intensité sonore et niveau sonore</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Son/7-3-Doppler.html">3.4. 14.3 Effet Doppler et bangs soniques</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Son/7-4-interferences.html">3.5. 14.4 Interférences et résonances sonores</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Son/7-resume.html">3.6. Résumé de la section</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Son/7-glossaire.html">3.7. Glossaire</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2F3CSA/Ondes_meca/6-2-proprietes.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../../_sources/3CSA/Ondes_meca/6-2-proprietes.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Propriétés de l’onde : vitesse, amplitude, fréquence et période</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#caracteristiques-d-onde">Caractéristiques d’onde</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#relation-entre-la-frequence-d-onde-la-periode-la-longueur-d-onde-et-la-vitesse">Relation entre la fréquence d’onde, la période, la longueur d’onde et la vitesse</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#problemes">Problèmes</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#verifiez-votre-comprehension">Vérifiez votre compréhension</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="proprietes-de-l-onde-vitesse-amplitude-frequence-et-periode">
+<span id="sect-propriete"></span><h1><span class="section-number">2.2. </span>Propriétés de l’onde : vitesse, amplitude, fréquence et période<a class="headerlink" href="#proprietes-de-l-onde-vitesse-amplitude-frequence-et-periode" title="Permalink to this heading">#</a></h1>
+<section id="caracteristiques-d-onde">
+<h2>Caractéristiques d’onde<a class="headerlink" href="#caracteristiques-d-onde" title="Permalink to this heading">#</a></h2>
+<p>Dans ce chapitre, nous allons définir les caractéristiques suivantes pour décrire une onde :</p>
+<dl class="simple myst">
+<dt>Amplitude :</dt><dd><p>L’amplitude <span class="math notranslate nohighlight">\(A\)</span> d’une onde est la distance entre la position de repos et le déplacement maximal de l’onde.</p>
+<p>Elle se mesure en mètre (<span class="math notranslate nohighlight">\(\text{m}\)</span>)</p>
+</dd>
+<dt>Fréquence :</dt><dd><p>La fréquence <span class="math notranslate nohighlight">\(f\)</span> est le nombre d’ondes passant par un point spécifique par seconde.</p>
+<p>Elle se mesure en inverse de seconde  (<span class="math notranslate nohighlight">\(\text{s}^{-1}\)</span>) ou en Hertz  (<span class="math notranslate nohighlight">\(\text{Hz}\)</span>)</p>
+</dd>
+<dt>Période :</dt><dd><p>La période <span class="math notranslate nohighlight">\(T\)</span> d’une d’une onde est le temps nécessaire à la réalisation d’un cycle d’onde.</p>
+<p>Elle se mesure en seconde (<span class="math notranslate nohighlight">\(\text{s}\)</span>)</p>
+</dd>
+<dt>Longueur d’onde :</dt><dd><p>La longueur d’onde <span class="math notranslate nohighlight">\(\lambda\)</span> est la distance entre les parties identiques adjacentes d’une onde, parallèle à la direction de propagation.</p>
+<p>Elle se mesure en (<span class="math notranslate nohighlight">\(\text{m}\)</span>)</p>
+</dd>
+<dt>Vitesse d’onde :</dt><dd><p>La vitesse de l’onde <span class="math notranslate nohighlight">\(v_{w}\)</span> est la vitesse à laquelle la perturbation se déplace.</p>
+<p>Elle se mesure en (<span class="math notranslate nohighlight">\(\text{m/s}\)</span>)</p>
+</dd>
+</dl>
+<div class="astuce admonition">
+<p class="admonition-title">Conseils pour réussir</p>
+<p>La vitesse des vagues est parfois aussi appelée <em>vitesse de propagation</em> (ou <em>célérité</em>) car la perturbation se propage d’un endroit à un autre.</p>
+</div>
+<p>Considérons la vague d’eau périodique dans <a class="reference internal" href="#wavelenght"><span class="std std-numref">Fig. 2.6</span></a>. Sa longueur d’onde <span class="math notranslate nohighlight">\(\lambda\)</span> est la distance d’une crête à l’autre ou d’un creux à l’autre. La longueur d’onde peut également être considérée comme la distance parcourue par une onde après un cycle complet - ou une période <span class="math notranslate nohighlight">\(T\)</span>. Le temps d’un mouvement complet de haut en bas est également la période <span class="math notranslate nohighlight">\(T\)</span> de la vague. Sur la figure, l’onde elle-même se déplace vers la droite avec une vitesse d’onde <span class="math notranslate nohighlight">\(v_{w}\)</span>. Son amplitude <span class="math notranslate nohighlight">\(A\)</span> est la distance entre la position de repos et le déplacement maximal - <em>soit la crête ou le creux</em> - de la vague. Il est important de noter que ce mouvement de la vague est en fait la <code class="docutils literal notranslate"><span class="pre">perturbation</span></code> qui se déplace vers la droite, et non l’eau elle-même ; sinon, la mouette se déplacerait aussi vers la droite. Au lieu de cela, la mouette se déplace uniquement de haut en bas sur place au fur et à mesure que les vagues passent en dessous, parcourant une distance totale de <span class="math notranslate nohighlight">\(2A\)</span> en un cycle. Cependant, comme mentionné dans le texte sur le surf, les vagues réelles de l’océan sont plus complexes que cet exemple simplifié.</p>
+<figure class="align-center" id="wavelenght">
+<a class="reference internal image-reference" href="../../_images/wavelenght.jpg"><img alt="../../_images/wavelenght.jpg" src="../../_images/wavelenght.jpg" style="width: 50%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 2.6 </span><span class="caption-text"><em>L’onde a une longueur d’onde <span class="math notranslate nohighlight">\(\lambda\)</span>, qui est la distance entre les parties identiques adjacentes de l’onde. La perturbation de haut en bas de la surface se propage parallèlement à la surface à une vitesse <span class="math notranslate nohighlight">\(v_w\)</span>.</em></span><a class="headerlink" href="#wavelenght" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<div class="dropdown admonition-youtube admonition">
+<p class="admonition-title">YouTube</p>
+<p>Cette vidéo est la suite de la vidéo <em>Introduction aux vagues</em> de la section <a class="reference internal" href="6-1-types-ondes.html#sect-typesondes"><span class="std std-ref">Types d’ondes</span></a>. Il traite des propriétés d’une onde périodique : amplitude, période, fréquence, longueur d’onde et vitesse d’onde.</p>
+<div align="center">
+ <iframe width="600" height="400" src="https://www.youtube.com/embed/ipRVXarbK3k" allowfullscreen></iframe>
+</div>
+</div>
+<div class="astuce admonition">
+<p class="admonition-title">Remarque</p>
+<p>La crête d’une vague est parfois aussi appelée le <em>pic</em>.</p>
+</div>
+<div class="question admonition">
+<p class="admonition-title">Question</p>
+<p>Si vous êtes sur un bateau dans le creux d’une vague sur l’océan, et que l’amplitude de la vague est de <span class="math notranslate nohighlight">\(1\,\text{m}\)</span>, quelle est la hauteur de la vague à partir de votre position ?</p>
+<ol class="arabic simple">
+<li><p><span class="math notranslate nohighlight">\(1\,\text{m}\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(2\,\text{m}\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(4\,\text{m}\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(8\,\text{m}\)</span></p></li>
+</ol>
+<div class="dropdown questionsol admonition">
+<p class="admonition-title"><em>réponse</em></p>
+<p>Réponse 2. : <span class="math notranslate nohighlight">\(2\,\text{m}\)</span></p>
+<p>L’amplitude est la distance entre la position de repos et le déplacement maximal de la vague. Comme vous vous trouvez dans le creux de la vague, vous êtes à une position de <span class="math notranslate nohighlight">\(-1\,\text{m}\)</span> par rapport à la position de repos (<em>négatif, car vous êtes sous la position de repos</em>). Le sommet de la vague, qui est <span class="math notranslate nohighlight">\(1\,\text{m}\)</span> au-dessus de la position de repos de la vague, se trouve donc à une distance de <span class="math notranslate nohighlight">\(1\,\text{m}+1\,\text{m}=2\,\text{m}\)</span> de vous.</p>
+</div>
+</div>
+</section>
+<section id="relation-entre-la-frequence-d-onde-la-periode-la-longueur-d-onde-et-la-vitesse">
+<h2>Relation entre la fréquence d’onde, la période, la longueur d’onde et la vitesse<a class="headerlink" href="#relation-entre-la-frequence-d-onde-la-periode-la-longueur-d-onde-et-la-vitesse" title="Permalink to this heading">#</a></h2>
+<p>Étant donné que la fréquence d’onde est le nombre d’ondes par seconde, et que la période est essentiellement le nombre de secondes par onde, la relation entre la fréquence et la période est</p>
+<div class="math notranslate nohighlight">
+\[f = \frac{1}{T}\]</div>
+<p>ou</p>
+<div class="math notranslate nohighlight">
+\[T = \frac{1}{f}\]</div>
+<p>Nous pouvons voir à partir de cette relation qu’une fréquence plus élevée signifie une période plus courte. Rappelez-vous que l’unité de fréquence est le hertz (<span class="math notranslate nohighlight">\(\text{Hz}\)</span>) et que <span class="math notranslate nohighlight">\(1\text{Hz}\)</span> correspond à un cycle - <em>ou une onde</em> - par seconde.</p>
+<p>La vitesse de propagation <span class="math notranslate nohighlight">\(v_{w}\)</span> est la distance parcourue par l’onde dans un temps donné (<span class="math notranslate nohighlight">\(v=\frac{d}{t}\)</span>). Dans le cas d’une onde périodique, on sait qu’elle parcourt une distance égale à sa longueur d’onde <span class="math notranslate nohighlight">\(\lambda\)</span> dans un temps équivalent à une période <span class="math notranslate nohighlight">\(T\)</span>. Sous forme d’équation, on obtient :</p>
+<div class="formule admonition">
+<p class="admonition-title">Relation fondamentale</p>
+<p>La relation fondamentale d’une onde, relie sa vitesse de propagation <span class="math notranslate nohighlight">\(v_w\)</span> avec sa longueur d’onde <span class="math notranslate nohighlight">\(\lambda\)</span>, sa fréquence <span class="math notranslate nohighlight">\(f\)</span> et sa période <span class="math notranslate nohighlight">\(T\)</span> :</p>
+<div class="math notranslate nohighlight">
+\[v_{w} = \dfrac{\lambda}{T}\]</div>
+<p>ou</p>
+<div class="math notranslate nohighlight">
+\[v_{w} = \lambda\cdot f\]</div>
+</div>
+<p>À partir de cette relation, nous voyons que dans un milieu où<span class="math notranslate nohighlight">\(v_{w}\)</span> est constant, plus la fréquence est élevée, plus la longueur d’onde est petite - voir la <a class="reference internal" href="#speaker"><span class="std std-numref">Fig. 2.7</span></a>.</p>
+<figure class="align-center" id="speaker">
+<a class="reference internal image-reference" href="../../_images/speaker.jpg"><img alt="../../_images/speaker.jpg" src="../../_images/speaker.jpg" style="width: 30%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 2.7 </span><span class="caption-text"><em>Parce qu’ils se déplacent à la même vitesse dans un milieu donné, les sons à basse fréquence doivent avoir une longueur d’onde plus grande que les sons à haute fréquence. Ici, les sons de basse fréquence sont émis par le grand haut-parleur, appelé woofer, tandis que les sons de haute fréquence sont émis par le petit haut-parleur, appelé tweeter.</em></span><a class="headerlink" href="#speaker" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>Ces relations fondamentales sont vraies pour tous les types d’ondes. Par exemple, pour les vagues d’eau, <span class="math notranslate nohighlight">\(v_{w}\)</span> est la vitesse d’une onde de surface ; pour le son, <span class="math notranslate nohighlight">\(v_{w}\)</span> est la vitesse du son ; Et pour la lumière visible, <span class="math notranslate nohighlight">\(v_{w}\)</span> est la vitesse de la lumière. L’amplitude <span class="math notranslate nohighlight">\(A\)</span> est complètement indépendante de la vitesse de propagation <span class="math notranslate nohighlight">\(v_{w}\)</span> et ne dépend que de la quantité d’énergie dans l’onde.</p>
+<div class="dropdown weblink admonition">
+<p class="admonition-title">Géologie : Physique des ondes sismiques </p>
+<figure class="align-center" id="eartquake">
+<a class="reference internal image-reference" href="../../_images/Eartquake.jpg"><img alt="../../_images/Eartquake.jpg" src="../../_images/Eartquake.jpg" style="width: 50%;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 2.8 </span><span class="caption-text"><em>L’effet destructeur d’un tremblement de terre est une preuve palpable de l’énergie transportée par les ondes sismiques. L’évaluation des tremblements de terre sur l’échelle de Richter est liée à la fois à leur amplitude et à l’énergie qu’ils transportent. (Maître de 2e classe Candice Villarreal, U.S. Navy)</em></span><a class="headerlink" href="#eartquake" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>Les géologues s’appuient fortement sur la physique pour étudier les tremblements de terre, car les tremblements de terre impliquent plusieurs types de perturbations des vagues, notamment la perturbation de la surface de la Terre et les perturbations de la pression sous la surface. Les ondes sismiques de surface sont similaires aux ondes de surface sur l’eau. Les ondes sous la surface de la Terre ont à la fois des composantes longitudinales et transversales. Les ondes longitudinales d’un tremblement de terre sont appelées ondes de pression (ondes <span class="math notranslate nohighlight">\(\text{P}\)</span>) et les ondes transversales sont appelées ondes de cisaillement (ondes <span class="math notranslate nohighlight">\(\text{S}\)</span>). Ces deux types d’ondes se propagent à des vitesses différentes, et la vitesse à laquelle elles se déplacent dépend de la rigidité du milieu dans lequel elles se déplacent. Pendant les tremblements de terre, la vitesse des ondes <span class="math notranslate nohighlight">\(\text{P}\)</span> dans le granit est significativement plus élevée que la vitesse des ondes <span class="math notranslate nohighlight">\(\text{S}\)</span>. Les deux composantes des tremblements de terre se déplacent plus lentement dans des matériaux moins rigides, tels que les sédiments. Les ondes <span class="math notranslate nohighlight">\(\text{P}\)</span> ont des vitesses de <span class="math notranslate nohighlight">\(4\)</span> à <span class="math notranslate nohighlight">\(7\,\text{km/s}\)</span> et les ondes <span class="math notranslate nohighlight">\(\text{S}\)</span> ont des vitesses de <span class="math notranslate nohighlight">\(2\)</span> à <span class="math notranslate nohighlight">\(5\,\text{km/s}\)</span>, mais les deux sont plus rapides dans des matériaux plus rigides. L’onde <span class="math notranslate nohighlight">\(\text{P}\)</span> s’éloigne progressivement de l’onde <span class="math notranslate nohighlight">\(\text{S}\)</span> au fur et à mesure qu’elle traverse la croûte terrestre. Pour cette raison, la différence de temps entre les ondes <span class="math notranslate nohighlight">\(\text{P}\)</span> et <span class="math notranslate nohighlight">\(\text{S}\)</span> est utilisée pour déterminer la distance à leur source, l’épicentre du tremblement de terre.</p>
+<p>Nous savons, grâce aux ondes sismiques produites par les tremblements de terre, que certaines parties de l’intérieur de la Terre sont liquides. Les ondes de cisaillement ou transversales ne peuvent pas traverser un liquide et ne sont pas transmises par le noyau de la Terre. En revanche, les ondes de compression ou longitudinales peuvent traverser un liquide et elles traversent le noyau.</p>
+<p>Toutes les ondes transportent de l’énergie, et l’énergie des ondes sismiques est facile à observer en fonction de la quantité de dommages laissés après que le sol a cessé de bouger. Les tremblements de terre peuvent faire trembler des villes entières, effectuant le travail de milliers de boules de démolition. La quantité d’énergie dans une onde est liée à son amplitude. Les tremblements de terre de grande amplitude produisent de grands déplacements de sol et des dommages plus importants. Au fur et à mesure que les ondes sismiques se propagent, leur amplitude diminue, de sorte qu’il y a moins de dommages à mesure qu’elles s’éloignent de la source.</p>
+<div class="dropdown exohome admonition">
+<p class="admonition-title">Vérifiez votre compréhension</p>
+<p>Quelle est la relation entre la vitesse de propagation, la fréquence et la longueur d’onde des ondes <span class="math notranslate nohighlight">\(\text{S}\)</span> lors d’un tremblement de terre ?</p>
+<ol class="arabic simple">
+<li><p>La relation entre la vitesse de propagation, la fréquence et la longueur d’onde est <span class="math notranslate nohighlight">\(v_{\text{w}} = \lambda\cdot f\)</span></p></li>
+<li><p>La relation entre la vitesse de propagation, la fréquence et la longueur d’onde est <span class="math notranslate nohighlight">\(v_{\text{w}} = \frac{f}{\lambda}.\)</span></p></li>
+<li><p>La relation entre la vitesse de propagation, la fréquence et la longueur d’onde est <span class="math notranslate nohighlight">\(v_{\text{w}} = \frac{\lambda}{f}.\)</span></p></li>
+<li><p>La relation entre la vitesse de propagation, la fréquence et la longueur d’onde est <span class="math notranslate nohighlight">\(v_{\text{w}} = \sqrt{\lambda\cdot f}.\)</span></p></li>
+</ol>
+<div class="dropdown exohomesol admonition">
+<p class="admonition-title"><em>solution</em></p>
+<p>Réponse 1. La relation entre la vitesse de propagation, la fréquence et la longueur d’onde est <span class="math notranslate nohighlight">\(v_{\text{w}} = \lambda\cdot f\)</span></p>
+</div>
+</div>
+</div>
+<div class="dropdown simulation admonition">
+<p class="admonition-title">P<em>h</em>ET simulation</p>
+<p><strong>Corde vibrante</strong></p>
+<div align="center">
+<iframe src="https://phet.colorado.edu/sims/html/wave-on-a-string/latest/wave-on-a-string_fr.html" width="600" height="450" scrolling="no" allowfullscreen></iframe>
+</div>
+<p>Dans cette animation, regardez comment une corde vibre au ralenti en choisissant le réglage <code class="docutils literal notranslate"><span class="pre">Ralenti</span></code>. Sélectionnez les options <code class="docutils literal notranslate"><span class="pre">Pas</span> <span class="pre">d'extrémité</span></code> et <code class="docutils literal notranslate"><span class="pre">Manuel</span></code>, et faites bouger l’extrémité de la ficelle avec la souris pour faire des vagues vous-même. Passez ensuite au réglage <code class="docutils literal notranslate"><span class="pre">Osciller</span></code> pour générer automatiquement des ondes. Ajustez la <code class="docutils literal notranslate"><span class="pre">Fréquence</span></code> et l’<code class="docutils literal notranslate"><span class="pre">Amplitude</span></code> des oscillations pour voir ce qui se passe. Expérimentez ensuite le réglage de l’<code class="docutils literal notranslate"><span class="pre">Amortissement</span></code> et de la <code class="docutils literal notranslate"><span class="pre">Tension</span></code>.</p>
+<div class="dropdown exohome admonition">
+<p class="admonition-title">Vérifiez votre compréhension</p>
+<p>Lequel des paramètres - amplitude, fréquence, amortissement ou tension - modifie l’amplitude de l’onde lorsqu’elle se propage ? Qu’est-ce que cela fait à l’amplitude ?</p>
+<ol class="arabic simple">
+<li><p>La fréquence diminue l’amplitude de l’onde au fur et à mesure qu’elle se propage.</p></li>
+<li><p>La fréquence augmente l’amplitude de l’onde au fur et à mesure qu’elle se propage.</p></li>
+<li><p>L’amortissement diminue l’amplitude de l’onde au fur et à mesure qu’elle se propage.</p></li>
+<li><p>L’amortissement augmente l’amplitude de l’onde au fur et à mesure qu’elle se propage.</p></li>
+</ol>
+<div class="dropdown exohomesol admonition">
+<p class="admonition-title"><em>solution</em></p>
+<p>Réponse 3. L’amortissement diminue l’amplitude de l’onde au fur et à mesure qu’elle se propage.</p>
+</div>
+</div>
+</div>
+<div class="exores admonition">
+<p class="admonition-title">Calculer la vitesse de propagation des vagues : Goéland dans l’océan</p>
+<p>Calculez la vitesse des vagues de l’océan dans la figure précédente si la distance entre les crêtes des vagues est de <span class="math notranslate nohighlight">\(10.0\,\text{m}\)</span> et que le temps nécessaire à une mouette pour monter et descendre est de <span class="math notranslate nohighlight">\(5.00\,\text{s}\)</span></p>
+<div class="dropdown strategie admonition">
+<p class="admonition-title"><em>stratégie</em></p>
+<p>Les valeurs de la longueur d’onde : <span class="math notranslate nohighlight">\(\lambda = 10.0\,\text{m}\)</span> et la période <span class="math notranslate nohighlight">\(\text{T} = 5.00\,\text{s}\)</span> sont données et on nous demande de trouver <span class="math notranslate nohighlight">\(v_{w}\)</span> Par conséquent, nous pouvons utiliser <span class="math notranslate nohighlight">\(v_{w} = \frac{\lambda}{T}\)</span> pour trouver la vitesse de l’onde.</p>
+</div>
+<div class="dropdown solution admonition">
+<p class="admonition-title"><em>solution</em></p>
+<p>Entrez les valeurs connues dans <span class="math notranslate nohighlight">\(v_{w} = \frac{\lambda}{T}\)</span> :</p>
+<div class="math notranslate nohighlight">
+\[v_{w} = \frac{10.0\,\text{m}}{5.00\,\text{s}} = 2.00\,\text{m/s}\]</div>
+</div>
+<div class="dropdown discussion admonition">
+<p class="admonition-title"><em>discussion</em></p>
+<p>Cette vitesse lente semble raisonnable pour une vague océanique. Notez que dans la figure, la vague se déplace vers la droite à cette vitesse, ce qui est différent de la vitesse variable à laquelle la mouette se déplace de haut en bas.</p>
+</div>
+</div>
+<div class="exores admonition">
+<p class="admonition-title">Calculer la période et la vitesse d’onde d’un ressort jouet</p>
+<p>La femme de la <a class="reference internal" href="6-1-types-ondes.html#ressort1"><span class="std std-numref">Fig. 2.2</span></a> crée deux vagues par seconde en secouant le ressort du jouet de haut en bas.</p>
+<ol class="arabic simple">
+<li><p>Quelle est la période de chaque vague ?</p></li>
+<li><p>Si chaque onde se déplace de <span class="math notranslate nohighlight">\(0.9\)</span> mètre après un cycle complet d’onde, quelle est la vitesse de propagation de l’onde ?</p></li>
+</ol>
+<div class="dropdown strategie admonition">
+<p class="admonition-title"><em>stratégie</em></p>
+<dl class="simple myst">
+<dt>Stratégie pour 1.</dt><dd><p>Pour trouver la période, nous résolvons <span class="math notranslate nohighlight">\(T = \frac{1}{f}\)</span>, étant donné la valeur de la fréquence <span class="math notranslate nohighlight">\(f = 2\,\text{Hz}\)</span></p>
+</dd>
+<dt>Stratégie pour 2.</dt><dd><p>Étant donné qu’une définition de la longueur d’onde est la distance parcourue par une onde après un cycle complet -ou une période - les valeurs de la longueur d’onde (<span class="math notranslate nohighlight">\(\lambda = 0.9\,\text{m}\)</span>) ainsi que la fréquence sont données. Par conséquent, nous pouvons utiliser <span class="math notranslate nohighlight">\(v_{w} = \lambda\cdot f\)</span> pour trouver la vitesse de l’onde.</p>
+</dd>
+</dl>
+</div>
+<div class="dropdown solution admonition">
+<p class="admonition-title"><em>solution</em></p>
+<dl class="simple myst">
+<dt>Solution pour 1.</dt><dd><p>Entrez la valeur connue dans <span class="math notranslate nohighlight">\(T = \frac{1}{f}\)</span></p>
+<div class="math notranslate nohighlight">
+\[T = \dfrac{1}{2\,\text{Hz}} = 0.5\,\text{s}\]</div>
+</dd>
+<dt>Solution pour 2.</dt><dd><p>Entrez les valeurs connues dans <span class="math notranslate nohighlight">\(v_{w} = \lambda\cdot f\)</span></p>
+<div class="math notranslate nohighlight">
+\[v_{w} = \lambda\cdot f = (0.9\,\text{m})(2\,\text{Hz}) = 1.8\,\text{m/s}\]</div>
+</dd>
+</dl>
+</div>
+<div class="dropdown discussion admonition">
+<p class="admonition-title"><em>discussion</em></p>
+<p>Nous aurions également pu utiliser l’équation <span class="math notranslate nohighlight">\(v_{\text{w}} = \frac{\lambda}{T}\)</span> pour résoudre la vitesse de l’onde, puisque nous connaissons déjà la valeur de la période <span class="math notranslate nohighlight">\(\text{T} = 0.5\,\text{s}\)</span> à partir de notre calcul dans la partie 1, et nous aurions obtenu la même réponse.</p>
+</div>
+</div>
+</section>
+<section id="problemes">
+<h2>Problèmes<a class="headerlink" href="#problemes" title="Permalink to this heading">#</a></h2>
+<div class="exohome admonition">
+<p class="admonition-title">Exercice 1</p>
+<p>La fréquence d’une onde est de <span class="math notranslate nohighlight">\(10\,\text{Hz}\)</span>. Quelle est sa période ?</p>
+<ol class="arabic simple">
+<li><p>La période de l’onde est de <span class="math notranslate nohighlight">\(100\,\text{s}\)</span></p></li>
+<li><p>La période de l’onde est de <span class="math notranslate nohighlight">\(10\,\text{s}\)</span></p></li>
+<li><p>La période de l’onde est de <span class="math notranslate nohighlight">\(0.01\,\text{s}\)</span></p></li>
+<li><p>La période de l’onde est de <span class="math notranslate nohighlight">\(0.1\,\text{s}\)</span></p></li>
+</ol>
+<div class="dropdown exohomesol admonition">
+<p class="admonition-title"><em>solution</em></p>
+<p>Réponse 4. La période de l’onde est de <span class="math notranslate nohighlight">\(0.1\,\text{s}\)</span></p>
+<p><span class="math notranslate nohighlight">\(T=\dfrac{1}{f}=\dfrac{1}{10}=0.1\,\text{s}\)</span></p>
+</div>
+</div>
+<div class="exohome admonition">
+<p class="admonition-title">Exercice 2</p>
+<p>Quelle est la vitesse d’une onde dont la longueur d’onde est de <span class="math notranslate nohighlight">\(2\,\text{m}\)</span> et dont la fréquence est de <span class="math notranslate nohighlight">\(5\,\text{Hz}\)</span> ?</p>
+<ol class="arabic simple">
+<li><p><span class="math notranslate nohighlight">\(20\,\text{m/s}\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(2.5\,\text{m/s}\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(0.4\,\text{m/s}\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(10\,\text{m/s}\)</span></p></li>
+</ol>
+<div class="dropdown exohomesol admonition">
+<p class="admonition-title"><em>solution</em></p>
+<p>Réponse 4. <span class="math notranslate nohighlight">\(10\,\text{m/s}\)</span></p>
+<p><span class="math notranslate nohighlight">\(v=\lambda\cdot f=2\cdot 5=10\,\text{m/s}\)</span></p>
+</div>
+</div>
+</section>
+<section id="verifiez-votre-comprehension">
+<h2>Vérifiez votre compréhension<a class="headerlink" href="#verifiez-votre-comprehension" title="Permalink to this heading">#</a></h2>
+<div class="question admonition">
+<p class="admonition-title">Questions 1</p>
+<p>Quelle est l’amplitude d’une onde ?</p>
+<ol class="arabic simple">
+<li><p>Un quart de la hauteur totale de la vague</p></li>
+<li><p>La moitié de la hauteur totale de la vague</p></li>
+<li><p>Deux fois la hauteur totale de la vague</p></li>
+<li><p>Quatre fois la hauteur totale de la vague</p></li>
+</ol>
+<div class="dropdown questionsol admonition">
+<p class="admonition-title"><em>réponse</em></p>
+<p>Réponse 2. La moitié de la hauteur totale de la vague</p>
+</div>
+</div>
+<div class="question admonition">
+<p class="admonition-title">Questions 2</p>
+<p>Qu’entend-on par la longueur d’onde d’une onde ?</p>
+<ol class="arabic simple">
+<li><p>La longueur d’onde est la distance entre les parties identiques adjacentes d’une onde, parallèle à la direction de propagation.</p></li>
+<li><p>La longueur d’onde est la distance entre les parties identiques adjacentes d’une onde, perpendiculaire à la direction de propagation.</p></li>
+<li><p>La longueur d’onde est la distance entre une crête et le creux adjacent d’une onde, parallèle à la direction de propagation.</p></li>
+<li><p>La longueur d’onde est la distance entre une crête et le creux adjacent d’une onde, perpendiculaire à la direction de propagation.</p></li>
+</ol>
+<div class="dropdown questionsol admonition">
+<p class="admonition-title"><em>réponse</em></p>
+<p>Réponse 1. La longueur d’onde est la distance entre les parties identiques adjacentes d’une onde, parallèle à la direction de propagation.</p>
+</div>
+</div>
+<div class="question admonition">
+<p class="admonition-title">Questions 3</p>
+<p>Comment pouvez-vous exprimer mathématiquement la fréquence des ondes en termes de période d’onde ?</p>
+<ol class="arabic simple">
+<li><p><span class="math notranslate nohighlight">\(f = \frac{1}{T}\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(f = \left(\frac{1}{T}\right)^{2}\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\text{f} = \text{T}\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(f = \left(T\right)^{2}\)</span></p></li>
+</ol>
+<div class="dropdown questionsol admonition">
+<p class="admonition-title"><em>réponse</em></p>
+<p>Réponse 1.  <span class="math notranslate nohighlight">\(f = \frac{1}{T}\)</span></p>
+</div>
+</div>
+<div class="question admonition">
+<p class="admonition-title">Questions 4</p>
+<p>Quand la longueur d’onde est-elle directement proportionnelle à la période d’une onde ?</p>
+<ol class="arabic simple">
+<li><p>Lorsque la vitesse de l’onde est réduite de moitié</p></li>
+<li><p>Lorsque la vitesse de l’onde est constante</p></li>
+<li><p>Lorsque la vitesse de l’onde est doublée</p></li>
+<li><p>Lorsque la vitesse de l’onde est triplée</p></li>
+</ol>
+<div class="dropdown questionsol admonition">
+<p class="admonition-title"><em>réponse</em></p>
+<p>Réponse 2.  Lorsque la vitesse de l’onde est constante (<span class="math notranslate nohighlight">\(v=\frac{\lambda}{T}\)</span>)</p>
+</div>
+</div>
+<div class="dropdown admonition-youtube admonition">
+<p class="admonition-title">YouTube</p>
+<p>Quelques liens de vidéo utiles sur le même sujet :</p>
+<ol class="arabic simple">
+<li><p><strong>ONDE MÉCANIQUE 👉 Célérité et retard</strong></p></li>
+</ol>
+<div align="center">
+ <iframe width="600" height="400" src="https://www.youtube.com/embed/CFfODZUUqJ4" allowfullscreen></iframe>
+</div>
+<ol class="arabic simple" start="2">
+<li><p><strong>Calculer la célérité d’une onde mécanique</strong></p></li>
+</ol>
+<div align="center">
+ <iframe width="600" height="400" src="https://www.youtube.com/embed/4x4jEgoxINU" allowfullscreen></iframe>
+</div>
+</div>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./3CSA\Ondes_meca"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="6-1-types-ondes.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title"><span class="section-number">2.1. </span>Types d’ondes</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="6-3-interactions.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title"><span class="section-number">2.3. </span>Interaction des ondes : superposition et interférence</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#caracteristiques-d-onde">Caractéristiques d’onde</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#relation-entre-la-frequence-d-onde-la-periode-la-longueur-d-onde-et-la-vitesse">Relation entre la fréquence d’onde, la période, la longueur d’onde et la vitesse</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#problemes">Problèmes</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#verifiez-votre-comprehension">Vérifiez votre compréhension</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Philippe Pittet
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2022.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae"></script>
+<script src="../../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
