@@ -13,7 +13,7 @@ parts:
       - file: 2CSA/Rappel_Math/0-2-vecteurs
       - file: 2CSA/Rappel_Math/0-3-incertitudes
   - caption: 2CSA
-    numbered: 2
+    numbered: True
     chapters:
     - file: 2CSA/Energie/Intro_energie # L'énergie
       sections:

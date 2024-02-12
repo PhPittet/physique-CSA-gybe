@@ -1,6 +1,6 @@
-## Tâche de performance
+# Tâche de performance
 
-### 13.3 Interaction onde : superposition et interférence
+## 13.3 Interaction onde : superposition et interférence
 
 27\.
 

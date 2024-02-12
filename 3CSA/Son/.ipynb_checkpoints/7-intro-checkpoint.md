@@ -2,7 +2,7 @@
 
 Figure 14.1 Cet arbre est tombé il y a quelque temps. Lorsqu'il est tombé, les particules dans l'air ont été perturbées par l'énergie de l'arbre frappant le sol. Cette perturbation de la matière, que nos oreilles ont évolué pour détecter, s'appelle le son. (B.A. Bowen Photographie)
 
-### Plan du chapitre
+# Ondes Sonores
 
 [14.1 Vitesse du son, fréquence et longueur d'onde]
 

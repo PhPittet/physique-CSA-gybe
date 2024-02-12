@@ -1,10 +1,10 @@
-### Problèmes
+# Problèmes
 
-#### 14.1 Vitesse du son, fréquence et longueur d'onde
+## 14.1 Vitesse du son, fréquence et longueur d'onde
 
 25\.
 
-Une chauve-souris produit un son à 17 250\\,\\text{Hz} et une longueur d'onde de 0,019\\,\\text{m}. Quelle est la vitesse du son ?
+Une chauve-souris produit un son à $17 250\\,\\text{Hz}$ et une longueur d'onde de $0,019\\,\\text{m}$. Quelle est la vitesse du son ?
 
 a. 1.7 \\times 10\^6\\,\\text{m}/\\text{s}
 b. 8.6\\times 10\^5\\,\\text{m}/\\text{s}
@@ -22,7 +22,7 @@ b. Sa longueur d'onde augmente d'un facteur 18.
 c. Sa longueur d'onde diminue d'un facteur de 4,2.
 d. Sa longueur d'onde diminue d'un facteur 18.
 
-#### 14.2 Intensité sonore et niveau sonore
+## 14.2 Intensité sonore et niveau sonore
 
 27\.
 
@@ -42,7 +42,7 @@ b. 0.20\\,\\text{Pa}
 c. 0.04\\,\\text{Pa}
 d. 2.1\\,\\text{Pa}
 
-#### 14.3 Effet Doppler et bangs soniques
+## 14.3 Effet Doppler et bangs soniques
 
 29\.
 
@@ -70,7 +70,7 @@ b. 43.0\\,\\text{Hz}
 c. 94,9\\,\\text{Hz}
 d. 90.0\\,\\text{Hz}
 
-#### 14.4 Interférences et résonances sonores
+## 14.4 Interférences et résonances sonores
 
 31\.
 
