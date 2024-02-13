@@ -170,106 +170,499 @@ Cette définition capture l'essence d'une perturbation dans le contexte des phé
 ::::
 ::::::::::
 
-
-
-
 ## [Propriétés de l'onde : vitesse, amplitude, fréquence et période](sect:propriete)
 
-32\.
-
+::::::::::{admonition} QCM 
+:class: qcm
 Lequel d'entre eux n'est pas une caractéristique d'une vague ?
 
-a.  amplitude
-b.  période
-C. Masse
-D. Vitesse
+1. Amplitude
+2. Période
+3. Masse
+4. Vitesse
+:::::::::{admonition} *réponse*
+:class: dropdown qcmreponse
 
-33\.
 
-Si vous êtes dans un bateau en position de repos, à quel point votre taille changera-t-elle lorsque vous serez frappé par le pic d'une vague d'une hauteur de 2 m ?
+:::::{tab-set}
+::::{tab-item} -->
 
-a.  0 m
-b.  1 m
-c. 2 m
-d. 4 m
 
-34\.
+::::
+::::{tab-item} Réponse 1.
+❌ Mauvaise réponse !
+::::
 
-Quelle est la période d'une onde avec une fréquence de 0,5 Hz ?
+::::{tab-item} Réponse 2.
+❌ Mauvaise réponse !
+::::
 
-a.  0,5 s
-b.  1 s
-c. 2 s
-d. 3 s
+::::{tab-item} Réponse 3.
+✅ Bonne réponse !
+::::
 
-35\.
+::::{tab-item} Réponse 4.
+❌ Mauvaise réponse !
+::::
+:::::
+:::::::::
+::::{admonition} *discussion*
+:class: dropdown qcmdiscussion
+La caractéristique qui n'est pas associée à une vague est la 3.
 
+Les vagues sont décrites par leur amplitude, période, et vitesse, mais pas par leur masse.
+::::
+::::::::::
+
+
+::::::::::{admonition} QCM 
+:class: qcm
+Si vous êtes dans un bateau en position de repos, de quelle hauteur allez-vous monté quand vous serez frappé par le pic d'une vague d'une hauteur de $2\,\text{m}$ ?
+
+1. $0\,\text{m}$
+2. $1\,\text{m}$
+3. $2\,\text{m}$
+4. $4\,\text{m}$
+:::::::::{admonition} *réponse*
+:class: dropdown qcmreponse
+
+
+:::::{tab-set}
+::::{tab-item} -->
+
+
+::::
+::::{tab-item} Réponse 1.
+❌ Mauvaise réponse !
+::::
+
+::::{tab-item} Réponse 2.
+✅ Bonne réponse !
+::::
+
+::::{tab-item} Réponse 3.
+❌ Mauvaise réponse !
+::::
+
+::::{tab-item} Réponse 4.
+❌ Mauvaise réponse !
+::::
+:::::
+:::::::::
+::::{admonition} *discussion*
+:class: dropdown qcmdiscussion
+La hauteur d'une vague est mesurée aller d'un creux à un pic. La hauteur d'une vague est la moitié de l'amplitude.
+
+Si vous êtes dans un bateau en position de repos et que vous êtes frappé par le pic d'une vague d'une hauteur de $2\,\text{m}$, le bateau (et par conséquent, vous avec lui) montera de $1\,\text{m}$ par rapport à sa position initiale de repos. Cela signifie que vous serez élevé à la hauteur du pic de la vague. Donc, la réponse correcte est :
+
+2. $1\,\text{m}$
+::::
+::::::::::
+
+
+::::::::::{admonition} QCM 
+:class: qcm
+Quelle est la période d'une onde avec une fréquence de $0.5\,\text{Hz}$ ?
+
+1. $0.5\,\text{s}$
+2. $1\,\text{s}$
+3. $2\,\text{s}$
+4. $3\,\text{s}$
+:::::::::{admonition} *réponse*
+:class: dropdown qcmreponse
+
+
+:::::{tab-set}
+::::{tab-item} -->
+
+
+::::
+::::{tab-item} Réponse 1.
+❌ Mauvaise réponse !
+::::
+
+::::{tab-item} Réponse 2.
+❌ Mauvaise réponse !
+::::
+
+::::{tab-item} Réponse 3.
+✅ Bonne réponse !
+::::
+
+::::{tab-item} Réponse 4.
+❌ Mauvaise réponse !
+::::
+:::::
+:::::::::
+::::{admonition} *discussion*
+:class: dropdown qcmdiscussion
+La période d'une onde est l'inverse de sa fréquence. Si une onde a une fréquence de $0.5\,\text{Hz}$, sa période $T$ est calculée comme suit:
+:::{math}
+T = \frac{1}{f}
+:::
+
+où $f$ est la fréquence. Donc,
+:::{math}
+T = \frac{1}{0.5\,\text{Hz}} = 2\,\text{s}
+:::
+
+La période de l'onde est donc de $2\,\text{s}$. La réponse correcte est :
+
+3. $2\,\text{s}$
+::::
+::::::::::
+
+
+::::::::::{admonition} QCM 
+:class: qcm
 Quelle est la relation entre l'amplitude d'une onde et sa vitesse ?
 
-a.  L'amplitude d'une onde est indépendante de sa vitesse.
-b.  L'amplitude d'une onde est directement proportionnelle à sa vitesse.
-c. L'amplitude d'une onde est directement proportionnelle au carré de l'inverse de sa vitesse.
-d. L'amplitude d'une onde est directement proportionnelle à l'inverse de sa vitesse.
+1. L'amplitude d'une onde est indépendante de sa vitesse.
+2. L'amplitude d'une onde est directement proportionnelle à sa vitesse.
+3. L'amplitude d'une onde est directement proportionnelle au carré de l'inverse de sa vitesse.
+4. L'amplitude d'une onde est directement proportionnelle à l'inverse de sa vitesse.
+:::::::::{admonition} *réponse*
+:class: dropdown qcmreponse
 
-36\.
 
-De quoi dépend la vitesse des ondes sismiques ?
+:::::{tab-set}
+::::{tab-item} -->
 
-a.  La vitesse des ondes sismiques dépend de la taille du milieu.
-b.  La vitesse des ondes sismiques dépend de la forme du milieu.
-c. La vitesse des ondes sismiques dépend de la rigidité du milieu.
+
+::::
+::::{tab-item} Réponse 1.
+✅ Bonne réponse !
+::::
+
+::::{tab-item} Réponse 2.
+❌ Mauvaise réponse !
+::::
+
+::::{tab-item} Réponse 3.
+❌ Mauvaise réponse !
+::::
+
+::::{tab-item} Réponse 4.
+❌ Mauvaise réponse !
+::::
+:::::
+:::::::::
+::::{admonition} *discussion*
+:class: dropdown qcmdiscussion
+La relation correcte entre l'amplitude d'une onde et sa vitesse est que l'amplitude d'une onde est indépendante de sa vitesse. La vitesse d'une onde est déterminée par le milieu à travers lequel elle se propage et par le type d'onde, tandis que l'amplitude est une mesure de l'énergie ou de l'intensité de l'onde. Ainsi, la vitesse de propagation d'une onde ne détermine pas son amplitude.
+
+La réponse correcte est donc :
+
+1. L'amplitude d'une onde est indépendante de sa vitesse.
+::::
+::::::::::
+
 
 ## [Interaction onde : superposition et interférence](sect:interaction)
 
-37\.
+::::::::::{admonition} QCM 
+:class: qcm
+De quoi dépend la vitesse des ondes sismiques ?
 
+1. La vitesse des ondes sismiques dépend de la taille du milieu.
+2. La vitesse des ondes sismiques dépend de la forme du milieu.
+3. La vitesse des ondes sismiques dépend de la rigidité et de la densité du milieu.
+:::::::::{admonition} *réponse*
+:class: dropdown qcmreponse
+
+
+:::::{tab-set}
+::::{tab-item} -->
+
+
+::::
+::::{tab-item} Réponse 1.
+❌ Mauvaise réponse !
+::::
+
+::::{tab-item} Réponse 2.
+❌ Mauvaise réponse !
+::::
+
+::::{tab-item} Réponse 3.
+✅ Bonne réponse !
+::::
+
+::::{tab-item} Réponse 4.
+❌ Mauvaise réponse !
+::::
+:::::
+:::::::::
+::::{admonition} *discussion*
+:class: dropdown qcmdiscussion
+La vitesse des ondes sismiques dépend principalement de deux facteurs du milieu à travers lequel elles se propagent : la rigidité (ou le module d'élasticité) et la densité. Plus le milieu est rigide, plus les ondes peuvent se déplacer rapidement, car un milieu plus rigide peut transmettre l'énergie plus efficacement. D'autre part, une densité plus élevée tend à ralentir les ondes, car il est plus difficile pour l'énergie de se propager à travers un milieu plus dense. Ainsi, la réponse correcte est :
+
+3. La vitesse des ondes sismiques dépend de la rigidité et de la densité du milieu.
+::::
+::::::::::
+
+
+
+::::::::::{admonition} QCM 
+:class: qcm
 Qu'est-ce qui s'additionne lorsque deux vagues se superposent ?
 
-dans.  Amplitudes
-b.  Longueurs
-C. Vitesses
+1. Les amplitudes
+2. Les longueurs
+3. Les vitesses
+:::::::::{admonition} *réponse*
+:class: dropdown qcmreponse
 
-38\.
 
+:::::{tab-set}
+::::{tab-item} -->
+
+
+::::
+::::{tab-item} Réponse 1.
+✅ Bonne réponse !
+::::
+
+::::{tab-item} Réponse 2.
+❌ Mauvaise réponse !
+::::
+
+::::{tab-item} Réponse 3.
+❌ Mauvaise réponse !
+::::
+:::::
+:::::::::
+::::{admonition} *discussion*
+:class: dropdown qcmdiscussion
+Lorsque deux vagues se superposent, c'est leurs amplitudes qui s'additionnent. Ce phénomène est connu sous le nom de principe de superposition. Selon ce principe, l'amplitude résultante en tout point est la somme algébrique des amplitudes des deux ondes individuelles en ce point. Cela peut entraîner une amplification (interférence constructive) ou une atténuation (interférence destructive) de l'onde résultante, en fonction de la phase relative des deux ondes lorsqu'elles se rencontrent.
+
+La réponse correcte est donc :
+
+1. Les amplitudes
+::::
+::::::::::
+
+
+::::::::::{admonition} QCM 
+:class: qcm
 L'interférence constructive pure se produit entre deux ondes lorsqu'elles ont le même \_\_\_\_\_\_.
 
-a.  fréquence et sont en phase
-b.  fréquence et sont déphasés
-c. amplitude et sont en phase
-d. amplitude et sont déphasés
+1. amplitude et sont déphasés
+2. fréquence et sont déphasés
+3. amplitude et sont en phase
+4. fréquence et sont en phase
+:::::::::{admonition} *réponse*
+:class: dropdown qcmreponse
 
-39\.
 
+:::::{tab-set}
+::::{tab-item} -->
+
+
+::::
+::::{tab-item} Réponse 1.
+❌ Mauvaise réponse !
+::::
+
+::::{tab-item} Réponse 2.
+❌ Mauvaise réponse !
+::::
+
+::::{tab-item} Réponse 3.
+❌ Mauvaise réponse !
+::::
+
+::::{tab-item} Réponse 4.
+✅ Bonne réponse !
+::::
+:::::
+:::::::::
+::::{admonition} *discussion*
+:class: dropdown qcmdiscussion
+L'interférence constructive pure se produit entre deux ondes lorsqu'elles ont la même **fréquence et sont en phase**. Cela signifie que les crêtes (points de maximum) et les creux (points de minimum) des deux ondes coïncident exactement, ce qui entraîne une addition de leurs amplitudes. Ainsi, l'amplitude de l'onde résultante est maximisée.
+
+La réponse correcte est donc :
+
+4. fréquence et sont en phase
+::::
+::::::::::
+
+
+::::::::::{admonition} QCM 
+:class: qcm
 Quel(s) type(s) d'interférence(s) peut-il se produire entre deux ondes identiques se déplaçant dans des directions opposées ?
 
-a.  Interférence constructive uniquement
-b.  Interférences destructrices uniquement
-c. Ingérence à la fois constructive et destructrice
-d. Ni ingérence constructive ni destructive
+1. Interférence constructive uniquement
+2. Interférences destructrices uniquement
+3. Interférences à la fois constructive et destructrice
+4. Ni interférences constructive ni destructive
+:::::::::{admonition} *réponse*
+:class: dropdown qcmreponse
 
-40\.
 
+:::::{tab-set}
+::::{tab-item} -->
+
+
+::::
+::::{tab-item} Réponse 1.
+❌ Mauvaise réponse !
+::::
+
+::::{tab-item} Réponse 2.
+❌ Mauvaise réponse !
+::::
+
+::::{tab-item} Réponse 3.
+✅ Bonne réponse !
+::::
+
+::::{tab-item} Réponse 4.
+❌ Mauvaise réponse !
+::::
+:::::
+:::::::::
+::::{admonition} *discussion*
+:class: dropdown qcmdiscussion
+Lorsque deux ondes identiques se déplacent dans des directions opposées, elles peuvent créer un motif d'interférence stationnaire. Ce motif est caractérisé par des points où l'interférence est toujours constructive (nœuds, où l'amplitude est maximisée) et des points où l'interférence est toujours destructive (ventres, où l'amplitude est minimale ou nulle). Cela signifie que les deux types d'interférence, constructive et destructive, se produisent simultanément à différents points le long du milieu de propagation. 
+
+La réponse correcte est donc :
+
+3. Interférences à la fois constructive et destructrice
+::::
+::::::::::
+
+
+::::::::::{admonition} QCM 
+:class: qcm
 Quel terme fait référence à la courbure de la lumière à la jonction de deux milieux ?
 
-a.  interférence
-b.  diffraction
-C. Dispersion
-D. Réfraction
+1. Interférence
+2. Diffraction
+3. Dispersion
+4. Réfraction
+:::::::::{admonition} *réponse*
+:class: dropdown qcmreponse
 
-41\.
 
+:::::{tab-set}
+::::{tab-item} -->
+
+
+::::
+::::{tab-item} Réponse 1.
+❌ Mauvaise réponse !
+::::
+
+::::{tab-item} Réponse 2.
+❌ Mauvaise réponse !
+::::
+
+::::{tab-item} Réponse 3.
+❌ Mauvaise réponse !
+::::
+
+::::{tab-item} Réponse 4.
+✅ Bonne réponse !
+::::
+:::::
+:::::::::
+::::{admonition} *discussion*
+:class: dropdown qcmdiscussion
+Le terme qui fait référence à la courbure de la lumière à la jonction de deux milieux est la **réfraction**. La réfraction se produit lorsque les ondes lumineuses passent d'un milieu à un autre et changent de vitesse, ce qui entraîne un changement de direction.
+
+La réponse correcte est donc :
+
+4. Réfraction
+::::
+::::::::::
+
+
+::::::::::{admonition} QCM 
+:class: qcm
 Quel paramètre d'une onde est affecté après superposition ?
 
-a.  longueur d'onde
-b.  direction
-C. Amplitude
-D. Fréquence
+1. Longueur d'onde
+2. Direction
+3. Amplitude
+4. Fréquence
+:::::::::{admonition} *réponse*
+:class: dropdown qcmreponse
 
-42\.
 
+:::::{tab-set}
+::::{tab-item} -->
+
+
+::::
+::::{tab-item} Réponse 1.
+❌ Mauvaise réponse !
+::::
+
+::::{tab-item} Réponse 2.
+❌ Mauvaise réponse !
+::::
+
+::::{tab-item} Réponse 3.
+✅ Bonne réponse !
+::::
+
+::::{tab-item} Réponse 4.
+❌ Mauvaise réponse !
+::::
+:::::
+:::::::::
+::::{admonition} *discussion*
+:class: dropdown qcmdiscussion
+Après superposition, le paramètre d'une onde qui est principalement affecté est l'**amplitude**. Lorsque deux ondes se superposent, leurs amplitudes s'additionnent à chaque point de l'espace où elles coïncident, ce qui peut entraîner une augmentation (interférence constructive) ou une diminution (interférence destructive) de l'amplitude de l'onde résultante. Les autres paramètres comme la longueur d'onde, la direction, et la fréquence restent inchangés par le processus de superposition lui-même.
+
+La réponse correcte est donc :
+
+3. Amplitude
+::::
+::::::::::
+
+
+::::::::::{admonition} QCM 
+:class: qcm
 Quand les amplitudes de deux ondes sont-elles ajoutées ?
 
-a.  Lorsque leurs amplitudes sont identiques
-b.  Lorsque leurs amplitudes sont différentes
-c. Lorsqu'ils se propagent dans des directions perpendiculaires
-d. Lorsqu'ils se propagent le long de la même ligne dans des directions opposées
+1. Lorsque les ondes se propagent dans la même directions
+2. Lorsque les ondes se propagent dans des directions opposées
+3. Lorsque les ondes sont *en opposition phase*
+4. Lorsque les ondes sont *en phase*
+:::::::::{admonition} *réponse*
+:class: dropdown qcmreponse
+
+
+:::::{tab-set}
+::::{tab-item} -->
+
+
+::::
+::::{tab-item} Réponse 1.
+❌ Mauvaise réponse !
+::::
+
+::::{tab-item} Réponse 2.
+❌ Mauvaise réponse !
+::::
+
+::::{tab-item} Réponse 3.
+❌ Mauvaise réponse !
+::::
+
+::::{tab-item} Réponse 4.
+✅ Bonne réponse !
+::::
+:::::
+:::::::::
+::::{admonition} *discussion*
+:class: dropdown qcmdiscussion
+Les amplitudes de deux ondes sont ajoutées lorsqu'elles sont *en phase*, c'est-à-dire lorsque les crêtes (points hauts) et les creux (points bas) des deux ondes coïncident. Cela résulte en une interférence constructive, où l'amplitude de l'onde résultante est la somme des amplitudes des deux ondes initiales.
+
+La réponse correcte est donc :
+
+4. Lorsque les ondes sont *en phase*
+::::
+::::::::::

@@ -29,6 +29,9 @@ parts:
 #      - file: 3CSA/Ondes_meca/
 #      - file: 3CSA/Ondes_meca/
 #      - file: 3CSA/Ondes_meca/
+      - file: 3CSA/Ondes_meca/6-QCM
+      - file: 3CSA/Ondes_meca/6-QCM2
+      - file: 3CSA/Ondes_meca/6-problemes
       - file: 3CSA/Ondes_meca/6-resume
       - file: 3CSA/Ondes_meca/6-glossaire
   - caption:
