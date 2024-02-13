@@ -1,41 +1,179 @@
 # Choix multiple
 
-## 13.1 Types d'ondes
+## [Types d'ondes](sect:TypesOndes)
 
-28\.
-
+::::::::::{admonition} QCM 
+:class: qcm
 Quels types d'ondes sont les ondes sonores ?
 
-a.  Ondes mécaniques
-b.  Ondes électromagnétiques
+1. Des ondes mécaniques
+2. Des ondes électromagnétiques
+:::::::::{admonition} *réponse*
+:class: dropdown qcmreponse
 
-29\.
 
+:::::{tab-set}
+::::{tab-item} -->
+
+
+::::
+::::{tab-item} Les ondes mécaniques
+✅ Bonne réponse !
+::::
+
+::::{tab-item} Les ondes électromagnétiques
+❌ Mauvaise réponse !
+::::
+
+:::::
+:::::::::
+::::{admonition} *discussion*
+:class: dropdown qcmdiscussion
+Les ondes sonores sont :
+
+1. Les ondes mécaniques
+
+Les ondes sonores sont des perturbations qui se propagent à travers un milieu matériel (comme l'air, l'eau, ou un solide) par des oscillations de particules dans le milieu. Elles nécessitent un milieu pour se déplacer, ce qui les caractérise comme des ondes mécaniques.
+
+Les ondes électromagnétiques, comme la lumière, peuvent se déplacer dans le vide ainsi que dans certains milieux matériels.
+::::
+::::::::::
+
+
+::::::::::{admonition} QCM 
+:class: qcm
 Quel genre de vague un diapason crée-t-il ?
 
-a.  Onde de pouls
-b.  Onde périodique
-c. Onde électromagnétique
+1. Une impulsion
+2. Une onde électromagnétique
+3. Une onde périodique
+:::::::::{admonition} *réponse*
+:class: dropdown qcmreponse
 
-30\.
 
+:::::{tab-set}
+::::{tab-item} -->
+
+
+::::
+::::{tab-item} Réponse 1.
+❌ Mauvaise réponse !
+::::
+
+::::{tab-item} Réponse 2.
+❌ Mauvaise réponse !
+::::
+
+::::{tab-item} Réponse 3.
+✅ Bonne réponse !
+::::
+
+:::::
+:::::::::
+::::{admonition} *discussion*
+:class: dropdown qcmdiscussion
+Un diapason crée :
+
+3. Une onde périodique
+
+Lorsqu'un diapason est frappé, il vibre à une fréquence spécifique, produisant un son pur. Ces vibrations créent des ondes sonores qui se propagent dans l'air sous forme d'ondes périodiques, caractérisées par des répétitions régulières ou des cycles de compression et de raréfaction de l'air. Ces ondes périodiques sont responsables du son harmonieux et constant que l'on entend lorsqu'un diapason est utilisé.
+::::
+::::::::::
+
+
+::::::::::{admonition} QCM 
+:class: qcm
 Quel type d'ondes sont les ondes électromagnétiques ?
 
-a.  Ondes longitudinales
-b.  Ondes transversales
-c. Ondes mécaniques
-d. Ondes P
+1. Des ondes longitudinales
+2. Des ondes transversales
+3. Des ondes mécaniques
+4. Des ondes $\text{P}$
+:::::::::{admonition} *réponse*
+:class: dropdown qcmreponse
 
-31\.
 
-En ce qui concerne les vagues, qu'est-ce qu'une *perturbation ?*
+:::::{tab-set}
+::::{tab-item} -->
 
-a.  Il s'agit de la résistance produite par certaines particules d'un matériau.
-b.  Il s'agit d'une oscillation produite par une énergie qui crée une onde.
-c. Il fait référence à la longueur d'onde de l'onde.
-d. Il s'agit de la vitesse de l'onde.
 
-## 13.2 Propriétés de l'onde : vitesse, amplitude, fréquence et période
+::::
+::::{tab-item} Réponse 1.
+❌ Mauvaise réponse !
+::::
+
+::::{tab-item} Réponse 2.
+✅ Bonne réponse !
+::::
+
+::::{tab-item} Réponse 3.
+❌ Mauvaise réponse !
+::::
+
+::::{tab-item} Réponse 4.
+❌ Mauvaise réponse !
+::::
+:::::
+:::::::::
+::::{admonition} *discussion*
+:class: dropdown qcmdiscussion
+Les ondes électromagnétiques sont:
+
+2. Des ondes transversales
+
+Les ondes électromagnétiques se propagent par oscillations perpendiculaires à la direction de propagation de l'onde. Elles comprennent à la fois un champ électrique et un champ magnétique qui oscillent perpendiculairement l'un à l'autre, et également perpendiculairement à la direction de propagation de l'onde, ce qui les caractérise comme des ondes transversales.
+::::
+::::::::::
+
+
+::::::::::{admonition} QCM 
+:class: qcm
+En ce qui concerne les vagues, qu'est-ce qu'une *perturbation* ?
+
+1. Il s'agit de la résistance produite par certaines particules d'un matériau.
+2. Il s'agit d'une oscillation produite par une énergie qui crée une onde.
+3. Il fait référence à la longueur d'onde de l'onde.
+4. Il s'agit de la vitesse de l'onde.
+:::::::::{admonition} *réponse*
+:class: dropdown qcmreponse
+
+
+:::::{tab-set}
+::::{tab-item} -->
+
+
+::::
+::::{tab-item} Réponse 1.
+❌ Mauvaise réponse !
+::::
+
+::::{tab-item} Réponse 2.
+✅ Bonne réponse !
+::::
+
+::::{tab-item} Réponse 3.
+❌ Mauvaise réponse !
+::::
+
+::::{tab-item} Réponse 4.
+❌ Mauvaise réponse !
+::::
+:::::
+:::::::::
+::::{admonition} *discussion*
+:class: dropdown qcmdiscussion
+La définition correcte d'une *perturbation*, en ce qui concerne les vagues, est :
+
+2. Il s'agit d'une oscillation produite par une énergie qui crée une onde.
+
+Cette définition capture l'essence d'une perturbation dans le contexte des phénomènes ondulatoires. Une perturbation est fondamentalement un changement dans l'état d'équilibre d'un milieu, qui se propage à travers ce milieu sous forme d'onde. Cette propagation d'énergie peut se faire sous diverses formes, comme les ondes sonores dans l'air, les ondes de surface sur l'eau, ou encore les ondes sismiques à travers la terre.
+::::
+::::::::::
+
+
+
+
+## [Propriétés de l'onde : vitesse, amplitude, fréquence et période](sect:propriete)
 
 32\.
 
@@ -81,7 +219,7 @@ a.  La vitesse des ondes sismiques dépend de la taille du milieu.
 b.  La vitesse des ondes sismiques dépend de la forme du milieu.
 c. La vitesse des ondes sismiques dépend de la rigidité du milieu.
 
-## 13.3 Interaction onde : superposition et interférence
+## [Interaction onde : superposition et interférence](sect:interaction)
 
 37\.
 
