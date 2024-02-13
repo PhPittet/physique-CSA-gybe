@@ -203,8 +203,11 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l2"><a class="reference internal" href="6-1-types-ondes.html">2.1. Types d’ondes</a></li>
 <li class="toctree-l2 current active"><a class="current reference internal" href="#">2.2. Propriétés de l’onde : vitesse, amplitude, fréquence et période</a></li>
 <li class="toctree-l2"><a class="reference internal" href="6-3-interactions.html">2.3. Interaction des ondes : superposition et interférence</a></li>
-<li class="toctree-l2"><a class="reference internal" href="6-resume.html">2.4. Résumé de la section</a></li>
-<li class="toctree-l2"><a class="reference internal" href="6-glossaire.html">2.5. Glossaire</a></li>
+<li class="toctree-l2"><a class="reference internal" href="6-QCM.html">2.4. Choix multiple</a></li>
+<li class="toctree-l2"><a class="reference internal" href="6-QCM2.html">2.5. QCM conceptuel</a></li>
+<li class="toctree-l2"><a class="reference internal" href="6-problemes.html">2.6. Problèmes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="6-resume.html">2.7. Résumé de la section</a></li>
+<li class="toctree-l2"><a class="reference internal" href="6-glossaire.html">2.8. Glossaire</a></li>
 </ul>
 </li>
 </ul>
@@ -420,7 +423,7 @@ document.write(`
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#relation-fondamentale-entre-la-frequence-la-periode-la-vitesse-et-la-longueur-d-onde">Relation fondamentale entre la fréquence, la période, la vitesse et la longueur d’onde</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#problemes">Problèmes</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercices">Exercices</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#verifiez-votre-comprehension">Vérifiez votre compréhension</a></li>
 </ul>
             </nav>
@@ -440,23 +443,23 @@ document.write(`
 <p>Dans ce chapitre, nous allons définir quelques notion qui permettent de décrire une onde :</p>
 <div class="formule admonition">
 <p class="admonition-title">Caractéristiques d’une onde</p>
-<p>Une onde mécanique est définie par son :</p>
+<p>Une onde mécanique est définie par sa :</p>
 <dl class="simple myst">
-<dt>Fréquence :</dt><dd><p>La fréquence <span class="math notranslate nohighlight">\(f\)</span> est le nombre d’ondes passant par un point spécifique par seconde.</p>
-<p>Elle se mesure en inverse de seconde  (<span class="math notranslate nohighlight">\(\text{s}^{-1}\)</span>) ou en Hertz  (<span class="math notranslate nohighlight">\(\text{Hz}\)</span>)</p>
+<dt>Fréquence :</dt><dd><p>La fréquence <span class="math notranslate nohighlight">\(f\)</span> est le nombre d’ondes passant par un point spécifique par seconde.<br />
+Elle se mesure en inverse de seconde  (<span class="math notranslate nohighlight">\(\text{s}^{-1}\)</span>) ou en Hertz  (<span class="math notranslate nohighlight">\(\text{Hz}\)</span>)</p>
 </dd>
-<dt>Période :</dt><dd><p>La période <span class="math notranslate nohighlight">\(T\)</span> d’une d’une onde est le temps nécessaire à la réalisation d’un cycle d’onde.</p>
-<p>Elle se mesure en seconde (<span class="math notranslate nohighlight">\(\text{s}\)</span>)</p>
+<dt>Période :</dt><dd><p>La période <span class="math notranslate nohighlight">\(T\)</span> d’une d’une onde est le temps nécessaire à la réalisation d’un cycle d’onde.<br />
+Elle se mesure en seconde (<span class="math notranslate nohighlight">\(\text{s}\)</span>)</p>
 </dd>
-<dt>Longueur d’onde :</dt><dd><p>La longueur d’onde <span class="math notranslate nohighlight">\(\lambda\)</span> est la distance entre les parties identiques adjacentes d’une onde, parallèle à la direction de propagation.</p>
-<p>Elle se mesure en (<span class="math notranslate nohighlight">\(\text{m}\)</span>)</p>
+<dt>Longueur d’onde :</dt><dd><p>La longueur d’onde <span class="math notranslate nohighlight">\(\lambda\)</span> est la distance entre les parties identiques adjacentes d’une onde, parallèle à la direction de propagation.<br />
+Elle se mesure en (<span class="math notranslate nohighlight">\(\text{m}\)</span>)</p>
 </dd>
-<dt>Vitesse d’onde :</dt><dd><p>La vitesse de l’onde <span class="math notranslate nohighlight">\(v_{w}\)</span> est la vitesse à laquelle la perturbation se déplace.</p>
-<p>Elle se mesure en (<span class="math notranslate nohighlight">\(\text{m/s}\)</span>)</p>
+<dt>Vitesse d’onde :</dt><dd><p>La vitesse de l’onde <span class="math notranslate nohighlight">\(v_{w}\)</span> est la vitesse à laquelle la perturbation se déplace.<br />
+Elle se mesure en (<span class="math notranslate nohighlight">\(\text{m/s}\)</span>)</p>
 </dd>
-<dt>Amplitude :</dt><dd><p>L’amplitude <span class="math notranslate nohighlight">\(A\)</span> d’une onde est la distance entre la position de repos et le déplacement maximal de l’onde.</p>
-<p>Elle se mesure en mètre (<span class="math notranslate nohighlight">\(\text{m}\)</span>)</p>
-<p><em>L’amplitude n’est pas vraiment une grandeur importante pour comprendre les ondes mécaniques.</em></p>
+<dt>Amplitude :</dt><dd><p>L’amplitude <span class="math notranslate nohighlight">\(A\)</span> d’une onde est la distance entre la position de repos et le déplacement maximal de l’onde.<br />
+Elle se mesure en mètre (<span class="math notranslate nohighlight">\(\text{m}\)</span>)<br />
+<em>L’amplitude n’est pas vraiment une grandeur importante pour comprendre les ondes mécaniques.</em></p>
 </dd>
 </dl>
 </div>
@@ -468,7 +471,7 @@ document.write(`
 <h3>Vitesse d’une onde.<a class="headerlink" href="#vitesse-d-une-onde" title="Permalink to this heading">#</a></h3>
 <p>Comme une onde se propage, on peut lui associer une vitesse.</p>
 <figure class="align-center" id="defonde">
-<a class="reference internal image-reference" href="../../_images/Celerite.png"><img alt="../../_images/Celerite.png" src="../../_images/Celerite.png" style="width: 50%;" /></a>
+<a class="reference internal image-reference" href="../../_images/Celerite.png"><img alt="../../_images/Celerite.png" src="../../_images/Celerite.png" style="width: 60%;" /></a>
 <figcaption>
 <p><span class="caption-number">Fig. 2.8 </span><span class="caption-text"><em>Une impulsion sur une corde à quatre instants successifs.</em></span><a class="headerlink" href="#defonde" title="Permalink to this image">#</a></p>
 </figcaption>
@@ -489,11 +492,11 @@ Ces propriétés se traduisent par la relation algébrique :</p></li>
 </ul>
 <div class="math notranslate nohighlight">
 \[v_w=\sqrt{\dfrac{F_{T}}{\mu}}\]</div>
-<p>avec :</p>
+<p>ou :</p>
 <ul class="simple">
-<li><p><span class="math notranslate nohighlight">\(v\)</span> vitesse de propagation en <span class="math notranslate nohighlight">\((\text{m/s})\)</span></p></li>
-<li><p><span class="math notranslate nohighlight">\(F_T\)</span> : tension de la corde en <span class="math notranslate nohighlight">\((\text{N})\)</span></p></li>
-<li><p><span class="math notranslate nohighlight">\(\mu\)</span> : masse linéaire de la corde en <span class="math notranslate nohighlight">\((\text{kg/m})\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(v\)</span> est la vitesse de propagation en <span class="math notranslate nohighlight">\((\text{m/s})\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(F_T\)</span> la force de tension de la corde en <span class="math notranslate nohighlight">\((\text{N})\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\mu\)</span> la masse linéaire de la corde en <span class="math notranslate nohighlight">\((\text{kg/m})\)</span></p></li>
 </ul>
 </section>
 <section id="periode-et-frequence">
@@ -537,7 +540,7 @@ Ces propriétés se traduisent par la relation algébrique :</p></li>
 </div>
 <p>Considérons la vague d’eau périodique dans <a class="reference internal" href="#wavelenght"><span class="std std-numref">Fig. 2.11</span></a>. Sa longueur d’onde <span class="math notranslate nohighlight">\(\lambda\)</span> est la distance d’une crête à l’autre ou d’un creux à l’autre. La longueur d’onde peut également être considérée comme la distance parcourue par une onde après un cycle complet - ou une période <span class="math notranslate nohighlight">\(T\)</span>. Le temps d’un mouvement complet de haut en bas est également la période <span class="math notranslate nohighlight">\(T\)</span> de la vague. Sur la figure, l’onde elle-même se déplace vers la droite avec une vitesse d’onde <span class="math notranslate nohighlight">\(v_{w}\)</span>. Son amplitude <span class="math notranslate nohighlight">\(A\)</span> est la distance entre la position de repos et le déplacement maximal - <em>soit la crête ou le creux</em> - de la vague. Il est important de noter que ce mouvement de la vague est en fait la <code class="docutils literal notranslate"><span class="pre">perturbation</span></code> qui se déplace vers la droite, et non l’eau elle-même ; sinon, la mouette se déplacerait aussi vers la droite. Au lieu de cela, la mouette se déplace uniquement de haut en bas sur place au fur et à mesure que les vagues passent en dessous, parcourant une distance totale de <span class="math notranslate nohighlight">\(2A\)</span> en un cycle. Cependant, comme mentionné dans le texte sur le surf, les vagues réelles de l’océan sont plus complexes que cet exemple simplifié.</p>
 <figure class="align-center" id="wavelenght">
-<a class="reference internal image-reference" href="../../_images/wavelenght.jpg"><img alt="../../_images/wavelenght.jpg" src="../../_images/wavelenght.jpg" style="width: 50%;" /></a>
+<a class="reference internal image-reference" href="../../_images/wavelenght.jpg"><img alt="../../_images/wavelenght.jpg" src="../../_images/wavelenght.jpg" style="width: 60%;" /></a>
 <figcaption>
 <p><span class="caption-number">Fig. 2.11 </span><span class="caption-text"><em>L’onde a une longueur d’onde <span class="math notranslate nohighlight">\(\lambda\)</span>, qui est la distance entre deux crêtes de l’onde. La perturbation verticale, de haut en bas, de la surface se déplace parallèlement à la surface avec une vitesse <span class="math notranslate nohighlight">\(v_w\)</span>.</em></span><a class="headerlink" href="#wavelenght" title="Permalink to this image">#</a></p>
 </figcaption>
@@ -610,7 +613,7 @@ Ces propriétés se traduisent par la relation algébrique :</p></li>
 <p class="admonition-title"><em>solution</em></p>
 <ol class="arabic simple">
 <li><p><span class="math notranslate nohighlight">\(440\)</span> fois par seconde donne une fréquence de : <span class="math notranslate nohighlight">\(f=440\,\text{Hz}\)</span></p></li>
-<li><p><span class="math notranslate nohighlight">\(T=\dfrac{1}{T}=0.00227\,\text{s}=2.27\,\text{ms}\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(T=\dfrac{1}{f}=0.00227\,\text{s}=2.27\,\text{ms}\)</span></p></li>
 <li><p><span class="math notranslate nohighlight">\(\lambda=\frac{v}{f}=\frac{340}{440}=0.773\,\text{m})77.3\,\text{cm}\)</span></p></li>
 </ol>
 </div>
@@ -716,8 +719,8 @@ Ces propriétés se traduisent par la relation algébrique :</p></li>
 </div>
 </div>
 </section>
-<section id="problemes">
-<h2>Problèmes<a class="headerlink" href="#problemes" title="Permalink to this heading">#</a></h2>
+<section id="exercices">
+<h2>Exercices<a class="headerlink" href="#exercices" title="Permalink to this heading">#</a></h2>
 <div class="exohome admonition">
 <p class="admonition-title">Exercice 1</p>
 <p>La fréquence d’une onde est de <span class="math notranslate nohighlight">\(10\,\text{Hz}\)</span>. Quelle est sa période ?</p>
@@ -897,7 +900,7 @@ Ces propriétés se traduisent par la relation algébrique :</p></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#relation-fondamentale-entre-la-frequence-la-periode-la-vitesse-et-la-longueur-d-onde">Relation fondamentale entre la fréquence, la période, la vitesse et la longueur d’onde</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#problemes">Problèmes</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercices">Exercices</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#verifiez-votre-comprehension">Vérifiez votre compréhension</a></li>
 </ul>
   </nav></div>
