@@ -5,7 +5,7 @@
 
 Que voulons-nous dire quand nous disons que quelque chose est une onde ? Une onde est une perturbation qui se déplace ou se propage à partir de l'endroit où elle a été créée. Les ondes transfèrent de l'énergie d'un endroit à un autre, mais elles ne transfèrent pas nécessairement de matière, masse. La lumière, le son et les vagues dans l'océan sont des exemples courants d'ondes. Les ondes sonores et les vagues sur l'eau sont des ondes mécaniques ; c'est-à-dire qu'elles ont besoin d'un support matériel pour voyager. Le milieu peut être un solide, un liquide ou un gaz, et la vitesse de l'onde dépendra des propriétés matérielles du milieu dans lequel elle se déplace. Par exemple, le son se propage à $331\,\text{m/s}$ dans de l'air sec à $0°C$ et à $343\,\text{m/s}$ dans de l'air sec à $20°C$. D'autres exemples de vitesse du son dans différents milieux sont donnés dans la table
 
-Cependant, la lumière n'est pas une onde mécanique ; Elle peut voyager dans le vide, comme les parties vides de l'espace. Nous en reparlerons dans un prochain chapitre. Les `ondes mécaniques` regroupent toutes les ondes qui ont besoin d'un *support matériel* pour se déplacer
+Cependant, la lumière n'est pas une onde mécanique ; Elle peut voyager dans le vide, comme les parties vides de l'espace. Nous en reparlerons dans un prochain chapitre. Les `ondes mécaniques` regroupent toutes les ondes qui ont besoin d'un **support matériel** pour se déplacer
 
 :::{figure} figures/OndeSurfaceEau.jpg
 :name: OndeSurfaceEau
@@ -13,18 +13,44 @@ Cependant, la lumière n'est pas une onde mécanique ; Elle peut voyager dans le
 :width: 35%
 :::
 
-Une onde familière que vous pouvez facilement imaginer est la vague sur l'eau. Pour les vagues sur l'eau, la perturbation se situe à la surface de l'eau, par exemple la perturbation créée par une pierre jetée dans un étang ou par un nageur qui éclabousse la surface de l'eau à plusieurs reprises. Pour les ondes sonores, la perturbation est causée par un changement de pression de l'air, par exemple lorsque le cône oscillant à l'intérieur d'un haut-parleur crée une perturbation. Pour les tremblements de terre, il existe plusieurs types de perturbations, qui comprennent la perturbation de la surface de la Terre elle-même et les perturbations de pression sous la surface. Les ondes radio, invisibles, sont faciles à comprendre en utilisant une analogie avec les ondes sur l'eau. Parce que les vagues sur l'eau sont courantes et visibles, la visualisation des vagues sur l'eau peut vous aider à étudier d'autres types de vagues, en particulier celles qui ne sont pas visibles.
+::::{admonition} Ondes
+:class: formule
+Une onde est la propagation d'une perturbation dans un milieu **avec transport d'énergie** mais **sans transport de matière**.
+::::
 
-Les vagues sur l'eau ont des caractéristiques communes à toutes les ondes, telles que `l'amplitude`, `la période`, `la fréquence` et `la longueur d'onde`, dont nous discuterons dans la section suivante.
+Une onde familière que vous pouvez facilement imaginer est *la vague sur l'eau*. Pour les vagues sur l'eau, la perturbation se situe à la surface de l'eau, par exemple la perturbation créée par une pierre jetée dans un étang ou par un nageur qui éclabousse la surface de l'eau à plusieurs reprises. Pour les ondes sonores, la perturbation est causée par un changement de pression de l'air, par exemple lorsque le cône oscillant à l'intérieur d'un haut-parleur crée une perturbation. Pour les tremblements de terre, il existe plusieurs types de perturbations, qui comprennent la perturbation de la surface de la Terre elle-même et les perturbations de pression sous la surface. Les ondes radio, invisibles, sont faciles à comprendre en utilisant une analogie avec les ondes sur l'eau. Parce que les vagues sur l'eau sont courantes et visibles, la visualisation des vagues sur l'eau peut vous aider à étudier d'autres types de vagues, en particulier celles qui ne sont pas visibles.
+
+Les vagues sur l'eau ont des caractéristiques communes à toutes les ondes, telles que :
+1. L'amplitude
+2. La période
+3. La fréquence
+4. La longueur d'onde
+
+dont nous discuterons dans la section suivante.
 
 ::::{admonition} Alerte aux idées fausses
 :class: danger
 Beaucoup de gens pensent que les vagues sur l'eau poussent l'eau d'une direction à l'autre. En réalité, cependant, les particules d'eau ont tendance à rester à un seul endroit, sauf pour monter et descendre en raison de l'énergie de la vague. L'énergie se déplace vers l'avant à travers l'eau, mais les particules d'eau restent au même endroit. Si vous vous sentez poussé dans un océan, ce que vous ressentez est l'énergie de la vague, pas le ruissellement de l'eau. Si vous mettez un bouchon dans de l'eau qui a des vagues, vous verrez que l'eau le déplace principalement de haut en bas.
 ::::
 
+## Ondes progressives
+Une onde progressive est une perturbation qui se propage sans transport de matière dans un milieu en restant identique à elle-même.
+
+La propagation de vaguelettes à la surface de l'eau, les ondes sismiques ou les ondes radioélectriques des réseaux de téléphonie mobile sont des exemples d'ondes progressives.
+
+Les ondes progressives peuvent se propager dans toutes les directions de l'espace. Si l'onde ne se propage que dans une direction, on dit que *l'onde est progressive à une dimension*.
 
 ## Impulsions et ondes périodiques
-Si vous laissez tomber un caillou dans l'eau, seules quelques vagues peuvent être générées avant que la perturbation ne s'estompe, alors que dans une piscine à vagues, les vagues sont continues. Une onde d'impulsion - ou simplement `impulsion` - est une perturbation soudaine dans laquelle une seule onde ou quelques ondes sont générées, comme dans l'exemple du caillou. Le tonnerre et les explosions créent également des impulsions. Une `onde périodique` répète la même oscillation pendant plusieurs cycles, comme dans le cas de la piscine à vagues, et est associée à un simple mouvement harmonique. Chaque particule dans le milieu subit un mouvement harmonique simple dans des ondes périodiques en se déplaçant périodiquement d'avant en arrière dans les mêmes positions.
+Si vous laissez tomber un caillou dans l'eau, seules quelques vagues peuvent être générées avant que la perturbation ne s'estompe, alors que dans une piscine à vagues, les vagues sont continues. Une onde d'impulsion - ou simplement `impulsion` - est une perturbation soudaine dans laquelle une seule onde ou quelques ondes sont générées, comme dans l'exemple du caillou. Le tonnerre et les explosions créent également des impulsions. 
+
+:::{figure} figures/DefOnde.jpg
+:name: impuls
+:align: center
+:width: 50%
+*Une impulsion sur une corde à quatre instants successifs*
+:::
+
+Une `onde périodique` répète la même oscillation pendant plusieurs cycles, comme dans le cas de la piscine à vagues, et est associée à un simple mouvement harmonique. Chaque particule dans le milieu subit un mouvement harmonique simple dans des ondes périodiques en se déplaçant périodiquement d'avant en arrière dans les mêmes positions.
 
 :::{figure} figures/OndePeriodiqueTri.jpg
 :name: OndePeriodiqueTri
@@ -76,7 +102,7 @@ En revanche, dans `une onde longitudinale`, la perturbation est parallèle à la
 Les ondes longitudinales sont parfois appelées *ondes de compression* ou *ondes primaire $\text{P}$*, et les ondes transversales sont parfois appelées *ondes de cisaillement*.
 :::
 
-Les ondes peuvent être transversales, longitudinales ou *une combinaison des deux*. Les ondes sur les cordes des instruments de musique sont transversales (comme le montre la {numref}`corde`), de même que les ondes électromagnétiques, telles que la lumière visible. Les ondes sonores dans l'air et l'eau sont longitudinales. Leurs perturbations sont des variations périodiques de pression qui se transmettent dans les fluides.
+Les ondes peuvent être *transversales*, *longitudinales* ou *une combinaison des deux*. Les ondes sur les cordes des instruments de musique sont transversales (comme le montre la {numref}`corde`), de même que les ondes électromagnétiques, telles que la lumière visible. Les ondes sonores dans l'air et l'eau sont longitudinales. Leurs perturbations sont des variations périodiques de pression qui se transmettent dans les fluides.
 
 :::{figure} figures/corde.jpg
 :name: corde
@@ -133,7 +159,7 @@ Si nous vivions dans un univers parallèle où les vagues de l'océan étaient l
 ## Vérifiez votre compréhension
 ::::{admonition} Questions 1
 :class: question
-Qu'est-ce qu'une vague ?
+Qu'est-ce qu'une onde ?
 
 1. Une onde est une force qui se propage à partir de l'endroit où elle a été créée.
 2. Une onde est une perturbation qui se propage à partir de l'endroit où elle a été créée.
@@ -141,7 +167,9 @@ Qu'est-ce qu'une vague ?
 4. Une onde est de la matière qui fournit une masse à un objet.
 :::{admonition} *réponse*
 :class: dropdown questionsol
-Réponse 2. Une onde est une perturbation qui se propage à partir de l'endroit où elle a été créée.
+Réponse 2.
+
+Une onde est une perturbation qui se propage à partir de l'endroit où elle a été créée.
 :::
 ::::
 
@@ -155,7 +183,9 @@ Toutes les ondes ont-elles besoin d'un milieu pour se déplacer ? Expliquer.
 4. Oui, toutes les ondes transversales ont besoin d'un milieu pour se déplacer.
 :::{admonition} *réponse*
 :class: dropdown questionsol
-Réponse 1. Non, les ondes électromagnétiques n'ont besoin d'aucun milieu pour se propager.
+Réponse 1.
+
+Non, les ondes électromagnétiques n'ont besoin d'aucun milieu pour se propager.
 :::
 ::::
 
@@ -169,7 +199,9 @@ Qu'est-ce qu'une impulsion ?
 4. Une impulsion est une perturbation progressive avec une seule onde générée.
 :::{admonition} *réponse*
 :class: dropdown questionsol
-Réponse 1. Une impulsion est une perturbation soudaine avec une seule onde générée.
+Réponse 1.
+
+Une impulsion est une perturbation soudaine avec une seule onde générée.
 
 :::
 ::::
@@ -182,7 +214,9 @@ L'affirmation suivante est-elle vraie ou fausse ? Un caillou tombé dans l'eau e
 2. Vrai
 :::{admonition} *réponse*
 :class: dropdown questionsol
-Faux
+Vrai.
+
+Le caillou provoque une impulsion d'onde (une seule vague) et non une onde périodique (une succession de vagues).
 :::
 ::::
 
@@ -196,7 +230,9 @@ Quelles sont les catégories d'ondes mécaniques en fonction du type de mouvemen
 4. Seules les ondes de surface
 :::{admonition} *réponse*
 :class: dropdown questionsol
-Réponse 1. Il y a les ondes transversales et les ondes longitudinales
+Réponse 1.
+
+Il y a les ondes transversales et les ondes longitudinales
 :::
 ::::
 
@@ -208,8 +244,9 @@ Dans quelle direction les particules du milieu oscillent-elles en onde transvers
 2. Perpendiculaire à la direction de propagation de l'onde transversale
 :::{admonition} *réponse*
 :class: dropdown questionsol
-Réponse 2. Les particules oscillent *perpendiculaire* à la direction de propagation de l'onde *transversale*.
+Réponse 2.
 
-Pour une onde *longitudinale*, les particules oscillent *parallèlement* à la direction de propagation 
+Les particules oscillent *perpendiculairement* à la direction de propagation de l'onde *transversale*.\
+Pour une onde *longitudinale*, les particules oscillent *parallèlement* à la direction de propagation.
 :::
 ::::

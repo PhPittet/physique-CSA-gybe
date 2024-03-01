@@ -2,7 +2,7 @@
 
 ## [Types d'ondes](sect:TypesOndes)
 
-::::::::::{admonition} QCM 
+::::::::::{admonition} QCM 1
 :class: qcm
 Quels types d'ondes sont les ondes sonores ?
 
@@ -40,7 +40,7 @@ Les ondes électromagnétiques, comme la lumière, peuvent se déplacer dans le 
 ::::::::::
 
 
-::::::::::{admonition} QCM 
+::::::::::{admonition} QCM 2
 :class: qcm
 Quel genre de vague un diapason crée-t-il ?
 
@@ -81,7 +81,7 @@ Lorsqu'un diapason est frappé, il vibre à une fréquence spécifique, produisa
 ::::::::::
 
 
-::::::::::{admonition} QCM 
+::::::::::{admonition} QCM 3
 :class: qcm
 Quel type d'ondes sont les ondes électromagnétiques ?
 
@@ -126,7 +126,7 @@ Les ondes électromagnétiques se propagent par oscillations perpendiculaires à
 ::::::::::
 
 
-::::::::::{admonition} QCM 
+::::::::::{admonition} QCM 4
 :class: qcm
 En ce qui concerne les vagues, qu'est-ce qu'une *perturbation* ?
 
@@ -172,7 +172,7 @@ Cette définition capture l'essence d'une perturbation dans le contexte des phé
 
 ## [Propriétés de l'onde : vitesse, amplitude, fréquence et période](sect:propriete)
 
-::::::::::{admonition} QCM 
+::::::::::{admonition} QCM 5
 :class: qcm
 Lequel d'entre eux n'est pas une caractéristique d'une vague ?
 
@@ -215,7 +215,7 @@ Les vagues sont décrites par leur amplitude, période, et vitesse, mais pas par
 ::::::::::
 
 
-::::::::::{admonition} QCM 
+::::::::::{admonition} QCM 6
 :class: qcm
 Si vous êtes dans un bateau en position de repos, de quelle hauteur allez-vous monté quand vous serez frappé par le pic d'une vague d'une hauteur de $2\,\text{m}$ ?
 
@@ -260,7 +260,7 @@ Si vous êtes dans un bateau en position de repos et que vous êtes frappé par 
 ::::::::::
 
 
-::::::::::{admonition} QCM 
+::::::::::{admonition} QCM 7
 :class: qcm
 Quelle est la période d'une onde avec une fréquence de $0.5\,\text{Hz}$ ?
 
@@ -313,7 +313,7 @@ La période de l'onde est donc de $2\,\text{s}$. La réponse correcte est :
 ::::::::::
 
 
-::::::::::{admonition} QCM 
+::::::::::{admonition} QCM 8
 :class: qcm
 Quelle est la relation entre l'amplitude d'une onde et sa vitesse ?
 
@@ -360,7 +360,7 @@ La réponse correcte est donc :
 
 ## [Interaction onde : superposition et interférence](sect:interaction)
 
-::::::::::{admonition} QCM 
+::::::::::{admonition} QCM 9
 :class: qcm
 De quoi dépend la vitesse des ondes sismiques ?
 
@@ -403,7 +403,7 @@ La vitesse des ondes sismiques dépend principalement de deux facteurs du milieu
 
 
 
-::::::::::{admonition} QCM 
+::::::::::{admonition} QCM 10
 :class: qcm
 Qu'est-ce qui s'additionne lorsque deux vagues se superposent ?
 
@@ -443,7 +443,7 @@ La réponse correcte est donc :
 ::::::::::
 
 
-::::::::::{admonition} QCM 
+::::::::::{admonition} QCM 11
 :class: qcm
 L'interférence constructive pure se produit entre deux ondes lorsqu'elles ont le même \_\_\_\_\_\_.
 
@@ -488,7 +488,7 @@ La réponse correcte est donc :
 ::::::::::
 
 
-::::::::::{admonition} QCM 
+::::::::::{admonition} QCM 12
 :class: qcm
 Quel(s) type(s) d'interférence(s) peut-il se produire entre deux ondes identiques se déplaçant dans des directions opposées ?
 
@@ -533,7 +533,7 @@ La réponse correcte est donc :
 ::::::::::
 
 
-::::::::::{admonition} QCM 
+::::::::::{admonition} QCM 13
 :class: qcm
 Quel terme fait référence à la courbure de la lumière à la jonction de deux milieux ?
 
@@ -578,7 +578,7 @@ La réponse correcte est donc :
 ::::::::::
 
 
-::::::::::{admonition} QCM 
+::::::::::{admonition} QCM 14
 :class: qcm
 Quel paramètre d'une onde est affecté après superposition ?
 
@@ -623,7 +623,7 @@ La réponse correcte est donc :
 ::::::::::
 
 
-::::::::::{admonition} QCM 
+::::::::::{admonition} QCM 15
 :class: qcm
 Quand les amplitudes de deux ondes sont-elles ajoutées ?
 

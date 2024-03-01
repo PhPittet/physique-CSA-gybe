@@ -9,23 +9,23 @@ Dans ce chapitre, nous allons définir quelques notion qui permettent de décrir
 :class: formule
 Une onde mécanique est définie par sa :
 
-Fréquence :
+Fréquence $f$ :
 : La fréquence $f$ est le nombre d'ondes passant par un point spécifique par seconde.\
   Elle se mesure en inverse de seconde  ($\text{s}^{-1}$) ou en Hertz  ($\text{Hz}$)
 
-Période :
-: La période $T$ d'une d'une onde est le temps nécessaire à la réalisation d'un cycle d'onde.\
+Période $T$ :
+: La période $T$ d'une d'une onde est le temps nécessaire à la réalisation d'un cycle d'onde périodique.\
   Elle se mesure en seconde ($\text{s}$)
 
-Longueur d'onde :
-: La longueur d'onde $\lambda$ est la distance entre les parties identiques adjacentes d'une onde, parallèle à la direction de propagation.\
-  Elle se mesure en ($\text{m}$)
+Longueur d'onde $\lambda$ :
+: La longueur d'onde $\lambda$ est la distance entre deux parties identiques adjacentes d'une onde (par exemple, deux *sommets* successifs de l'onde), parallèle à la direction de propagation.\
+  Elle se mesure en mètre ($\text{m}$)
 
-Vitesse d'onde :
+Vitesse d'onde $v_{w}$ :
 : La vitesse de l'onde $v_{w}$ est la vitesse à laquelle la perturbation se déplace.\
-  Elle se mesure en ($\text{m/s}$)
+  Elle se mesure en mètre par seconde ($\text{m/s}$)
 
-Amplitude :
+Amplitude $A$ :
 : L'amplitude $A$ d'une onde est la distance entre la position de repos et le déplacement maximal de l'onde.\
   Elle se mesure en mètre ($\text{m}$)\
   *L'amplitude n'est pas vraiment une grandeur importante pour comprendre les ondes mécaniques.*
@@ -43,13 +43,13 @@ Comme une onde se propage, on peut lui associer une vitesse.
 :name: DefOnde
 :align: center
 :width: 60%
-*Une impulsion sur une corde à quatre instants successifs.*
+*L'impulsion s'est déplacée d'une distance $d$ (de $M_{1}$ à $M_{2}$) pendant un temps $\tau$ (de $t_{1}$ à $t_{2}$).*
 :::
 
 ::::{admonition} Vitesse $v_w$ d'une onde
 :class: formule
 La vitesse de propagation d'une onde est le rapport entre la distance $d$ parcourue par la perturbation et la durée écoulée $t$. Elle se
-mesure en $(\text{m/s})$
+mesure en mètre par seconde $(\text{m/s})$
 :::{math}
 v_w=\dfrac{d}{t}
 :::
@@ -57,7 +57,20 @@ avec $d$ en mètre et $t$ en seconde.
 
 ::::
 
-La force de tension $F_T$ d'une corde tendue, joue également un rôle dans la vitesse de propagation : on observe que plus une corde est tendue, plus la vitesse de propagation des ondes est grande. Des mesures expérimentales nous montrent que le carré de la vitesse de propagation $v-w$ d'une onde dans une corde est :
+:::::{admonition} Exemple
+:class: exores
+Une onde parcourt $10\,m$ en $25\,s$.\
+Quelle est sa vitesse ?
+::::{admonition} *solution*
+:class: dropdown solution
+On a $d=10\,m$ et $t=25\,s$, donc :
+:::{math}
+v_w=\dfrac{d}{t}=\dfrac{10}{25}=0.4\,m/s
+:::
+::::
+:::::
+
+La force de tension $F_T$ d'une corde tendue, joue également un rôle dans la vitesse de propagation : on observe que plus une corde est tendue, plus la vitesse de propagation des ondes est grande. Des mesures expérimentales nous montrent que le carré de la vitesse de propagation $v_w$ d'une onde dans une corde est :
 - proportionnel à la force de tension $F_T$ de la corde ;
 - inversement proportionnel à la masse linéaire $\mu$ de la corde.
 Ces propriétés se traduisent par la relation algébrique :
@@ -68,6 +81,31 @@ ou :
 - $v$ est la vitesse de propagation en $(\text{m/s})$
 - $F_T$ la force de tension de la corde en $(\text{N})$
 - $\mu$ la masse linéaire de la corde en $(\text{kg/m})$
+
+:::::{admonition} Exemple
+:class: exores
+Une corde de $3\,m$, pesant $1.5\,kg$, est tendue avec une force de tension de $25\,kN$.
+1. Quelle est la vitesse de l'onde dans cette corde ?
+2. On double la tension, comment varie la vitesse de l'onde ?
+::::{admonition} *solution*
+:class: dropdown solution
+1. Une corde de $3\,m$ avec une masse de $1.5\,kg$ donne une masse linéaire de :
+  :::{math}
+  \mu=\dfrac{1.5}{3}=0.5\,kg/m
+  :::
+  Ce qui nous donne une vitesse de :
+  :::{math}
+  v_w=\sqrt{\dfrac{F_{T}}{\mu}}=\sqrt{\dfrac{25'000\,N}{0.5}}=\sqrt{50'000}=223.6\,m/s
+  :::
+  
+3. Si on double la tension, la vitesse est multipliée par $\sqrt{2}$ :
+:::{math}
+v_w=\sqrt{\dfrac{F_{T}}{\mu}}=\sqrt{\dfrac{50'000\,N}{0.5}}=\sqrt{100'000}=316.2\,m/s\\
+\sqrt{2}\cdot 223.6=316.2\,m/s
+:::
+::::
+
+:::::
 
 ### Période et fréquence
 Les ondes périodiques correspondent à des phénomènes qui se répètent périodiquement. Ces ondes sont caractérisées par une période $T$ et par une fréquence $f$.
@@ -101,7 +139,26 @@ Dans cette relation, la période doit obligatoirement être exprimée en seconde
 La fréquence correspond au nombre de répétition d'un signal périodique pendant $1$ seconde.
 ::::
 
-### Longueur d'onde
+:::::{admonition} Exemple
+:class: exores
+Un capteur piezoélectrique vibre 40 mille fois par seconde.\
+Quelle est la période et la fréquence de l'onde (ultra-son) émise par ce capteur ?
+::::{admonition} *solution*
+:class: dropdown solution
+La période $T$ de l'onde ultra-sonore émise par ce capteur piezoélectrique correspond au temps entre $2$ vibration. On a donc :
+:::{math}
+T=\dfrac{1}{40´000}=0.000025\,s=25\cdot 10^{-6}\,s=25\,\mu s
+:::
+
+La fréquence $f$ du signal est donc de :
+:::{math}
+f=\dfrac{1}{T}=\dfrac{1}{25\cdot 10^{-6}}=40'000\,Hz=4\cdot 10^{4}\,Hz
+:::
+On remarque que la fréquence était directement mentionnée dans la donnée par le *vibre 40 mille fois par seconde*.
+::::
+:::::
+
+### Longueur d'onde et amplitude
 La longueur d'onde est la période spatiale d'une onde, c'est-à-dire la plus petite distance séparant deux points dans le même état. Les ondes progressives périodiques étant des perturbations se propageant de façon périodique, on peut, à un instant figé (photo), définir une périodicité spatiale en plus de la périodicité temporelle :
 
 :::{figure} figures/Lambda.jpg
@@ -158,8 +215,10 @@ Cette vidéo est la suite de la vidéo *Introduction aux vagues* de la section [
 
 :::
 
-## Relation fondamentale entre la fréquence, la période, la vitesse et la longueur d'onde
-Étant donné que la fréquence d'onde est le nombre d'ondes par seconde, et que la période est essentiellement le nombre de secondes par onde, la relation entre la fréquence et la période est
+## Relation fondamentale
+Il est possible de trouver une relation entre la fréquence, la période, la vitesse et la longueur d'une onde.
+
+On rappel que fréquence est le nombre d'ondes par seconde, et que la période est la durée (le nombre de secondes) pour une onde, la relation entre la fréquence et la période est
 :::{math}
 f = \frac{1}{T}
 :::
@@ -264,6 +323,8 @@ Réponse 3. L'amortissement diminue l'amplitude de l'onde au fur et à mesure qu
 :::
 ::::
 :::::
+
+## Exemples
 
 :::::{admonition} Calculer la vitesse de propagation des vagues : Mouette dans l'océan
 :class: exores
