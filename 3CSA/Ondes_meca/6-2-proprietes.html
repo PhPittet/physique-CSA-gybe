@@ -419,10 +419,11 @@ document.write(`
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#caracteristiques-d-onde">Caractéristiques d’onde</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#vitesse-d-une-onde">Vitesse d’une onde.</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#periode-et-frequence">Période et fréquence</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#longueur-d-onde">Longueur d’onde</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#longueur-d-onde-et-amplitude">Longueur d’onde et amplitude</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#relation-fondamentale-entre-la-frequence-la-periode-la-vitesse-et-la-longueur-d-onde">Relation fondamentale entre la fréquence, la période, la vitesse et la longueur d’onde</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#relation-fondamentale">Relation fondamentale</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exemples">Exemples</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercices">Exercices</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#verifiez-votre-comprehension">Vérifiez votre compréhension</a></li>
 </ul>
@@ -445,19 +446,19 @@ document.write(`
 <p class="admonition-title">Caractéristiques d’une onde</p>
 <p>Une onde mécanique est définie par sa :</p>
 <dl class="simple myst">
-<dt>Fréquence :</dt><dd><p>La fréquence <span class="math notranslate nohighlight">\(f\)</span> est le nombre d’ondes passant par un point spécifique par seconde.<br />
+<dt>Fréquence <span class="math notranslate nohighlight">\(f\)</span> :</dt><dd><p>La fréquence <span class="math notranslate nohighlight">\(f\)</span> est le nombre d’ondes passant par un point spécifique par seconde.<br />
 Elle se mesure en inverse de seconde  (<span class="math notranslate nohighlight">\(\text{s}^{-1}\)</span>) ou en Hertz  (<span class="math notranslate nohighlight">\(\text{Hz}\)</span>)</p>
 </dd>
-<dt>Période :</dt><dd><p>La période <span class="math notranslate nohighlight">\(T\)</span> d’une d’une onde est le temps nécessaire à la réalisation d’un cycle d’onde.<br />
+<dt>Période <span class="math notranslate nohighlight">\(T\)</span> :</dt><dd><p>La période <span class="math notranslate nohighlight">\(T\)</span> d’une d’une onde est le temps nécessaire à la réalisation d’un cycle d’onde périodique.<br />
 Elle se mesure en seconde (<span class="math notranslate nohighlight">\(\text{s}\)</span>)</p>
 </dd>
-<dt>Longueur d’onde :</dt><dd><p>La longueur d’onde <span class="math notranslate nohighlight">\(\lambda\)</span> est la distance entre les parties identiques adjacentes d’une onde, parallèle à la direction de propagation.<br />
-Elle se mesure en (<span class="math notranslate nohighlight">\(\text{m}\)</span>)</p>
+<dt>Longueur d’onde <span class="math notranslate nohighlight">\(\lambda\)</span> :</dt><dd><p>La longueur d’onde <span class="math notranslate nohighlight">\(\lambda\)</span> est la distance entre deux parties identiques adjacentes d’une onde (par exemple, deux <em>sommets</em> successifs de l’onde), parallèle à la direction de propagation.<br />
+Elle se mesure en mètre (<span class="math notranslate nohighlight">\(\text{m}\)</span>)</p>
 </dd>
-<dt>Vitesse d’onde :</dt><dd><p>La vitesse de l’onde <span class="math notranslate nohighlight">\(v_{w}\)</span> est la vitesse à laquelle la perturbation se déplace.<br />
-Elle se mesure en (<span class="math notranslate nohighlight">\(\text{m/s}\)</span>)</p>
+<dt>Vitesse d’onde <span class="math notranslate nohighlight">\(v_{w}\)</span> :</dt><dd><p>La vitesse de l’onde <span class="math notranslate nohighlight">\(v_{w}\)</span> est la vitesse à laquelle la perturbation se déplace.<br />
+Elle se mesure en mètre par seconde (<span class="math notranslate nohighlight">\(\text{m/s}\)</span>)</p>
 </dd>
-<dt>Amplitude :</dt><dd><p>L’amplitude <span class="math notranslate nohighlight">\(A\)</span> d’une onde est la distance entre la position de repos et le déplacement maximal de l’onde.<br />
+<dt>Amplitude <span class="math notranslate nohighlight">\(A\)</span> :</dt><dd><p>L’amplitude <span class="math notranslate nohighlight">\(A\)</span> d’une onde est la distance entre la position de repos et le déplacement maximal de l’onde.<br />
 Elle se mesure en mètre (<span class="math notranslate nohighlight">\(\text{m}\)</span>)<br />
 <em>L’amplitude n’est pas vraiment une grandeur importante pour comprendre les ondes mécaniques.</em></p>
 </dd>
@@ -473,18 +474,29 @@ Elle se mesure en mètre (<span class="math notranslate nohighlight">\(\text{m}\
 <figure class="align-center" id="defonde">
 <a class="reference internal image-reference" href="../../_images/Celerite.png"><img alt="../../_images/Celerite.png" src="../../_images/Celerite.png" style="width: 60%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 2.8 </span><span class="caption-text"><em>Une impulsion sur une corde à quatre instants successifs.</em></span><a class="headerlink" href="#defonde" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 2.9 </span><span class="caption-text"><em>L’impulsion s’est déplacée d’une distance <span class="math notranslate nohighlight">\(d\)</span> (de <span class="math notranslate nohighlight">\(M_{1}\)</span> à <span class="math notranslate nohighlight">\(M_{2}\)</span>) pendant un temps <span class="math notranslate nohighlight">\(\tau\)</span> (de <span class="math notranslate nohighlight">\(t_{1}\)</span> à <span class="math notranslate nohighlight">\(t_{2}\)</span>).</em></span><a class="headerlink" href="#defonde" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <div class="formule admonition">
 <p class="admonition-title">Vitesse <span class="math notranslate nohighlight">\(v_w\)</span> d’une onde</p>
 <p>La vitesse de propagation d’une onde est le rapport entre la distance <span class="math notranslate nohighlight">\(d\)</span> parcourue par la perturbation et la durée écoulée <span class="math notranslate nohighlight">\(t\)</span>. Elle se
-mesure en <span class="math notranslate nohighlight">\((\text{m/s})\)</span></p>
+mesure en mètre par seconde <span class="math notranslate nohighlight">\((\text{m/s})\)</span></p>
 <div class="math notranslate nohighlight">
 \[v_w=\dfrac{d}{t}\]</div>
 <p>avec <span class="math notranslate nohighlight">\(d\)</span> en mètre et <span class="math notranslate nohighlight">\(t\)</span> en seconde.</p>
 </div>
-<p>La force de tension <span class="math notranslate nohighlight">\(F_T\)</span> d’une corde tendue, joue également un rôle dans la vitesse de propagation : on observe que plus une corde est tendue, plus la vitesse de propagation des ondes est grande. Des mesures expérimentales nous montrent que le carré de la vitesse de propagation <span class="math notranslate nohighlight">\(v-w\)</span> d’une onde dans une corde est :</p>
+<div class="exores admonition">
+<p class="admonition-title">Exemple</p>
+<p>Une onde parcourt <span class="math notranslate nohighlight">\(10\,m\)</span> en <span class="math notranslate nohighlight">\(25\,s\)</span>.<br />
+Quelle est sa vitesse ?</p>
+<div class="dropdown solution admonition">
+<p class="admonition-title"><em>solution</em></p>
+<p>On a <span class="math notranslate nohighlight">\(d=10\,m\)</span> et <span class="math notranslate nohighlight">\(t=25\,s\)</span>, donc :</p>
+<div class="math notranslate nohighlight">
+\[v_w=\dfrac{d}{t}=\dfrac{10}{25}=0.4\,m/s\]</div>
+</div>
+</div>
+<p>La force de tension <span class="math notranslate nohighlight">\(F_T\)</span> d’une corde tendue, joue également un rôle dans la vitesse de propagation : on observe que plus une corde est tendue, plus la vitesse de propagation des ondes est grande. Des mesures expérimentales nous montrent que le carré de la vitesse de propagation <span class="math notranslate nohighlight">\(v_w\)</span> d’une onde dans une corde est :</p>
 <ul class="simple">
 <li><p>proportionnel à la force de tension <span class="math notranslate nohighlight">\(F_T\)</span> de la corde ;</p></li>
 <li><p>inversement proportionnel à la masse linéaire <span class="math notranslate nohighlight">\(\mu\)</span> de la corde.
@@ -498,6 +510,31 @@ Ces propriétés se traduisent par la relation algébrique :</p></li>
 <li><p><span class="math notranslate nohighlight">\(F_T\)</span> la force de tension de la corde en <span class="math notranslate nohighlight">\((\text{N})\)</span></p></li>
 <li><p><span class="math notranslate nohighlight">\(\mu\)</span> la masse linéaire de la corde en <span class="math notranslate nohighlight">\((\text{kg/m})\)</span></p></li>
 </ul>
+<div class="exores admonition">
+<p class="admonition-title">Exemple</p>
+<p>Une corde de <span class="math notranslate nohighlight">\(3\,m\)</span>, pesant <span class="math notranslate nohighlight">\(1.5\,kg\)</span>, est tendue avec une force de tension de <span class="math notranslate nohighlight">\(25\,kN\)</span>.</p>
+<ol class="arabic simple">
+<li><p>Quelle est la vitesse de l’onde dans cette corde ?</p></li>
+<li><p>On double la tension, comment varie la vitesse de l’onde ?</p></li>
+</ol>
+<div class="dropdown solution admonition">
+<p class="admonition-title"><em>solution</em></p>
+<ol class="arabic simple">
+<li><p>Une corde de <span class="math notranslate nohighlight">\(3\,m\)</span> avec une masse de <span class="math notranslate nohighlight">\(1.5\,kg\)</span> donne une masse linéaire de :</p></li>
+</ol>
+<div class="math notranslate nohighlight">
+\[\mu=\dfrac{1.5}{3}=0.5\,kg/m\]</div>
+<p>Ce qui nous donne une vitesse de :</p>
+<div class="math notranslate nohighlight">
+\[v_w=\sqrt{\dfrac{F_{T}}{\mu}}=\sqrt{\dfrac{25'000\,N}{0.5}}=\sqrt{50'000}=223.6\,m/s\]</div>
+<ol class="arabic simple" start="3">
+<li><p>Si on double la tension, la vitesse est multipliée par <span class="math notranslate nohighlight">\(\sqrt{2}\)</span> :</p></li>
+</ol>
+<div class="math notranslate nohighlight">
+\[\begin{split}v_w=\sqrt{\dfrac{F_{T}}{\mu}}=\sqrt{\dfrac{50'000\,N}{0.5}}=\sqrt{100'000}=316.2\,m/s\\
+\sqrt{2}\cdot 223.6=316.2\,m/s\end{split}\]</div>
+</div>
+</div>
 </section>
 <section id="periode-et-frequence">
 <h3>Période et fréquence<a class="headerlink" href="#periode-et-frequence" title="Permalink to this heading">#</a></h3>
@@ -507,11 +544,11 @@ Ces propriétés se traduisent par la relation algébrique :</p></li>
 <p>La période <span class="math notranslate nohighlight">\(T\)</span> d’une onde progressive périodique est le temps le plus court au bout duquel un point se retrouve dans le même état vibratoire. La période <span class="math notranslate nohighlight">\(T\)</span> se mesure en secondes <span class="math notranslate nohighlight">\((\text{s})\)</span>.</p>
 </div>
 <p>La période correspond au temps qu’il y a entre deux répétions d’un signal périodique. La période du mouvement de l’aiguille des secondes d’une montre est <span class="math notranslate nohighlight">\(T=60\,\text{s}\)</span>, car elle revient au même endroit toutes les <span class="math notranslate nohighlight">\(60\,\text{s}\)</span>. En astronomie, la période de révolution désigne l’intervalle de temps entre deux passages consécutifs d’un astre en un point quelconque de son orbite. La période de rotation correspond à la durée nécessaire à un astre pour faire un tour sur lui-même.</p>
-<p>La période d’une onde périodique peut être déterminée graphiquement : elle correspond à la durée du motif élémentaire (<a class="reference internal" href="#motifelementaire"><span class="std std-numref">Fig. 2.9</span></a>).</p>
+<p>La période d’une onde périodique peut être déterminée graphiquement : elle correspond à la durée du motif élémentaire (<a class="reference internal" href="#motifelementaire"><span class="std std-numref">Fig. 2.10</span></a>).</p>
 <figure class="align-center" id="motifelementaire">
 <a class="reference internal image-reference" href="../../_images/MotifElementaire.jpg"><img alt="../../_images/MotifElementaire.jpg" src="../../_images/MotifElementaire.jpg" style="width: 35%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 2.9 </span><span class="caption-text"><em>La période de ce signal périodique vaut <span class="math notranslate nohighlight">\(T=4.0\,\text{s}\)</span></em></span><a class="headerlink" href="#motifelementaire" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 2.10 </span><span class="caption-text"><em>La période de ce signal périodique vaut <span class="math notranslate nohighlight">\(T=4.0\,\text{s}\)</span></em></span><a class="headerlink" href="#motifelementaire" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <p>Pour caractériser une onde progressive périodique, on utilise souvent la fréquence au lieu de la période.</p>
@@ -523,26 +560,41 @@ Ces propriétés se traduisent par la relation algébrique :</p></li>
 <p>Dans cette relation, la période doit obligatoirement être exprimée en secondes. Le Hertz est l’inverse de la seconde : <span class="math notranslate nohighlight">\(1\,\text{Hz}=1\,\text{s}^{-1}\)</span></p>
 <p>La fréquence correspond au nombre de répétition d’un signal périodique pendant <span class="math notranslate nohighlight">\(1\)</span> seconde.</p>
 </div>
+<div class="exores admonition">
+<p class="admonition-title">Exemple</p>
+<p>Un capteur piezoélectrique vibre 40 mille fois par seconde.<br />
+Quelle est la période et la fréquence de l’onde (ultra-son) émise par ce capteur ?</p>
+<div class="dropdown solution admonition">
+<p class="admonition-title"><em>solution</em></p>
+<p>La période <span class="math notranslate nohighlight">\(T\)</span> de l’onde ultra-sonore émise par ce capteur piezoélectrique correspond au temps entre <span class="math notranslate nohighlight">\(2\)</span> vibration. On a donc :</p>
+<div class="math notranslate nohighlight">
+\[T=\dfrac{1}{40´000}=0.000025\,s=25\cdot 10^{-6}\,s=25\,\mu s\]</div>
+<p>La fréquence <span class="math notranslate nohighlight">\(f\)</span> du signal est donc de :</p>
+<div class="math notranslate nohighlight">
+\[f=\dfrac{1}{T}=\dfrac{1}{25\cdot 10^{-6}}=40'000\,Hz=4\cdot 10^{4}\,Hz\]</div>
+<p>On remarque que la fréquence était directement mentionnée dans la donnée par le <em>vibre 40 mille fois par seconde</em>.</p>
+</div>
+</div>
 </section>
-<section id="longueur-d-onde">
-<h3>Longueur d’onde<a class="headerlink" href="#longueur-d-onde" title="Permalink to this heading">#</a></h3>
+<section id="longueur-d-onde-et-amplitude">
+<h3>Longueur d’onde et amplitude<a class="headerlink" href="#longueur-d-onde-et-amplitude" title="Permalink to this heading">#</a></h3>
 <p>La longueur d’onde est la période spatiale d’une onde, c’est-à-dire la plus petite distance séparant deux points dans le même état. Les ondes progressives périodiques étant des perturbations se propageant de façon périodique, on peut, à un instant figé (photo), définir une périodicité spatiale en plus de la périodicité temporelle :</p>
 <figure class="align-center" id="lambda">
 <a class="reference internal image-reference" href="../../_images/Lambda.jpg"><img alt="../../_images/Lambda.jpg" src="../../_images/Lambda.jpg" style="width: 50%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 2.10 </span><span class="caption-text"><em>Définition de la longueur d’onde <span class="math notranslate nohighlight">\(\lambda\)</span>.</em></span><a class="headerlink" href="#lambda" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 2.11 </span><span class="caption-text"><em>Définition de la longueur d’onde <span class="math notranslate nohighlight">\(\lambda\)</span>.</em></span><a class="headerlink" href="#lambda" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
-<p>Tout comme la périodicité temporelle est mesurée par la période <span class="math notranslate nohighlight">\(T\)</span>, la périodicité spatiale est mesurée par longueur d’onde <span class="math notranslate nohighlight">\(\lambda\)</span> (<a class="reference internal" href="#lambda"><span class="std std-numref">Fig. 2.10</span></a>).</p>
+<p>Tout comme la périodicité temporelle est mesurée par la période <span class="math notranslate nohighlight">\(T\)</span>, la périodicité spatiale est mesurée par longueur d’onde <span class="math notranslate nohighlight">\(\lambda\)</span> (<a class="reference internal" href="#lambda"><span class="std std-numref">Fig. 2.11</span></a>).</p>
 <div class="formule admonition">
 <p class="admonition-title">Longueur d’onde</p>
 <p>La longueur d’onde <span class="math notranslate nohighlight">\(\lambda\)</span> est la distance la plus courte qui sépare deux points dans le même état vibratoire à un instant <span class="math notranslate nohighlight">\(t\)</span> et son unité est le mètre (<span class="math notranslate nohighlight">\(\text{m}\)</span>). On dit que ces deux points vibrent <em>en phase</em>.</p>
 </div>
-<p>Considérons la vague d’eau périodique dans <a class="reference internal" href="#wavelenght"><span class="std std-numref">Fig. 2.11</span></a>. Sa longueur d’onde <span class="math notranslate nohighlight">\(\lambda\)</span> est la distance d’une crête à l’autre ou d’un creux à l’autre. La longueur d’onde peut également être considérée comme la distance parcourue par une onde après un cycle complet - ou une période <span class="math notranslate nohighlight">\(T\)</span>. Le temps d’un mouvement complet de haut en bas est également la période <span class="math notranslate nohighlight">\(T\)</span> de la vague. Sur la figure, l’onde elle-même se déplace vers la droite avec une vitesse d’onde <span class="math notranslate nohighlight">\(v_{w}\)</span>. Son amplitude <span class="math notranslate nohighlight">\(A\)</span> est la distance entre la position de repos et le déplacement maximal - <em>soit la crête ou le creux</em> - de la vague. Il est important de noter que ce mouvement de la vague est en fait la <code class="docutils literal notranslate"><span class="pre">perturbation</span></code> qui se déplace vers la droite, et non l’eau elle-même ; sinon, la mouette se déplacerait aussi vers la droite. Au lieu de cela, la mouette se déplace uniquement de haut en bas sur place au fur et à mesure que les vagues passent en dessous, parcourant une distance totale de <span class="math notranslate nohighlight">\(2A\)</span> en un cycle. Cependant, comme mentionné dans le texte sur le surf, les vagues réelles de l’océan sont plus complexes que cet exemple simplifié.</p>
+<p>Considérons la vague d’eau périodique dans <a class="reference internal" href="#wavelenght"><span class="std std-numref">Fig. 2.12</span></a>. Sa longueur d’onde <span class="math notranslate nohighlight">\(\lambda\)</span> est la distance d’une crête à l’autre ou d’un creux à l’autre. La longueur d’onde peut également être considérée comme la distance parcourue par une onde après un cycle complet - ou une période <span class="math notranslate nohighlight">\(T\)</span>. Le temps d’un mouvement complet de haut en bas est également la période <span class="math notranslate nohighlight">\(T\)</span> de la vague. Sur la figure, l’onde elle-même se déplace vers la droite avec une vitesse d’onde <span class="math notranslate nohighlight">\(v_{w}\)</span>. Son amplitude <span class="math notranslate nohighlight">\(A\)</span> est la distance entre la position de repos et le déplacement maximal - <em>soit la crête ou le creux</em> - de la vague. Il est important de noter que ce mouvement de la vague est en fait la <code class="docutils literal notranslate"><span class="pre">perturbation</span></code> qui se déplace vers la droite, et non l’eau elle-même ; sinon, la mouette se déplacerait aussi vers la droite. Au lieu de cela, la mouette se déplace uniquement de haut en bas sur place au fur et à mesure que les vagues passent en dessous, parcourant une distance totale de <span class="math notranslate nohighlight">\(2A\)</span> en un cycle. Cependant, comme mentionné dans le texte sur le surf, les vagues réelles de l’océan sont plus complexes que cet exemple simplifié.</p>
 <figure class="align-center" id="wavelenght">
 <a class="reference internal image-reference" href="../../_images/wavelenght.jpg"><img alt="../../_images/wavelenght.jpg" src="../../_images/wavelenght.jpg" style="width: 60%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 2.11 </span><span class="caption-text"><em>L’onde a une longueur d’onde <span class="math notranslate nohighlight">\(\lambda\)</span>, qui est la distance entre deux crêtes de l’onde. La perturbation verticale, de haut en bas, de la surface se déplace parallèlement à la surface avec une vitesse <span class="math notranslate nohighlight">\(v_w\)</span>.</em></span><a class="headerlink" href="#wavelenght" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 2.12 </span><span class="caption-text"><em>L’onde a une longueur d’onde <span class="math notranslate nohighlight">\(\lambda\)</span>, qui est la distance entre deux crêtes de l’onde. La perturbation verticale, de haut en bas, de la surface se déplace parallèlement à la surface avec une vitesse <span class="math notranslate nohighlight">\(v_w\)</span>.</em></span><a class="headerlink" href="#wavelenght" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <div class="astuce admonition">
@@ -573,9 +625,10 @@ Ces propriétés se traduisent par la relation algébrique :</p></li>
 </div>
 </section>
 </section>
-<section id="relation-fondamentale-entre-la-frequence-la-periode-la-vitesse-et-la-longueur-d-onde">
-<h2>Relation fondamentale entre la fréquence, la période, la vitesse et la longueur d’onde<a class="headerlink" href="#relation-fondamentale-entre-la-frequence-la-periode-la-vitesse-et-la-longueur-d-onde" title="Permalink to this heading">#</a></h2>
-<p>Étant donné que la fréquence d’onde est le nombre d’ondes par seconde, et que la période est essentiellement le nombre de secondes par onde, la relation entre la fréquence et la période est</p>
+<section id="relation-fondamentale">
+<h2>Relation fondamentale<a class="headerlink" href="#relation-fondamentale" title="Permalink to this heading">#</a></h2>
+<p>Il est possible de trouver une relation entre la fréquence, la période, la vitesse et la longueur d’une onde.</p>
+<p>On rappel que fréquence est le nombre d’ondes par seconde, et que la période est la durée (le nombre de secondes) pour une onde, la relation entre la fréquence et la période est</p>
 <div class="math notranslate nohighlight">
 \[f = \frac{1}{T}\]</div>
 <p>ou</p>
@@ -592,11 +645,11 @@ Ces propriétés se traduisent par la relation algébrique :</p></li>
 <div class="math notranslate nohighlight">
 \[v_{w} = \lambda\cdot f\]</div>
 </div>
-<p>À partir de cette relation, nous voyons que dans un milieu où<span class="math notranslate nohighlight">\(v_{w}\)</span> est constant, plus la fréquence est élevée, plus la longueur d’onde est petite - voir la <a class="reference internal" href="#speaker"><span class="std std-numref">Fig. 2.12</span></a>.</p>
+<p>À partir de cette relation, nous voyons que dans un milieu où<span class="math notranslate nohighlight">\(v_{w}\)</span> est constant, plus la fréquence est élevée, plus la longueur d’onde est petite - voir la <a class="reference internal" href="#speaker"><span class="std std-numref">Fig. 2.13</span></a>.</p>
 <figure class="align-center" id="speaker">
 <a class="reference internal image-reference" href="../../_images/speaker.jpg"><img alt="../../_images/speaker.jpg" src="../../_images/speaker.jpg" style="width: 30%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 2.12 </span><span class="caption-text"><em>Parce qu’ils se déplacent à la même vitesse dans un milieu donné, les sons à basse fréquence doivent avoir une longueur d’onde plus grande que les sons à haute fréquence. Ici, les sons de basse fréquence sont émis par le grand haut-parleur, appelé woofer, tandis que les sons de haute fréquence sont émis par le petit haut-parleur, appelé tweeter.</em></span><a class="headerlink" href="#speaker" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 2.13 </span><span class="caption-text"><em>Parce qu’ils se déplacent à la même vitesse dans un milieu donné, les sons à basse fréquence doivent avoir une longueur d’onde plus grande que les sons à haute fréquence. Ici, les sons de basse fréquence sont émis par le grand haut-parleur, appelé woofer, tandis que les sons de haute fréquence sont émis par le petit haut-parleur, appelé tweeter.</em></span><a class="headerlink" href="#speaker" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <p>Ces relations fondamentales sont vraies pour tous les types d’ondes. Par exemple, pour les vagues d’eau, <span class="math notranslate nohighlight">\(v_{w}\)</span> est la vitesse d’une onde de surface ; pour le son, <span class="math notranslate nohighlight">\(v_{w}\)</span> est la vitesse du son ; Et pour la lumière visible, <span class="math notranslate nohighlight">\(v_{w}\)</span> est la vitesse de la lumière. L’amplitude <span class="math notranslate nohighlight">\(A\)</span> est complètement indépendante de la vitesse de propagation <span class="math notranslate nohighlight">\(v_{w}\)</span> et ne dépend que de la quantité d’énergie dans l’onde.</p>
@@ -623,7 +676,7 @@ Ces propriétés se traduisent par la relation algébrique :</p></li>
 <figure class="align-center" id="eartquake">
 <a class="reference internal image-reference" href="../../_images/Eartquake.jpg"><img alt="../../_images/Eartquake.jpg" src="../../_images/Eartquake.jpg" style="width: 50%;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 2.13 </span><span class="caption-text"><em>L’effet destructeur d’un tremblement de terre est une preuve palpable de l’énergie transportée par les ondes sismiques. L’évaluation des tremblements de terre sur l’échelle de Richter est liée à la fois à leur amplitude et à l’énergie qu’ils transportent. (Maître de 2e classe Candice Villarreal, U.S. Navy)</em></span><a class="headerlink" href="#eartquake" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 2.14 </span><span class="caption-text"><em>L’effet destructeur d’un tremblement de terre est une preuve palpable de l’énergie transportée par les ondes sismiques. L’évaluation des tremblements de terre sur l’échelle de Richter est liée à la fois à leur amplitude et à l’énergie qu’ils transportent. (Maître de 2e classe Candice Villarreal, U.S. Navy)</em></span><a class="headerlink" href="#eartquake" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <p>Les géologues s’appuient fortement sur la physique pour étudier les tremblements de terre, car les tremblements de terre impliquent plusieurs types de perturbations des vagues, notamment la perturbation de la surface de la Terre et les perturbations de la pression sous la surface. Les ondes sismiques de surface sont similaires aux ondes de surface sur l’eau. Les ondes sous la surface de la Terre ont à la fois des composantes longitudinales et transversales. Les ondes longitudinales d’un tremblement de terre sont appelées ondes de pression (ondes <span class="math notranslate nohighlight">\(\text{P}\)</span>) et les ondes transversales sont appelées ondes de cisaillement (ondes <span class="math notranslate nohighlight">\(\text{S}\)</span>). Ces deux types d’ondes se propagent à des vitesses différentes, et la vitesse à laquelle elles se déplacent dépend de la rigidité du milieu dans lequel elles se déplacent. Pendant les tremblements de terre, la vitesse des ondes <span class="math notranslate nohighlight">\(\text{P}\)</span> dans le granit est significativement plus élevée que la vitesse des ondes <span class="math notranslate nohighlight">\(\text{S}\)</span>. Les deux composantes des tremblements de terre se déplacent plus lentement dans des matériaux moins rigides, tels que les sédiments. Les ondes <span class="math notranslate nohighlight">\(\text{P}\)</span> ont des vitesses de <span class="math notranslate nohighlight">\(4\)</span> à <span class="math notranslate nohighlight">\(7\,\text{km/s}\)</span> et les ondes <span class="math notranslate nohighlight">\(\text{S}\)</span> ont des vitesses de <span class="math notranslate nohighlight">\(2\)</span> à <span class="math notranslate nohighlight">\(5\,\text{km/s}\)</span>, mais les deux sont plus rapides dans des matériaux plus rigides. L’onde <span class="math notranslate nohighlight">\(\text{P}\)</span> s’éloigne progressivement de l’onde <span class="math notranslate nohighlight">\(\text{S}\)</span> au fur et à mesure qu’elle traverse la croûte terrestre. Pour cette raison, la différence de temps entre les ondes <span class="math notranslate nohighlight">\(\text{P}\)</span> et <span class="math notranslate nohighlight">\(\text{S}\)</span> est utilisée pour déterminer la distance à leur source, l’épicentre du tremblement de terre.</p>
@@ -666,9 +719,12 @@ Ces propriétés se traduisent par la relation algébrique :</p></li>
 </div>
 </div>
 </div>
+</section>
+<section id="exemples">
+<h2>Exemples<a class="headerlink" href="#exemples" title="Permalink to this heading">#</a></h2>
 <div class="exores admonition">
 <p class="admonition-title">Calculer la vitesse de propagation des vagues : Mouette dans l’océan</p>
-<p>Calculez la vitesse des vagues de l’océan dans la figure <a class="reference internal" href="#wavelenght"><span class="std std-numref">Fig. 2.11</span></a> si la distance entre les crêtes des vagues est de <span class="math notranslate nohighlight">\(10.0\,\text{m}\)</span> et que le temps nécessaire à une mouette pour monter et descendre est de <span class="math notranslate nohighlight">\(5.00\,\text{s}\)</span></p>
+<p>Calculez la vitesse des vagues de l’océan dans la figure <a class="reference internal" href="#wavelenght"><span class="std std-numref">Fig. 2.12</span></a> si la distance entre les crêtes des vagues est de <span class="math notranslate nohighlight">\(10.0\,\text{m}\)</span> et que le temps nécessaire à une mouette pour monter et descendre est de <span class="math notranslate nohighlight">\(5.00\,\text{s}\)</span></p>
 <div class="dropdown strategie admonition">
 <p class="admonition-title"><em>stratégie</em></p>
 <p>Les valeurs de la longueur d’onde : <span class="math notranslate nohighlight">\(\lambda = 10.0\,\text{m}\)</span> et la période <span class="math notranslate nohighlight">\(\text{T} = 5.00\,\text{s}\)</span> sont données et on nous demande de trouver <span class="math notranslate nohighlight">\(v_{w}\)</span> Par conséquent, nous pouvons utiliser <span class="math notranslate nohighlight">\(v_{w} = \frac{\lambda}{T}\)</span> pour trouver la vitesse de l’onde.</p>
@@ -686,7 +742,7 @@ Ces propriétés se traduisent par la relation algébrique :</p></li>
 </div>
 <div class="exores admonition">
 <p class="admonition-title">Calculer la période et la vitesse d’onde d’un ressort jouet</p>
-<p>La femme de la <a class="reference internal" href="6-1-types-ondes.html#ressort1"><span class="std std-numref">Fig. 2.4</span></a> crée deux vagues par seconde en secouant le ressort du jouet de haut en bas.</p>
+<p>La femme de la <a class="reference internal" href="6-1-types-ondes.html#ressort1"><span class="std std-numref">Fig. 2.5</span></a> crée deux vagues par seconde en secouant le ressort du jouet de haut en bas.</p>
 <ol class="arabic simple">
 <li><p>Quelle est la période de chaque vague ?</p></li>
 <li><p>Si chaque onde se déplace de <span class="math notranslate nohighlight">\(0.9\)</span> mètre après un cycle complet d’onde, quelle est la vitesse de propagation de l’onde ?</p></li>
@@ -896,10 +952,11 @@ Ces propriétés se traduisent par la relation algébrique :</p></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#caracteristiques-d-onde">Caractéristiques d’onde</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#vitesse-d-une-onde">Vitesse d’une onde.</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#periode-et-frequence">Période et fréquence</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#longueur-d-onde">Longueur d’onde</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#longueur-d-onde-et-amplitude">Longueur d’onde et amplitude</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#relation-fondamentale-entre-la-frequence-la-periode-la-vitesse-et-la-longueur-d-onde">Relation fondamentale entre la fréquence, la période, la vitesse et la longueur d’onde</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#relation-fondamentale">Relation fondamentale</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exemples">Exemples</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercices">Exercices</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#verifiez-votre-comprehension">Vérifiez votre compréhension</a></li>
 </ul>
