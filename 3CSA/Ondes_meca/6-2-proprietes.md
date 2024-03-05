@@ -51,6 +51,7 @@ Comme une onde se propage, on peut lui associer une vitesse.
 La vitesse de propagation d'une onde est le rapport entre la distance $d$ parcourue par la perturbation et la durée écoulée $t$. Elle se
 mesure en mètre par seconde $(\text{m/s})$
 :::{math}
+:label: eq:onde
 v_w=\dfrac{d}{t}
 :::
 avec $d$ en mètre et $t$ en seconde.
@@ -75,6 +76,7 @@ La force de tension $F_T$ d'une corde tendue, joue également un rôle dans la v
 - inversement proportionnel à la masse linéaire $\mu$ de la corde.
 Ces propriétés se traduisent par la relation algébrique :
 :::{math}
+:label: eq:tensiononde
 v_w=\sqrt{\dfrac{F_{T}}{\mu}}
 :::
 ou :
@@ -243,7 +245,7 @@ v_{w} = \lambda\cdot f
 :::
 ::::
 
-À partir de cette relation, nous voyons que dans un milieu où$v_{w}$ est constant, plus la fréquence est élevée, plus la longueur d'onde est petite - voir la {numref}`speaker`.
+À partir de cette relation, nous voyons que dans un milieu où $v_{w}$ est constant, plus la fréquence est élevée, plus la longueur d'onde est petite - voir la {numref}`speaker`.
 
 :::{figure} figures/speaker.jpg
 :name: speaker

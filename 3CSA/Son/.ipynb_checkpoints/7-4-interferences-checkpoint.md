@@ -55,6 +55,14 @@ Ne confondez pas la fréquence de battement avec la fréquence régulière d'une
 Figure 14.20 Les battements sont produits par la superposition de deux ondes de fréquences légèrement différentes mais d'amplitudes identiques. Les ondes alternent dans le temps entre interférences constructives et interférences destructrices, donnant à l'onde résultante une amplitude variant dans le temps.
 
 ## Physique virtuelle
+:::{admonition} P*h*ET simulation
+:class: dropdown simulation
+**Titre_de_la_simulation**
+%%HTML [--isolated]
+<div align="center">
+<iframe src="https://phet.colorado.edu/sims/html/sound-waves/latest/sound-waves_fr.html" width="600" height="450" scrolling="no" allowfullscreen></iframe>
+</div>
+:::
 
 ## Interférence d'onde
 

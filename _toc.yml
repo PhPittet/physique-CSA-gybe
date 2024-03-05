@@ -26,7 +26,7 @@ parts:
       - file: 3CSA/Ondes_meca/6-1-types-ondes
       - file: 3CSA/Ondes_meca/6-2-proprietes
       - file: 3CSA/Ondes_meca/6-3-interactions
-#      - file: 3CSA/Ondes_meca/
+      - file: 3CSA/Ondes_meca/6-4-ondes_stationnaires
 #      - file: 3CSA/Ondes_meca/
 #      - file: 3CSA/Ondes_meca/
       - file: 3CSA/Ondes_meca/6-QCM
@@ -42,7 +42,7 @@ parts:
       - file: 3CSA/Son/7-1-vitesse
       - file: 3CSA/Son/7-2-intensite
       - file: 3CSA/Son/7-3-Doppler
-      - file: 3CSA/Son/7-4-interferences
+#     - file: 3CSA/Son/7-4-interferences
 #      - file: 3CSA/Son/
 #      - file: 3CSA/Son/
       - file: 3CSA/Son/7-resume

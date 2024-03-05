@@ -1,59 +1,56 @@
-# 14.3 Effet Doppler et bangs soniques
-
-## Section Objectifs d'apprentissage
-
-À la fin de cette section, vous serez en mesure d'effectuer les opérations suivantes :
-
-- Décrire l'effet Doppler des ondes sonores
-- Expliquer ce qu'est un bang sonique
-- Calculer le décalage de fréquence du son d'un objet en mouvement par la formule de décalage Doppler, et calculer la vitesse d'un objet par la formule de décalage Doppler
-
+# Effet Doppler et bangs soniques
 ## L'effet Doppler des ondes sonores
 
-L'effet Doppler est un changement dans la hauteur observée d'un son, dû à un mouvement relatif entre la source et l'observateur. Un exemple de l'effet Doppler dû au mouvement d'une source se produit lorsque vous êtes immobile, et le son d'une sirène provenant d'une ambulance passe d'un ton aigu à un ton grave au fur et à mesure qu'il passe. Plus l'ambulance est proche de vous, plus le changement est soudain. Plus l'ambulance se déplace rapidement, plus le décalage est important. Nous entendons également ce changement de fréquence pour les voitures de course, les avions et les trains qui passent. Un exemple de l'effet Doppler avec une source stationnaire et un observateur en mouvement est que si vous prenez un train devant une cloche d'avertissement fixe, vous entendrez le changement de fréquence de la cloche de haut en bas lorsque vous passerez.
+L'effet Doppler est un changement dans la hauteur observée d'un son, dû à un mouvement relatif entre la source et l'observateur. Un exemple de l'effet Doppler dû au mouvement d'une source se produit lorsque vous êtes immobile, et le son d'une sirène provenant d'une ambulance passe d'un ton aigu à un ton grave au fur et à mesure qu'il passe. Plus l'ambulance est proche de vous, plus le changement est soudain. Plus l'ambulance se déplace rapidement, plus le décalage est important. Nous entendons également ce changement de fréquence pour les voitures de course, les avions et les trains qui passent.
 
-## Soutien aux enseignants
+Qu'est-ce qui cause l'effet Doppler ? Comparons trois scénarios différents : les ondes sonores émises par une source stationnaire ({numref}`Fig:Doppler1`), les ondes sonores émises par une source en mouvement ({numref}`Fig:Doppler2`) et les ondes sonores émises par une source stationnaire mais entendues par des observateurs en mouvement ({numref}`Fig:Doppler3`). Dans chaque cas, le son se propage à partir du point où il a été émis.
 
-\[BL\]\[OL\]\[AL\] Demandez aux élèves s'ils ont déjà vécu le phénomène où un klaxon ou une sirène de voiture semble changer de tonalité lorsque le véhicule passe devant eux. Dans l'affirmative, à quel moment a-t-il semblé être plus élevé ? Et quand a-t-il été plus bas ? Vous pouvez faire une démonstration de l'effet Doppler en classe à l'aide d'un buzzer et d'une corde. Attachez le buzzer à l'une des extrémités d'une ficelle. Une sonnerie produit un son monotone. Cependant, lorsque vous le balancez autour de votre tête, sa hauteur semble changer. Demandez aux élèves comment ils pensent que cela se produit. Quelle pourrait être la raison de ce changement de tonalité ?
+Si la source et les observateurs sont stationnaires, les observateurs de chaque côté voient la même longueur d'onde et la même fréquence que celles émises par la source. Mais si la source se déplace et continue d'émettre du son lorsqu'elle se déplace, les compressions d'air (crêtes) se rapprochent dans la direction dans laquelle elle se déplace et s'éloignent dans la direction dont elle s'éloigne. Par conséquent, la longueur d'onde est plus courte dans la direction dans laquelle la source se déplace (à droite dans {numref}`Fig:Doppler2`), et plus longue dans la direction opposée (à gauche dans {numref}`Fig:Doppler2`).
 
-Avertissement de sécurité : Assurez-vous que le buzzer est bien fixé à la corde avant de le balancer.
+Enfin, si les observateurs se déplacent, comme dans {numref}`Fig:Doppler3`, la fréquence à laquelle ils reçoivent les compressions change. L'observateur qui se déplace vers la source les reçoit à une fréquence plus élevée (et donc à une longueur d'onde plus courte), et la personne qui s'éloigne de la source les reçoit à une fréquence plus basse (et donc à une longueur d'onde plus longue).
 
-Qu'est-ce qui cause l'effet Doppler ? Comparons trois scénarios différents : les ondes sonores émises par une source stationnaire ([Figure 14.14]), les ondes sonores émises par une source en mouvement ([Figure 14.15]) et les ondes sonores émises par une source stationnaire mais entendues par des observateurs en mouvement ([Figure 14.16]). Dans chaque cas, le son se propage à partir du point où il a été émis.
+:::{figure} figures/Doppler1.jpg
+:name: Fig:Doppler1
+:align: center
+:width: 50%
+*Sons émis par une source répartis en ondes sphériques. Parce que la source, les observateurs et l'air sont stationnaires, la longueur d'onde et la fréquence sont les mêmes dans toutes les directions et pour tous les observateurs.*
+:::
+:::{figure} figures/Doppler2.jpg
+:name: Fig:Doppler2
+:align: center
+:width: 50%
+*Les sons émis par une source se déplaçant vers la droite se propagent à partir des points où ils ont été émis. La longueur d'onde est réduite et, par conséquent, la fréquence est augmentée dans le sens du mouvement, de sorte que l'observateur de droite entend un son plus aigu. L'inverse est vrai pour l'observateur de gauche, où la longueur d'onde est augmentée et la fréquence est réduite.*
+:::
+:::{figure} figures/Doppler3.jpg
+:name: Fig:Doppler3
+:align: center
+:width: 50%
+*Le même effet se produit lorsque les observateurs se déplacent par rapport à la source. Le mouvement vers la source augmente la fréquence à mesure que l'observateur de droite passe par plus de crêtes d'onde qu'il ne le ferait s'il était immobile. Le mouvement s'éloignant de la source diminue la fréquence lorsque l'observateur de gauche passe par moins de crêtes d'onde qu'il ne le ferait s'il était stationnaire.*
+:::
 
-Si la source et les observateurs sont stationnaires, les observateurs de chaque côté voient la même longueur d'onde et la même fréquence que celles émises par la source. Mais si la source se déplace et continue d'émettre du son lorsqu'elle se déplace, les compressions d'air (crêtes) se rapprochent dans la direction dans laquelle elle se déplace et s'éloignent dans la direction dont elle s'éloigne. Par conséquent, la longueur d'onde est plus courte dans la direction dans laquelle la source se déplace (à droite dans [Figure 14.15]), et plus longue dans la direction opposée (à gauche dans [Figure 14.15]).
 
-Enfin, si les observateurs se déplacent, comme dans [Figure 14.16], la fréquence à laquelle ils reçoivent les compressions change. L'observateur qui se déplace vers la source les reçoit à une fréquence plus élevée (et donc à une longueur d'onde plus courte), et la personne qui s'éloigne de la source les reçoit à une fréquence plus basse (et donc à une longueur d'onde plus longue).
+:::{admonition} Alerte aux idées fausses
+:class: danger
+L'effet Doppler n'est ressenti qu'en raison du mouvement *relatif* entre la source et l'observateur et ne dépend pas de la vitesse réelle de l'un ou l'autre.
 
+On pourrait penser que l'effet Doppler ne se produit qu'avec les ondes sonores. Ce n'est pas le cas. Cela peut se produire avec n'importe quel type d'ondes. En fait, nous le voyons dans les ondes lumineuses qui nous parviennent d'étoiles lointaines. Ici, l'effet est observé sous la forme d'un changement de couleur.
+:::
 
-## Alerte aux idées fausses
+Nous savons que la longueur d'onde et la fréquence sont liées par $v = f\lambda$ où $v$ est la vitesse fixe du son. Le son se déplace dans un milieu et a la même vitesse $v$ dans ce milieu, que la source soit en mouvement ou non. Par conséquent, $f$ multiplié par $\lambda$ est une constante. Parce que l'observateur à droite dans {numref}`Fig:Doppler2` reçoit une longueur d'onde plus courte, la fréquence qu'il perçoit doit être plus élevée. De même, l'observateur de gauche reçoit une longueur d'onde plus longue et perçoit donc une fréquence plus basse.
 
-Assurez-vous de souligner que l'effet Doppler n'est ressenti qu'en raison du mouvement *relatif* entre la source et l'observateur et ne dépend pas de la vitesse réelle de l'un ou l'autre.
+La même chose se produit dans {numref}`Fig:Doppler3`. Une fréquence plus élevée est perçue par l'observateur qui se déplace vers la source, et une fréquence plus basse est perçue par un observateur qui s'éloigne de la source. En général, donc, le mouvement relatif de la source et de l'observateur l'un par rapport à l'autre augmente la fréquence perçue. Le mouvement relatif à part diminue la fréquence perçue. Plus la vitesse relative est élevée, plus l'effet est important.
 
-Les élèves pourraient penser que l'effet Doppler ne se produit qu'avec les ondes sonores. Ce n'est pas le cas. Cela peut se produire avec n'importe quel type d'ondes. En fait, nous le voyons dans les ondes lumineuses qui nous parviennent d'étoiles lointaines. Ici, l'effet est observé sous la forme d'un changement de couleur.
+:::{admonition} YouTube
+:class: dropdown admonition-youtube
+Quelques liens de vidéo utiles sur le même sujet :
+1. **EFFET DOPPLER ✅ Explication + Formules  | Terminale spécialité**
+%%HTML [--isolated]
+<div align="center">
+ <iframe width="600" height="400" src="https://www.youtube.com/embed/zBW8whc14n8" allowfullscreen></iframe>
+</div>
 
-! [][1]
+:::
 
-Figure 14.14 Sons émis par une source répartis en ondes sphériques. Parce que la source, les observateurs et l'air sont stationnaires, la longueur d'onde et la fréquence sont les mêmes dans toutes les directions et pour tous les observateurs.
-
-! [][2]
-
-Figure 14.15 Les sons émis par une source se déplaçant vers la droite se propagent à partir des points où ils ont été émis. La longueur d'onde est réduite et, par conséquent, la fréquence est augmentée dans le sens du mouvement, de sorte que l'observateur de droite entend un son plus aigu. L'inverse est vrai pour l'observateur de gauche, où la longueur d'onde est augmentée et la fréquence est réduite.
-
-! [][3]
-
-Figure 14.16 Le même effet se produit lorsque les observateurs se déplacent par rapport à la source. Le mouvement vers la source augmente la fréquence à mesure que l'observateur de droite passe par plus de crêtes d'onde qu'il ne le ferait s'il était immobile. Le mouvement s'éloignant de la source diminue la fréquence lorsque l'observateur de gauche passe par moins de crêtes d'onde qu'il ne le ferait s'il était stationnaire.
-
-Nous savons que la longueur d'onde et la fréquence sont liées par $v = f\lambda\text{,}$ où *v* est la vitesse fixe du son. Le son se déplace dans un milieu et a la même vitesse *v* dans ce milieu, que la source soit en mouvement ou non. Par conséquent, *f* multiplié par $\lambda$ est une constante. Parce que l'observateur à droite dans [Figure 14.15] reçoit une longueur d'onde plus courte, la fréquence qu'il perçoit doit être plus élevée. De même, l'observateur de gauche reçoit une longueur d'onde plus longue et perçoit donc une fréquence plus basse.
-
-La même chose se produit dans [Figure 14.16]. Une fréquence plus élevée est perçue par l'observateur qui se déplace vers la source, et une fréquence plus basse est perçue par un observateur qui s'éloigne de la source. En général, donc, le mouvement relatif de la source et de l'observateur l'un par rapport à l'autre augmente la fréquence perçue. Le mouvement relatif à part diminue la fréquence perçue. Plus la vitesse relative est élevée, plus l'effet est important.
-
-## Regarder la physique 
-
-## Introduction à l'effet Doppler
-
-Cette vidéo explique visuellement l'effet Doppler.
-
-[Cliquez pour voir le contenu]
 
 ## Vérification de la saisie
 
