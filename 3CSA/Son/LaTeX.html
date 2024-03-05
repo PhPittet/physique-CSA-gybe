@@ -1,0 +1,924 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Ondes sonores {#sect:Son} &#8212; Physique CSA</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../_static/styles/theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../../_static/styles/bootstrap.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+
+  
+  <link href="../../_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" href="../../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/exercise.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/myadmonition.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/myexercices-Gaming76.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/myexercices.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/myfont.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/.ipynb_checkpoints/myadmonition-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/.ipynb_checkpoints/myexercices-checkpoint-Gaming76.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/.ipynb_checkpoints/myexercices-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/.ipynb_checkpoints/myfont-checkpoint.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
+<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
+  <script src="../../_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
+    <script src="../../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = '3CSA/Son/LaTeX';</script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+
+<a class="navbar-brand logo" href="../../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../../_static/Logo.png" class="logo__image only-light" alt="Physique CSA - Home"/>
+    <script>document.write(`<img src="../../_static/Logo.png" class="logo__image only-dark" alt="Physique CSA - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../../index.html">
+                    Bienvenue
+                </a>
+            </li>
+        </ul>
+        <ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../2CSA/Rappel_Math/lecon0.html">Rappels Mathématiques</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../2CSA/Rappel_Math/0-0-puissance.html">Les puissances de 10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../2CSA/Rappel_Math/0-1-equations.html">Manipulation des équations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../2CSA/Rappel_Math/0-2-vecteurs.html">Vecteurs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../2CSA/Rappel_Math/0-3-incertitudes.html">Erreurs &amp; incertitudes</a></li>
+</ul>
+</li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">2CSA</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../2CSA/Energie/Intro_energie.html">1. Energie</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../2CSA/Energie/1-1-energie.html">1.1. L’Energie ?</a></li>
+</ul>
+</li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">3CSA</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../Ondes_meca/6-intro.html">2. Ondes Mécaniques</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Ondes_meca/6-1-types-ondes.html">2.1. Types d’ondes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Ondes_meca/6-2-proprietes.html">2.2. Propriétés de l’onde : vitesse, amplitude, fréquence et période</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Ondes_meca/6-3-interactions.html">2.3. Interaction des ondes : superposition et interférence</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Ondes_meca/6-4-ondes_stationnaires.html">2.4. Ondes stationnaires</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Ondes_meca/6-QCM.html">2.5. Choix multiple</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Ondes_meca/6-QCM2.html">2.6. QCM conceptuel</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Ondes_meca/6-problemes.html">2.7. Problèmes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Ondes_meca/6-resume.html">2.8. Résumé de la section</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Ondes_meca/6-glossaire.html">2.9. Glossaire</a></li>
+</ul>
+</li>
+</ul>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="7-intro.html">3. Ondes Sonores</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="7-1-vitesse.html">3.1. Vitesse du son, fréquence et longueur d’onde</a></li>
+<li class="toctree-l2"><a class="reference internal" href="7-2-intensite.html">3.2. Intensité et niveau sonore</a></li>
+<li class="toctree-l2"><a class="reference internal" href="7-3-Doppler.html">3.3. Effet Doppler et bangs soniques</a></li>
+<li class="toctree-l2"><a class="reference internal" href="7-resume.html">3.4. Résumé de la section</a></li>
+<li class="toctree-l2"><a class="reference internal" href="7-glossaire.html">3.5. Glossaire</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2F3CSA/Son/LaTeX.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../../_sources/3CSA/Son/LaTeX.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Ondes sonores {#sect:Son}</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#vitesse-du-son">Vitesse du son</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#analyse-spectrale-d-un-son">Analyse spectrale d’un son</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hauteur-et-timbre-d-un-son">Hauteur et timbre d’un son</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#hauteur-d-un-son">Hauteur d’un son</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#timbre-d-un-son">Timbre d’un son</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#intensite-et-niveau-sonores">Intensité et niveau sonores</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#effet-doppler">Effet Doppler</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#effet-du-mouvement-de-la-source">Effet du mouvement de la source</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#onde-de-choc">Onde de choc</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercices">Exercices</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="ondes-sonores-sect-son">
+<h1>Ondes sonores {#sect:Son}<a class="headerlink" href="#ondes-sonores-sect-son" title="Permalink to this heading">#</a></h1>
+<p>Une onde sonore est une onde mécanique progressive périodique longitudinale pouvant se propager dans un milieu matériel (gaz, liquide ou solide). Cette onde est due à des successions de compressions et de
+dilatations de couches du milieu matériel
+(Fig. <span class="xref myst">1</span>{reference-type=”ref” reference=”Fig:OndeSon”}).</p>
+<p><img alt="Propagation d'une onde sonore. La vibration des molécules d'air setransmet de proche en proche. [&#64;Kartable]" src="3CSA/Son/OndeSon.jpg" />{#Fig:OndeSon
+height=”2cm”}</p>
+<p>Par commodité, on représentera cette perturbation longitudinale par une
+onde transversale:</p>
+<div class="highlight-center notranslate"><div class="highlight"><pre><span></span>![image](RepresOndeSon.jpg){height=&quot;4cm&quot;}
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>L’oreille humaine est sensible aux ondes sonores dont la fréquence
+est approximativement comprise entre <span class="math notranslate nohighlight">\(20\,[Hz]\)</span> et <span class="math notranslate nohighlight">\(20\,[kHz]\)</span>.</p></li>
+<li><p>Les sons graves sont les sons de basses fréquences et les sons aigus
+sont les sons de hautes fréquences.</p></li>
+</ul>
+<p>Les ondes sonores dont la fréquence est inférieure à <span class="math notranslate nohighlight">\(20\,[Hz]\)</span> sont
+appelées des <em>infrasons</em> et celles dont la fréquence est supérieure à
+<span class="math notranslate nohighlight">\(20\,[kHz]\)</span> sont appelées <strong>ultrasons</strong>.<br />
+Les éléphants peuvent communiquer sur des distances atteignant les
+<span class="math notranslate nohighlight">\(10\,[km]\)</span> grâce à des infrasons, les chauves-souris emploient des
+ultrasons de fréquence comprise entre <span class="math notranslate nohighlight">\(50\,[kHz]\)</span> et <span class="math notranslate nohighlight">\(200\,[kHz]\)</span> pour
+percevoir l’environnement.</p>
+<section id="vitesse-du-son">
+<h2>Vitesse du son<a class="headerlink" href="#vitesse-du-son" title="Permalink to this heading">#</a></h2>
+<p>La vitesse de propagation (ou célérité) d’une onde sonore est
+indépendante de sa fréquence, mais dépend du milieu de propagation. Dans
+l’air, la vitesse du son est de <span class="math notranslate nohighlight">\(340\,[m/s]\)</span>, dans les milieux plus
+denses, elle est plus importante.\</p>
+<div class="highlight-center notranslate"><div class="highlight"><pre><span></span>
+:::: small
+::: {#tab:Vmilieu}
+  **Milieu**    **Célérité du son** $\boldsymbol{[m/s]}$
+  ------------ ------------------------------------------
+  Air                            $340$
+  Hélium                         $965$
+  Hydrogène                      $1280$
+  Eau douce                      $1440$
+  Eau de mer                     $1560$
+  Acier                          $5940$
+  Granite                        $6000$
+
+  : Vitesse approximative du son dans différents milieux.
+:::
+::::
+</pre></div>
+</div>
+</section>
+<section id="analyse-spectrale-d-un-son">
+<h2>Analyse spectrale d’un son<a class="headerlink" href="#analyse-spectrale-d-un-son" title="Permalink to this heading">#</a></h2>
+<p>Les sons produits par une source peuvent être de deux types:</p>
+<ul class="simple">
+<li><p>Le son est dit <strong>pur</strong> si l’onde sonore est une fonction
+sinusoïdale.</p></li>
+<li><p>Le son est dit <strong>complexe</strong> si l’onde sonore est périodique mais non
+sinusoïdale.</p></li>
+</ul>
+<p><img alt="Son pur (en haut) et son complexe (enbas). [&#64;Kartable]" src="3CSA/Son/SonPur.jpg" />{#Fig:SonPur height=”4cm”}</p>
+<p>Pour définir la composition d’un son complexe, on réalise l’analyse
+spectrale du son. L’analyse spectrale, aussi appelée spectre en
+fréquence, est la représentation graphique de l’amplitude relative d’un
+signal quelconque en fonction de la fréquence.</p>
+<p><img alt="Spectre d'un signal" src="3CSA/Son/AnalyseSpectre.jpg" />{#Fig:AnalyseSpectre
+height=”7cm”}</p>
+</section>
+<section id="hauteur-et-timbre-d-un-son">
+<h2>Hauteur et timbre d’un son<a class="headerlink" href="#hauteur-et-timbre-d-un-son" title="Permalink to this heading">#</a></h2>
+<section id="hauteur-d-un-son">
+<h3>Hauteur d’un son<a class="headerlink" href="#hauteur-d-un-son" title="Permalink to this heading">#</a></h3>
+<p>La hauteur d’un son est <strong>la fréquence du signal correspondant</strong> à
+l’onde sonore, appelée <strong>fréquence fondamentale</strong> ou simplement
+<strong>fondamentale</strong>.<br />
+La figure <span class="xref myst">4</span>{reference-type=”ref”
+reference=”Fig:HauteurSon”} montre le signal et le spectre d’un son
+correspondant à la note <span class="math notranslate nohighlight">\(La=440\,[Hz]\)</span> émis par un diapason:</p>
+<p><img alt="Son pur correspondant à la note  et dont la hauteur est de. [&#64;Kartable]" src="3CSA/Son/HauteurSon.jpg" />{#Fig:HauteurSon height=”7cm”}</p>
+</section>
+<section id="timbre-d-un-son">
+<h3>Timbre d’un son<a class="headerlink" href="#timbre-d-un-son" title="Permalink to this heading">#</a></h3>
+<p>Le timbre d’un son est défini par la présence et l’amplitude relative
+des différents pics du spectre en fréquence de ce son appelés
+harmoniques. Voici le signal et le spectre d’un son correspondant au La
+émis par un instrument</p>
+<p><img alt="Note  jouée par uninstrument. [&#64;Kartable]" src="3CSA/Son/TimbreSon.jpg" />{#Fig:TimbreSon height=”7cm”}</p>
+<p>La hauteur de ce son est toujours de <span class="math notranslate nohighlight">\(440\,[Hz]\)</span> (puisque la fréquence
+fondamentale vaut <span class="math notranslate nohighlight">\(440\,[Hz]\)</span>) mais le spectre en fréquence contient de
+nombreuses harmoniques définissant le timbre du son complexe émis par
+l’instrument.<br />
+Les fréquences des harmoniques sont toutes multiples de la fréquence
+fondamental <span class="math notranslate nohighlight">\(f_{1}\)</span>. Ainsi, la fréquence <span class="math notranslate nohighlight">\(f_{n}\)</span> d’une harmonique de
+rang <span class="math notranslate nohighlight">\(n\)</span> est: $<span class="math notranslate nohighlight">\(f_{n}=n\cdot f_{1}\)</span>$</p>
+<p>Puisque la fréquence fondamentale d’un son correspondant à la note <span class="math notranslate nohighlight">\(La\)</span>
+est <span class="math notranslate nohighlight">\(f_{1}=440\,[Hz]\)</span>, les fréquences de ces harmoniques sont:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(f_{2}=2\cdot f_{1}=2\cdot 440=880\,[Hz]\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(f_{3}=3\cdot f_{1}=3\cdot 440=1320\,[Hz]\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(f_{4}=4\cdot f_{1}=4\cdot 440=1760\,[Hz]\)</span></p></li>
+<li><p>etc…</p></li>
+</ul>
+<p>C’est la différence de timbre, et donc de répartition des harmoniques,
+qui fait que les sons émis par deux instruments différents jouant la
+même note sont quand même discernables.</p>
+</section>
+</section>
+<section id="intensite-et-niveau-sonores">
+<h2>Intensité et niveau sonores<a class="headerlink" href="#intensite-et-niveau-sonores" title="Permalink to this heading">#</a></h2>
+<p>L’<strong>intensité</strong> sonore, notée <span class="math notranslate nohighlight">\(\boldsymbol{I}\)</span>, d’une onde sonore
+correspond à l’énergie transportée par cette onde par unité de surface
+et par unité de temps. Elle s’exprime en watts par mètre carré
+(<span class="math notranslate nohighlight">\([W\cdot [m^{-2}]\)</span>). Il s’agit donc d’une puissance par mètre carré.<br />
+L’oreille humaine étant sensible à une gamme d’intensité sonore très
+grande, on a introduit une grandeur, le <strong>niveau sonore</strong>, permettant de
+comparer l’intensité sonore d’une source à une valeur de référence
+<span class="math notranslate nohighlight">\(I_{0}\)</span>.\</p>
+<div class="highlight-{style=&quot;background-color: notranslate"><div class="highlight"><pre><span></span>
+::: flushright
+[**Niveau sonore**]{style=&quot;color: TextColorDef&quot;}
+:::
+</pre></div>
+</div>
+<p>Le niveau sonore d’une source est défini par la relation suivante:
+$<span class="math notranslate nohighlight">\(\setlength{\fboxrule}{2pt}
+ \fcolorbox{BoxColor}{MathColor}{
+ \begin{LARGE}
+ \)</span>\boldsymbol{\textcolor{StudentCol}{L=10\cdot \log (\dfrac{I}{I_{0}})}}<span class="math notranslate nohighlight">\(
+ \end{LARGE}}\)</span>$ avec:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(L\)</span> le niveau sonore (exprimé en décibel <span class="math notranslate nohighlight">\([dB]\)</span>).</p></li>
+<li><p><span class="math notranslate nohighlight">\(I\)</span> l’intensité sonore de la source (en <span class="math notranslate nohighlight">\([W\cdot [m^{-2}]\)</span>).</p></li>
+<li><p><span class="math notranslate nohighlight">\(I_{0}\)</span> une intensité de référence:<br />
+<span class="math notranslate nohighlight">\(I_{0}=1,0\cdot 10^{-12}\,[W\cdot [m^{-2}]\)</span>.</p></li>
+</ul>
+<p><br />
+L’intensité de référence <span class="math notranslate nohighlight">\(I_{0}\)</span> correspond à l’intensité sonore la plus
+faible que peut détecter l’oreille humaine, appelée <strong>seuil
+d’audibilité</strong>. Le niveau sonore se mesure à l’aide d’un sonomètre.<br />
+La perception du niveau sonore d’un son est liée à son amplitude, mais
+varie également avec sa fréquence.</p>
+<p><img alt="Intensités et niveaux sonores pour l'oreillehumaine. [&#64;Kartable]" src="3CSA/Son/NiveauSon.jpg" />{#Fig:NiveauSon}</p>
+</section>
+<section id="effet-doppler">
+<h2>Effet Doppler<a class="headerlink" href="#effet-doppler" title="Permalink to this heading">#</a></h2>
+<p>[8pt] Le son émis par le sifflet d’un train n’est pas toujours perçu
+de la même façon pour un observateur situé au bord des voies: il paraît
+plus aigu que le son réellement émis par le sifflet lorsque le train se
+rapproche et plus grave lorsque le train s’éloigne. Cette modification
+de la fréquence perçue est connue sous le nom d’effet Doppler; il peut
+être causé par le mouvement de la source sonore, par le mouvement de
+l’observateur ou encore par les deux mouvements simultanés.</p>
+<section id="effet-du-mouvement-de-la-source">
+<h3>Effet du mouvement de la source<a class="headerlink" href="#effet-du-mouvement-de-la-source" title="Permalink to this heading">#</a></h3>
+<p>On considère une source sonore émettant un son de fréquence constante
+<span class="math notranslate nohighlight">\(f\)</span>, donc de période <span class="math notranslate nohighlight">\(T=1/f\)</span>.<br />
+Si la source est immobile, les fronts d’onde successifs forment des
+sphères concentriques (représentées par des cercles sur le schéma)
+centrées sur la source et séparées par une longueur d’onde <span class="math notranslate nohighlight">\(\lambda\)</span> de
+l’onde émise (Fig. <span class="xref myst">7</span>{reference-type=”ref”
+reference=”Fig:Doppler1”}).</p>
+<p><img alt="Source  immobile: les fronts d'onde sont des sphèresconcentriques. [&#64;AKPP]" src="3CSA/Son/Doppler1.jpg" />{#Fig:Doppler1 height=”2.5cm”}</p>
+<p>Le problème se complique si la source se déplace à la vitesse
+(constante) <span class="math notranslate nohighlight">\(v_{source}\)</span>. Pour décrire cette situation, la figure
+Fig. <span class="xref myst">8</span>{reference-type=”ref” reference=”Fig:Doppler2”}
+représentent des photographies prises à intervalles de temps réguliers
+<span class="math notranslate nohighlight">\(T\)</span>, où <span class="math notranslate nohighlight">\(T\)</span> représente exactement la période de l’onde émise.\</p>
+<p><img alt="Source  en mouvement à différentinstant. [&#64;AKPP]" src="3CSA/Son/Doppler2.jpg" />{#Fig:Doppler2 height=”5.5cm”}</p>
+<p>Durant ce laps de temps,</p>
+<ul class="simple">
+<li><p>la source avance d’une distance <span class="math notranslate nohighlight">\(d=v_{source}\cdot T\)</span>;</p></li>
+<li><p>l’onde émise progresse d’une longueur d’onde
+<span class="math notranslate nohighlight">\(\lambda =v_{son}\cdot T\)</span>, où <span class="math notranslate nohighlight">\(v_{son}\)</span> est la vitesse du son dans
+l’air.</p></li>
+</ul>
+<p>Sur la première photographie, la source se trouve en <span class="math notranslate nohighlight">\(S_{1}\)</span> et émet un
+son.<br />
+Sur la deuxième photographie, la source a avancé de la distance <span class="math notranslate nohighlight">\(d\)</span> et
+se trouve en <span class="math notranslate nohighlight">\(S_{2}\)</span>. Le front d’onde émis en <span class="math notranslate nohighlight">\(S_{1}\)</span> se trouve
+maintenant sur une sphère (cercle) centrée en <span class="math notranslate nohighlight">\(S_{1}\)</span> et de rayon
+<span class="math notranslate nohighlight">\(\lambda\)</span>.<br />
+Sur la troisième photographie, la source a avancé de la distance <span class="math notranslate nohighlight">\(d\)</span> et
+se trouve en <span class="math notranslate nohighlight">\(S_{3}\)</span>. Le front d’onde émis en <span class="math notranslate nohighlight">\(S_{1}\)</span> se trouve
+maintenant sur une sphère (cercle) centrée en <span class="math notranslate nohighlight">\(S_{1}\)</span> et de rayon
+<span class="math notranslate nohighlight">\(2\cdot \lambda\)</span> alors que le front d’onde émis en <span class="math notranslate nohighlight">\(S_{2}\)</span> se trouve sur
+une sphère (cercle) centrée en <span class="math notranslate nohighlight">\(S_{2}\)</span> et de rayon <span class="math notranslate nohighlight">\(\lambda\)</span>.<br />
+Sur la quatrième photographie, la source se trouve en <span class="math notranslate nohighlight">\(S_{4}\)</span>. Le front
+d’onde émis en <span class="math notranslate nohighlight">\(S_{1}\)</span> se trouve maintenant sur une sphère (cercle) de
+rayon <span class="math notranslate nohighlight">\(3\cdot \lambda\)</span>, le front d’onde émis en <span class="math notranslate nohighlight">\(S_{2}\)</span> se trouve sur
+une sphère (cercle) de rayon <span class="math notranslate nohighlight">\(2\cdot \lambda\)</span> et le front d’onde émis en
+<span class="math notranslate nohighlight">\(S_{3}\)</span> se trouve sur une sphère (cercle) de rayon <span class="math notranslate nohighlight">\(\lambda\)</span>.<br />
+Le mouvement de la source a pour effet de décaler les fronts d’onde en
+les tassant dans le sens du mouvement. Ces fronts d’onde ne sont plus
+concentriques et la longueur d’onde <span class="math notranslate nohighlight">\(\lambda '\)</span> reçue par un observateur
+<span class="math notranslate nohighlight">\(O'\)</span> situé en avant de la source est plus petite que la longueur d’onde
+<span class="math notranslate nohighlight">\(\lambda ''\)</span> reçue par un observateur <span class="math notranslate nohighlight">\(O''\)</span> situé en arrière de la
+source. Il est possible de déterminer ces longueurs d’onde et d’en
+déduire les fréquences <span class="math notranslate nohighlight">\(f'\)</span> et <span class="math notranslate nohighlight">\(f''\)</span> (et par conséquent les hauteurs des
+sons) perçues par chacun des observateurs.<br />
+On peut déjà remarquer, puisque <span class="math notranslate nohighlight">\(\lambda '&lt;\lambda ''\)</span>, que la période
+<span class="math notranslate nohighlight">\(T'\)</span> entre la réception de deux crêtes par <span class="math notranslate nohighlight">\(O'\)</span> sera plus petite que la
+période <span class="math notranslate nohighlight">\(T''\)</span>; à l’inverse, la fréquence <span class="math notranslate nohighlight">\(f'\)</span> sera plus grande que la
+fréquence <span class="math notranslate nohighlight">\(f''\)</span>.</p>
+<p>Sur le schéma, on constate que: $<span class="math notranslate nohighlight">\(\begin{aligned}
+2\cdot \lambda &amp;= d+\lambda +\lambda '\\
+\lambda ' &amp;= \lambda-d
+\end{aligned}\)</span><span class="math notranslate nohighlight">\( Or \)</span><span class="math notranslate nohighlight">\(\begin{aligned}
+\lambda &amp;= v_{son}\cdot T=\dfrac{v_{son}}{f}\\
+\lambda ' &amp;= v_{son}\cdot T'=\dfrac{v_{son}}{f'}\\
+d &amp;= v_{source}\cdot T=\dfrac{v_{source}}{f}
+\end{aligned}\)</span><span class="math notranslate nohighlight">\( Par substitution, on trouve:
+\)</span><span class="math notranslate nohighlight">\(\dfrac{v_{son}}{f'}=\dfrac{v_{son}-v_{source}}{f}\)</span><span class="math notranslate nohighlight">\( et finalement
+l'équation simplifiée de l'effet Doppler pour une source s'approchant
+d'un observateur: \)</span><span class="math notranslate nohighlight">\(f'=\dfrac{v_{son}}{v_{son}-v_{source}}\cdot f\)</span>$<br />
+En faisant le même type de raisonnement pour une source s’éloignant de
+l’observateur fixe, puis pour un observateur lui-même en mouvement, on
+arrive à l’équation de l’effet Doppler pour un cas général:\</p>
+<div class="highlight-{style=&quot;background-color: notranslate"><div class="highlight"><pre><span></span>
+::: flushright
+[**Effet Doppler**]{style=&quot;color: TextColorDef&quot;}
+:::
+</pre></div>
+</div>
+<p>Une source sonore en mouvement à la vitesse <span class="math notranslate nohighlight">\(v_{source}\)</span> émet un son à
+la fréquence <span class="math notranslate nohighlight">\(f\)</span>. La fréquence <span class="math notranslate nohighlight">\(f'\)</span> perçue par un observateur en
+mouvement à la vitesse <span class="math notranslate nohighlight">\(v_{obs}\)</span> est définie par l’équation générale de
+l’effet Doppler: $<span class="math notranslate nohighlight">\(\label{eq:EffetDoppler}
+\setlength{\fboxrule}{2pt}
+\fcolorbox{BoxColor}{MathColor}{
+\begin{LARGE}
+\)</span>\boldsymbol{\textcolor{StudentCol}{f’=\dfrac{v_{son}+ v_{obs}}{v_{son}- v_{source}}\cdot f}}<span class="math notranslate nohighlight">\(
+\end{LARGE}}\)</span><span class="math notranslate nohighlight">\( avec:\
+[.]{style=&quot;color: white&quot;} \)</span>\quad f’<span class="math notranslate nohighlight">\( la fréquence reçue par
+l'observateur en \)</span>[Hz]<span class="math notranslate nohighlight">\(.\
+[.]{style=&quot;color: white&quot;} \)</span>\quad f<span class="math notranslate nohighlight">\( la fréquence émise par la source en
+\)</span>[Hz]<span class="math notranslate nohighlight">\(.\
+[.]{style=&quot;color: white&quot;} \)</span>\quad v_{son}<span class="math notranslate nohighlight">\( la vitesse du son dans le
+milieu en \)</span>[m/s]<span class="math notranslate nohighlight">\(.\
+[.]{style=&quot;color: white&quot;} \)</span>\quad v_{source}<span class="math notranslate nohighlight">\( la vitesse de la source en
+\)</span>[m/s]<span class="math notranslate nohighlight">\(.\
+[.]{style=&quot;color: white&quot;} \)</span>\quad v_{obs}<span class="math notranslate nohighlight">\( la vitesse de l'observateur en
+\)</span>[m/s]$.<br />
+[<em><strong>Avec la convention suivante:</strong></em>]{.underline}</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(\boldsymbol{v_{source}&gt;0}\)</span> lorsque la source <strong>s’approche</strong> de
+l’observateur.</p></li>
+<li><p><span class="math notranslate nohighlight">\(\boldsymbol{v_{obs}&gt;0}\)</span> lorsque l’observateur <strong>s’approche</strong> de la
+source</p></li>
+</ul>
+<p>Dans les cas où la source (respectivement l’observateur) <strong>s’éloigne</strong>,
+on devra prendre la <strong>vitesse négative</strong> dans
+l’équation <span class="xref myst">[eq:EffetDoppler]</span>{reference-type=”ref”
+reference=”eq:EffetDoppler”}.</p>
+</section>
+<section id="onde-de-choc">
+<h3>Onde de choc<a class="headerlink" href="#onde-de-choc" title="Permalink to this heading">#</a></h3>
+<p>Les canards ou les bateaux laissent derrière eux un sillage formant un
+angle plus ou moins ouvert. Dans ce cas, la vitesse de la source (le
+canard ou le bateau) est plus grande que la vitesse de propagation des
+ondes à la surface de l’eau.</p>
+<p><img alt="Sillage d'un canard." src="3CSA/Son/SillageCanard.jpg" />{#Fig:SillageCanard
+height=”4cm”}</p>
+<p><br />
+En construisant un schéma analogue aux précédents, en prenant garde à ce
+que la distance <span class="math notranslate nohighlight">\(d\)</span> parcourue par la source entre deux photographies
+soit plus grande que la longueur d’onde <span class="math notranslate nohighlight">\(\lambda\)</span>, on constate que les
+fronts d’onde successifs ne sont plus les uns dans les autres.</p>
+<p><img alt="Cône de Mach. [&#64;AKPP]" src="3CSA/Son/OndeChoc.jpg" />{#Fig:OndeChoc height=”5.5cm”}</p>
+<p>Leur enveloppe commune forme les côtés d’un angle sur lesquels l’énergie
+transportée par l’onde s’accumule. Cet angle correspond au sillage du
+bateau et on peut facilement déterminer sa valeur <span class="math notranslate nohighlight">\(\alpha\)</span> par:
+$<span class="math notranslate nohighlight">\(\sin\alpha=\dfrac{\lambda}{d}=\dfrac{v_{onde}\cdot T}{v_{source}\cdot T}=\dfrac{v_{onde}}{v_{source}}\)</span>$</p>
+<p>On désigne souvent cette situation par l’expression onde de choc . Ce
+phénomène se produit aussi lors du bang des avions supersoniques volant
+à une vitesse supérieure à celle du son.</p>
+<p><img alt="Ondes de choc produites par les ailes d'un avion . Elles sontrendues visibles par la diminution subite de la pression de l'air, quicause la condensation des molécules d'eau, produisant un épaisbrouillard." src="3CSA/Son/BangAvion.jpg" />{#Fig:BangAvion height=”4cm”}</p>
+</section>
+</section>
+<section id="exercices">
+<h2>Exercices<a class="headerlink" href="#exercices" title="Permalink to this heading">#</a></h2>
+<div class="highlight-exercice notranslate"><div class="highlight"><pre><span></span>[]{#Exo:Son.1 label=&quot;Exo:Son.1&quot;} Vous assistez à un concert en plein air
+et vous vous trouvez à $300\,[m]$ des haut-parleurs. Le concert est
+également diffusé en direct par satellite (à la vitesse de la lumière,
+soit à $3,00\cdot 10^{8}\,[m/s]$). Un auditeur capte l&#39;émission du
+concert à $5&#39;000\,[km]$ de distance. Oui est le premier à entendre la
+musique, vous ou l&#39;auditeur éloigné? Quel est le délai entre les deux
+écoutes?
+</pre></div>
+</div>
+<div class="highlight-exercice notranslate"><div class="highlight"><pre><span></span>[]{#Exo:Son.2 label=&quot;Exo:Son.2&quot;} Une colonne de soldats qui marchent à
+un rythme de 120 pas à la minute garde la cadence en suivant le
+battement d&#39;un tambour à l&#39;avant de la colonne. On observe que les
+soldats à l&#39;arrière de la colonne posent le pied gauche lorsque le
+batteur pose le pied droit. Quelle est la longueur approximative de la
+colonne?
+</pre></div>
+</div>
+<div class="highlight-exercice notranslate"><div class="highlight"><pre><span></span>[]{#Exo:Doppler.1 label=&quot;Exo:Doppler.1&quot;} La sirène d&#39;une ambulance émet
+un son à $1500\,[Hz]$.
+
+-   Cette sirène s&#39;approche d&#39;un observateur immobile à la vitesse de
+    $80\,[km/h]$. Calculer la fréquence perçue par l&#39;observateur avant
+    puis après le passage de la sirène.
+
+-   L&#39;ambulance est maintenant immobile. Calculer la fréquence perçue
+    par un observateur qui s&#39;approche puis s&#39;éloigne de l&#39;ambulance à la
+    vitesse de $80\,[km/h]$.
+
+-   Refaire les calculs des questions a) et b) avec la vitesse d&#39;un
+    train à très grande vitesse de $300\,[km/h]$
+
+-   Les situations a) et b) sont-elles parfaitement symétriques?
+</pre></div>
+</div>
+<div class="highlight-exercice notranslate"><div class="highlight"><pre><span></span>[]{#Exo:Doppler.2 label=&quot;Exo:Doppler.2&quot;} La sirène d&#39;une ambulance émet
+une onde sonore à $450\,[Hz]$. Un observateur perçoit cette onde à
+$415\,[Hz]$.\
+Comment se déplace l&#39;ambulance par rapport à l&#39;observateur et quelle est
+la vitesse de l&#39;ambulance par rapport à l&#39;observateur?
+</pre></div>
+</div>
+<div class="highlight-exercice notranslate"><div class="highlight"><pre><span></span>[]{#Exo:Doppler.3 label=&quot;Exo:Doppler.3&quot;} Un sous-marin français et un
+sous-marin américain se dirigent l&#39;un vers l&#39;autre lors de manœuvres
+dans l&#39;océan Atlantique, où l&#39;eau est immobile. Le module de la vitesse
+du sous-marin français est de $50,0\,[km/h]$ et celui du sous-marin
+américain est de $70,0\,[km/h]$. Le sous-marin français envoie un signal
+sonar (onde sonore sous-marine) à $1&#39;000\,[Hz]$. Les ondes se propagent
+dans l&#39;eau à une vitesse ayant un module de $5&#39;470\,[km/h]$.
+
+-   Quelle est la fréquence du signal détecte par le sous-marin
+    américain?
+
+-   Quelle fréquence est détectée par le sous-marin français dans le
+    signal réfléchi par le sous-marin américain?
+
+::: center
+![image](ExoSousMarin.jpg)
+:::
+</pre></div>
+</div>
+<div class="highlight-exercice notranslate"><div class="highlight"><pre><span></span>[]{#Exo:Doppler.4 label=&quot;Exo:Doppler.4&quot;} Un système d&#39;alarme sonore se
+compose d&#39;une source qui émet des ondes à $28,0\,[kHz]$. Quelle est la
+fréquence de battements entre les ondes émises et les ondes réfléchies
+par un cambrioleur qui marche à une vitesse moyenne de $0,95\,[m/s]$ en
+s&#39;éloignant de l&#39;alarme?
+</pre></div>
+</div>
+<div class="highlight-exercice notranslate"><div class="highlight"><pre><span></span>[]{#Exo:Doppler.5 label=&quot;Exo:Doppler.5&quot;} Un projectile est tiré à une
+vitesse ayant un module de $68,5\,[m/s]$. Trouvez l&#39;angle formé par
+l&#39;onde de choc et la trajectoire du projectile.
+</pre></div>
+</div>
+<div class="highlight-exercice notranslate"><div class="highlight"><pre><span></span>[]{#Exo:Doppler.6 label=&quot;Exo:Doppler.6&quot;} Un avion à réaction passe
+au-dessus de vous à une altitude de $5000\,[m]$ à une vitesse de Mach de
+$1,5$.
+
+-   Trouvez l&#39;angle du cône de Mach,
+
+-   Combien de temps après que l&#39;avion soit passé au-dessus de votre
+    tête l&#39;onde de choc vous atteint-elle?
+
+Le module de la vitesse du son est de $331\,[m/s]$.
+</pre></div>
+</div>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./3CSA\Son"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#vitesse-du-son">Vitesse du son</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#analyse-spectrale-d-un-son">Analyse spectrale d’un son</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hauteur-et-timbre-d-un-son">Hauteur et timbre d’un son</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#hauteur-d-un-son">Hauteur d’un son</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#timbre-d-un-son">Timbre d’un son</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#intensite-et-niveau-sonores">Intensité et niveau sonores</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#effet-doppler">Effet Doppler</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#effet-du-mouvement-de-la-source">Effet du mouvement de la source</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#onde-de-choc">Onde de choc</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercices">Exercices</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Philippe Pittet
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2022.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae"></script>
+<script src="../../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

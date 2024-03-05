@@ -64,12 +64,6 @@ Les deux exemples précédents considéraient des ondes similaires--- les deux h
 
 :::::{admonition} P*h*ET simulation
 :class: dropdown simulation
-**Titre_de_la_simulation**
-%%HTML [--isolated]
-<div align="center">
-<iframe src="https://phet.colorado.edu/sims/html/sound-waves/latest/sound-waves_fr.html" width="600" height="450" scrolling="no" allowfullscreen></iframe>
-</div>
-
 **Interférence d'onde**
 %%HTML [--isolated]
 <div align="center">
@@ -124,76 +118,6 @@ En acoustique musicale, le battement est audible lorsque deux cordes ou tuyaux v
 
 Les battements sont utiles pour accorder un instrument de musique (capable de tenir des notes). Accorder deux notes à l'unisson produit un effet particulier: tant que les deux notes ont des hauteurs voisines mais pas identiques, la différence des fréquences produit un battement. Lorsque les notes s'approchent de l'unisson, le battement ralentit puis disparaît.
 
-## Ondes stationnaires
-
-Parfois, les vagues ne semblent pas bouger et elles semblent simplement rester en place, vibrer. De telles ondes sont appelées ondes stationnaires et sont formées par la superposition de deux ou plusieurs ondes se déplaçant dans des directions opposées. Les vagues se déplacent les unes à travers les autres avec leurs perturbations qui s'ajoutent au fur et à mesure qu'elles passent. Si les deux ondes ont la même amplitude et la même longueur d'onde, elles alternent entre interférences constructives et destructrices. Les ondes stationnaires créées par la superposition de deux ondes identiques se déplaçant dans des directions opposées sont illustrées dans la {numref}`OndeStat`.
-
-:::{figure} figures/OndeStat.jpg
-:name: OndeStat
-:align: center
-:width: 65%
-*Une onde stationnaire est créée par la superposition de deux ondes identiques se déplaçant dans des directions opposées. Les oscillations se produisent à des endroits fixes dans l'espace et résultent d'une alternance d'interférences constructives et destructrices.*
-:::
-
-À titre d'exemple, on peut voir des ondes stationnaires à la surface d'un verre de lait dans un réfrigérateur. Les vibrations du moteur du réfrigérateur créent des ondes sur le lait qui oscillent de haut en bas mais ne semblent pas se déplacer sur la surface. Les deux ondes qui produisent des ondes stationnaires peuvent être dues aux réflexions sur le côté du verre.
-
-Les tremblements de terre peuvent créer des ondes stationnaires et provoquer des interférences constructives et destructrices. Lorsque les ondes sismiques se propagent le long de la surface de la Terre et se réfléchissent sur des roches plus denses, des interférences constructives se produisent en certains points. Par conséquent, les zones les plus proches de l'épicentre ne sont pas endommagées, tandis que les zones plus éloignées de l'épicentre sont endommagées.
-
-Les ondes stationnaires se trouvent également sur les cordes des instruments de musique et sont dues aux réflexions des ondes des extrémités de la corde. La {numref}`OndeStatCorde1` et la {numref}`OndeStatCorde2` montrent trois ondes stationnaires qui peuvent être créées sur une corde fixée aux deux extrémités. Lorsque l'onde atteint l'extrémité fixe, elle n'a nulle part où aller si ce n'est de retourner d'où elle vient, provoquant la réflexion. Les nœuds sont les points où la chaîne ne se déplace pas ; Plus généralement, `les noeuds` sont les points où la perturbation de l'onde est nulle dans une onde stationnaire. Les extrémités fixes des chaînes doivent également être des nœuds, car la chaîne ne peut pas s'y déplacer.
-
-`Les ventres` sont l'emplacement de l'amplitude maximale dans les ondes stationnaires. Les ondes stationnaires sur une corde ont une fréquence qui est liée à la vitesse de propagation $v_{w}$ de la perturbation sur la corde. La longueur d'onde $\lambda$ est déterminée par la distance entre les points où la chaîne est fixée en place.
-
-:::{figure} figures/OndeStatCorde1.jpg
-:name: OndeStatCorde1
-:align: center
-:width: 40%
-*La figure montre une corde oscillant avec sa perturbation maximale comme ventre.*
-:::
-
-:::{figure} figures/OndeStatCorde2.jpg
-:name: OndeStatCorde2
-:align: center
-:width: 60%
-*La figure montre une chaîne oscillant avec plusieurs nœuds.*
-:::
-
-
-## Réflexion et réfraction des ondes
-
-Comme nous l'avons vu dans le cas des ondes stationnaires sur les cordes d'un instrument de musique, la réflexion est le changement de direction d'une onde lorsqu'elle rebondit sur une barrière, telle qu'une extrémité fixe. Lorsque l'onde atteint l'extrémité fixe, elle change de direction et retourne à sa source. Lorsqu'elle est réfléchie, l'onde subit une inversion, ce qui signifie qu'elle se retourne verticalement. Si une vague frappe l'extrémité fixe avec une crête, elle reviendra sous forme de creux, et vice versa (Henderson 2015). Reportez-vous à la {numref}`reflexion`.
-
-:::{figure} figures/reflexion.jpg
-:name: reflexion
-:align: center
-:width: 50%
-*Une onde est inversée après réflexion à partir d'une extrémité fixe.*
-:::
-
-:::{admonition} Conseils pour réussir
-:class: astuce
-Si la fin n'est pas fixe, on dit qu'il s'agit d'une *fin libre*, et aucune inversion ne se produit. Lorsque l'extrémité est lâchement attachée, elle se réfléchit sans inversion, et lorsque l'extrémité n'est attachée à rien, elle ne réfléchit pas du tout. Vous l'avez peut-être remarqué en modifiant les paramètres de `Extrémité fixée` à `Extrémité libre` à `Pas d'extrémité` dans la simulation P*h*ET *Onde sur une corde* du chapitre sur la [propriétés des ondes](sect:propriete).
-:::
-
-
-Plutôt que de rencontrer une extrémité fixe ou une barrière, les ondes passent parfois d'un milieu à un autre, par exemple, de l'air à l'eau. Différents types de milieux ont des propriétés différentes, telles que la densité ou la profondeur, qui affectent la façon dont une onde les traverse. À la frontière entre les milieux, les ondes subissent une réfraction---elles changent de chemin de propagation. Au fur et à mesure que l'onde se plie, elle change également de vitesse et de longueur d'onde en entrant dans le nouveau milieu. Reportez-vous à la {numref}`ChangeMilieu`.
-
-:::{figure} figures/ChangeMilieu.jpg
-:name: ChangeMilieu
-:align: center
-:width: 50%
-*Une onde se réfracte lorsqu'elle pénètre dans un milieu différent.*
-::: 
-
-Par exemple, les vagues d'eau qui se déplacent de la partie profonde à la partie peu profonde d'une piscine subissent une réfraction. Ils se plient dans une trajectoire plus proche de la perpendiculaire à la surface de l'eau, se propagent plus lentement et diminuent en longueur d'onde à mesure qu'ils pénètrent dans des eaux moins profondes.
-
-:::{admonition} P*h*ET simulation
-:class: dropdown simulation
-**Ondes mécaniques sur une corde**
-%%HTML [--isolated]
-<div align="center">
-<iframe src="https://phet.colorado.edu/sims/html/wave-on-a-string/latest/wave-on-a-string_fr.html" width="600" height="450" scrolling="no" allowfullscreen></iframe>
-</div>
-:::
 
 ## Vérifiez votre compréhension
 ::::{admonition} Questions 1
@@ -254,67 +178,3 @@ C'est vrai.
 :::
 ::::
 
-::::{admonition} Questions 5
-:class: question
-Qu'est-ce qu'une onde stationnaire ?
-
-1. Des vagues qui semblent rester au même endroit et ne semblent pas bouger
-2. Des vagues qui semblent se déplacer le long d'une trajectoire
-:::{admonition} *réponse*
-:class: dropdown questionsol
-Réponse 1.
-
-Des vagues qui semblent rester au même endroit et ne semblent pas bouger.
-:::
-::::
-
-::::{admonition} Questions 6
-:class: question
-Comment se forment les ondes stationnaires ?
-
-1. Les ondes stationnaires sont formées par la superposition de deux ou plusieurs ondes se déplaçant dans des directions opposées.
-2. Les ondes stationnaires sont formées par la superposition de deux ou plusieurs ondes se déplaçant dans la même direction.
-3. Les ondes stationnaires sont formées par la superposition de deux ou plusieurs ondes se déplaçant dans des directions perpendiculaires.
-4. Les ondes stationnaires sont formées par la superposition de deux ou plusieurs ondes se déplaçant dans des directions arbitraires.
-:::{admonition} *réponse*
-:class: dropdown questionsol
-Réponse 1.
-
-
-Les ondes stationnaires sont formées par la superposition de deux ou plusieurs ondes se déplaçant dans des directions opposées.
-:::
-::::
-
-::::{admonition} Questions 7
-:class: question
-Qu'est-ce que le reflet d'une onde ?
-
-1. La réflexion d'une onde est le changement d'amplitude d'une onde lorsqu'elle rebondit sur une barrière.
-2. La réflexion d'une onde est le changement de fréquence d'une onde lorsqu'elle rebondit sur une barrière.
-3. La réflexion d'une onde est le changement de vitesse d'une onde lorsqu'elle rebondit sur une barrière.
-4. La réflexion d'une vague est le changement de direction d'une vague lorsqu'elle rebondit sur une barrière.
-:::{admonition} *réponse*
-:class: dropdown questionsol
-Réponse 4.
-
-La réflexion d'une vague est le changement de direction d'une vague lorsqu'elle rebondit sur une barrière.
-
-*On peut éventuellement accepter la réponse 3. puisque, en changeant de direction, la direction, et uniquement la direction de la vitesse de l'onde change*
-:::
-::::
-
-::::{admonition} Questions 8
-:class: question
-Qu'est-ce que l'inversion d'une onde ?
-
-1. L'inversion se produit lorsqu'une onde se réfléchit sur une extrémité fixe et que l'amplitude de l'onde change de signe.
-2. L'inversion se produit lorsqu'une onde se réfléchit sur une extrémité libre et que l'amplitude de l'onde change de signe.
-3. L'inversion se produit lorsqu'une onde se réfléchit sur une extrémité fixe sans que le signe de changement d'amplitude de l'onde.
-4. L'inversion se produit lorsqu'une onde se réfléchit sur une extrémité libre sans que le signe de changement d'amplitude de l'onde.
-:::{admonition} *réponse*
-:class: dropdown questionsol
-Réponse 1.
-
-L'inversion se produit lorsqu'une onde se réfléchit sur une extrémité fixe et que l'amplitude de l'onde change de signe.
-:::
-::::

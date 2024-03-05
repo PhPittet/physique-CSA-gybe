@@ -76,7 +76,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script>DOCUMENTATION_OPTIONS.pagename = '3CSA/Ondes_meca/6-3-interactions';</script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="2.4. Choix multiple" href="6-QCM.html" />
+    <link rel="next" title="2.4. Ondes stationnaires" href="6-4-ondes_stationnaires.html" />
     <link rel="prev" title="2.2. Propriétés de l’onde : vitesse, amplitude, fréquence et période" href="6-2-proprietes.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -203,22 +203,22 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l2"><a class="reference internal" href="6-1-types-ondes.html">2.1. Types d’ondes</a></li>
 <li class="toctree-l2"><a class="reference internal" href="6-2-proprietes.html">2.2. Propriétés de l’onde : vitesse, amplitude, fréquence et période</a></li>
 <li class="toctree-l2 current active"><a class="current reference internal" href="#">2.3. Interaction des ondes : superposition et interférence</a></li>
-<li class="toctree-l2"><a class="reference internal" href="6-QCM.html">2.4. Choix multiple</a></li>
-<li class="toctree-l2"><a class="reference internal" href="6-QCM2.html">2.5. QCM conceptuel</a></li>
-<li class="toctree-l2"><a class="reference internal" href="6-problemes.html">2.6. Problèmes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="6-resume.html">2.7. Résumé de la section</a></li>
-<li class="toctree-l2"><a class="reference internal" href="6-glossaire.html">2.8. Glossaire</a></li>
+<li class="toctree-l2"><a class="reference internal" href="6-4-ondes_stationnaires.html">2.4. Ondes stationnaires</a></li>
+<li class="toctree-l2"><a class="reference internal" href="6-QCM.html">2.5. Choix multiple</a></li>
+<li class="toctree-l2"><a class="reference internal" href="6-QCM2.html">2.6. QCM conceptuel</a></li>
+<li class="toctree-l2"><a class="reference internal" href="6-problemes.html">2.7. Problèmes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="6-resume.html">2.8. Résumé de la section</a></li>
+<li class="toctree-l2"><a class="reference internal" href="6-glossaire.html">2.9. Glossaire</a></li>
 </ul>
 </li>
 </ul>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1 has-children"><a class="reference internal" href="../Son/7-intro.html">3. Ondes Sonores</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../Son/7-1-vitesse.html">3.2. Vitesse du son, fréquence et longueur d’onde</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../Son/7-2-intensite.html">3.3. 14.2 Intensité sonore et niveau sonore</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../Son/7-3-Doppler.html">3.4. 14.3 Effet Doppler et bangs soniques</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../Son/7-4-interferences.html">3.5. 14.4 Interférences et résonances sonores</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../Son/7-resume.html">3.6. Résumé de la section</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../Son/7-glossaire.html">3.7. Glossaire</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Son/7-1-vitesse.html">3.1. Vitesse du son, fréquence et longueur d’onde</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Son/7-2-intensite.html">3.2. Intensité et niveau sonore</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Son/7-3-Doppler.html">3.3. Effet Doppler et bangs soniques</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Son/7-resume.html">3.4. Résumé de la section</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Son/7-glossaire.html">3.5. Glossaire</a></li>
 </ul>
 </li>
 </ul>
@@ -422,8 +422,6 @@ document.write(`
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#battements">Battements</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ondes-stationnaires">Ondes stationnaires</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#reflexion-et-refraction-des-ondes">Réflexion et réfraction des ondes</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#verifiez-votre-comprehension">Vérifiez votre compréhension</a></li>
 </ul>
             </nav>
@@ -486,10 +484,6 @@ document.write(`
 </figure>
 <div class="dropdown simulation admonition">
 <p class="admonition-title">P<em>h</em>ET simulation</p>
-<p><strong>Titre_de_la_simulation</strong></p>
-<div align="center">
-<iframe src="https://phet.colorado.edu/sims/html/sound-waves/latest/sound-waves_fr.html" width="600" height="450" scrolling="no" allowfullscreen></iframe>
-</div>
 <p><strong>Interférence d’onde</strong></p>
 <div align="center">
 <iframe src="https://phet.colorado.edu/sims/html/wave-interference/latest/wave-interference_fr.html" width="600" height="450" scrolling="no" allowfullscreen></iframe>
@@ -536,61 +530,6 @@ document.write(`
 <p>En acoustique musicale, le battement est audible lorsque deux cordes ou tuyaux vibrent à des fréquences dont la différence est entre <span class="math notranslate nohighlight">\(0,5\)</span> et <span class="math notranslate nohighlight">\(5\,[Hz]\)</span> environ.</p>
 <p>Les battements sont utiles pour accorder un instrument de musique (capable de tenir des notes). Accorder deux notes à l’unisson produit un effet particulier: tant que les deux notes ont des hauteurs voisines mais pas identiques, la différence des fréquences produit un battement. Lorsque les notes s’approchent de l’unisson, le battement ralentit puis disparaît.</p>
 </section>
-</section>
-<section id="ondes-stationnaires">
-<h2>Ondes stationnaires<a class="headerlink" href="#ondes-stationnaires" title="Permalink to this heading">#</a></h2>
-<p>Parfois, les vagues ne semblent pas bouger et elles semblent simplement rester en place, vibrer. De telles ondes sont appelées ondes stationnaires et sont formées par la superposition de deux ou plusieurs ondes se déplaçant dans des directions opposées. Les vagues se déplacent les unes à travers les autres avec leurs perturbations qui s’ajoutent au fur et à mesure qu’elles passent. Si les deux ondes ont la même amplitude et la même longueur d’onde, elles alternent entre interférences constructives et destructrices. Les ondes stationnaires créées par la superposition de deux ondes identiques se déplaçant dans des directions opposées sont illustrées dans la <a class="reference internal" href="#ondestat"><span class="std std-numref">Fig. 2.21</span></a>.</p>
-<figure class="align-center" id="ondestat">
-<a class="reference internal image-reference" href="../../_images/OndeStat.jpg"><img alt="../../_images/OndeStat.jpg" src="../../_images/OndeStat.jpg" style="width: 65%;" /></a>
-<figcaption>
-<p><span class="caption-number">Fig. 2.21 </span><span class="caption-text"><em>Une onde stationnaire est créée par la superposition de deux ondes identiques se déplaçant dans des directions opposées. Les oscillations se produisent à des endroits fixes dans l’espace et résultent d’une alternance d’interférences constructives et destructrices.</em></span><a class="headerlink" href="#ondestat" title="Permalink to this image">#</a></p>
-</figcaption>
-</figure>
-<p>À titre d’exemple, on peut voir des ondes stationnaires à la surface d’un verre de lait dans un réfrigérateur. Les vibrations du moteur du réfrigérateur créent des ondes sur le lait qui oscillent de haut en bas mais ne semblent pas se déplacer sur la surface. Les deux ondes qui produisent des ondes stationnaires peuvent être dues aux réflexions sur le côté du verre.</p>
-<p>Les tremblements de terre peuvent créer des ondes stationnaires et provoquer des interférences constructives et destructrices. Lorsque les ondes sismiques se propagent le long de la surface de la Terre et se réfléchissent sur des roches plus denses, des interférences constructives se produisent en certains points. Par conséquent, les zones les plus proches de l’épicentre ne sont pas endommagées, tandis que les zones plus éloignées de l’épicentre sont endommagées.</p>
-<p>Les ondes stationnaires se trouvent également sur les cordes des instruments de musique et sont dues aux réflexions des ondes des extrémités de la corde. La <a class="reference internal" href="#ondestatcorde1"><span class="std std-numref">Fig. 2.22</span></a> et la <a class="reference internal" href="#ondestatcorde2"><span class="std std-numref">Fig. 2.23</span></a> montrent trois ondes stationnaires qui peuvent être créées sur une corde fixée aux deux extrémités. Lorsque l’onde atteint l’extrémité fixe, elle n’a nulle part où aller si ce n’est de retourner d’où elle vient, provoquant la réflexion. Les nœuds sont les points où la chaîne ne se déplace pas ; Plus généralement, <code class="docutils literal notranslate"><span class="pre">les</span> <span class="pre">noeuds</span></code> sont les points où la perturbation de l’onde est nulle dans une onde stationnaire. Les extrémités fixes des chaînes doivent également être des nœuds, car la chaîne ne peut pas s’y déplacer.</p>
-<p><code class="docutils literal notranslate"><span class="pre">Les</span> <span class="pre">ventres</span></code> sont l’emplacement de l’amplitude maximale dans les ondes stationnaires. Les ondes stationnaires sur une corde ont une fréquence qui est liée à la vitesse de propagation <span class="math notranslate nohighlight">\(v_{w}\)</span> de la perturbation sur la corde. La longueur d’onde <span class="math notranslate nohighlight">\(\lambda\)</span> est déterminée par la distance entre les points où la chaîne est fixée en place.</p>
-<figure class="align-center" id="ondestatcorde1">
-<a class="reference internal image-reference" href="../../_images/OndeStatCorde1.jpg"><img alt="../../_images/OndeStatCorde1.jpg" src="../../_images/OndeStatCorde1.jpg" style="width: 40%;" /></a>
-<figcaption>
-<p><span class="caption-number">Fig. 2.22 </span><span class="caption-text"><em>La figure montre une corde oscillant avec sa perturbation maximale comme ventre.</em></span><a class="headerlink" href="#ondestatcorde1" title="Permalink to this image">#</a></p>
-</figcaption>
-</figure>
-<figure class="align-center" id="ondestatcorde2">
-<a class="reference internal image-reference" href="../../_images/OndeStatCorde2.jpg"><img alt="../../_images/OndeStatCorde2.jpg" src="../../_images/OndeStatCorde2.jpg" style="width: 60%;" /></a>
-<figcaption>
-<p><span class="caption-number">Fig. 2.23 </span><span class="caption-text"><em>La figure montre une chaîne oscillant avec plusieurs nœuds.</em></span><a class="headerlink" href="#ondestatcorde2" title="Permalink to this image">#</a></p>
-</figcaption>
-</figure>
-</section>
-<section id="reflexion-et-refraction-des-ondes">
-<h2>Réflexion et réfraction des ondes<a class="headerlink" href="#reflexion-et-refraction-des-ondes" title="Permalink to this heading">#</a></h2>
-<p>Comme nous l’avons vu dans le cas des ondes stationnaires sur les cordes d’un instrument de musique, la réflexion est le changement de direction d’une onde lorsqu’elle rebondit sur une barrière, telle qu’une extrémité fixe. Lorsque l’onde atteint l’extrémité fixe, elle change de direction et retourne à sa source. Lorsqu’elle est réfléchie, l’onde subit une inversion, ce qui signifie qu’elle se retourne verticalement. Si une vague frappe l’extrémité fixe avec une crête, elle reviendra sous forme de creux, et vice versa (Henderson 2015). Reportez-vous à la <a class="reference internal" href="#reflexion"><span class="std std-numref">Fig. 2.24</span></a>.</p>
-<figure class="align-center" id="reflexion">
-<a class="reference internal image-reference" href="../../_images/reflexion.jpg"><img alt="../../_images/reflexion.jpg" src="../../_images/reflexion.jpg" style="width: 50%;" /></a>
-<figcaption>
-<p><span class="caption-number">Fig. 2.24 </span><span class="caption-text"><em>Une onde est inversée après réflexion à partir d’une extrémité fixe.</em></span><a class="headerlink" href="#reflexion" title="Permalink to this image">#</a></p>
-</figcaption>
-</figure>
-<div class="astuce admonition">
-<p class="admonition-title">Conseils pour réussir</p>
-<p>Si la fin n’est pas fixe, on dit qu’il s’agit d’une <em>fin libre</em>, et aucune inversion ne se produit. Lorsque l’extrémité est lâchement attachée, elle se réfléchit sans inversion, et lorsque l’extrémité n’est attachée à rien, elle ne réfléchit pas du tout. Vous l’avez peut-être remarqué en modifiant les paramètres de <code class="docutils literal notranslate"><span class="pre">Extrémité</span> <span class="pre">fixée</span></code> à <code class="docutils literal notranslate"><span class="pre">Extrémité</span> <span class="pre">libre</span></code> à <code class="docutils literal notranslate"><span class="pre">Pas</span> <span class="pre">d'extrémité</span></code> dans la simulation P<em>h</em>ET <em>Onde sur une corde</em> du chapitre sur la <a class="reference internal" href="6-2-proprietes.html#sect-propriete"><span class="std std-ref">propriétés des ondes</span></a>.</p>
-</div>
-<p>Plutôt que de rencontrer une extrémité fixe ou une barrière, les ondes passent parfois d’un milieu à un autre, par exemple, de l’air à l’eau. Différents types de milieux ont des propriétés différentes, telles que la densité ou la profondeur, qui affectent la façon dont une onde les traverse. À la frontière entre les milieux, les ondes subissent une réfraction—elles changent de chemin de propagation. Au fur et à mesure que l’onde se plie, elle change également de vitesse et de longueur d’onde en entrant dans le nouveau milieu. Reportez-vous à la <a class="reference internal" href="#changemilieu"><span class="std std-numref">Fig. 2.25</span></a>.</p>
-<figure class="align-center" id="changemilieu">
-<a class="reference internal image-reference" href="../../_images/ChangeMilieu.jpg"><img alt="../../_images/ChangeMilieu.jpg" src="../../_images/ChangeMilieu.jpg" style="width: 50%;" /></a>
-<figcaption>
-<p><span class="caption-number">Fig. 2.25 </span><span class="caption-text"><em>Une onde se réfracte lorsqu’elle pénètre dans un milieu différent.</em></span><a class="headerlink" href="#changemilieu" title="Permalink to this image">#</a></p>
-</figcaption>
-</figure>
-<p>Par exemple, les vagues d’eau qui se déplacent de la partie profonde à la partie peu profonde d’une piscine subissent une réfraction. Ils se plient dans une trajectoire plus proche de la perpendiculaire à la surface de l’eau, se propagent plus lentement et diminuent en longueur d’onde à mesure qu’ils pénètrent dans des eaux moins profondes.</p>
-<div class="dropdown simulation admonition">
-<p class="admonition-title">P<em>h</em>ET simulation</p>
-<p><strong>Ondes mécaniques sur une corde</strong></p>
-<div align="center">
-<iframe src="https://phet.colorado.edu/sims/html/wave-on-a-string/latest/wave-on-a-string_fr.html" width="600" height="450" scrolling="no" allowfullscreen></iframe>
-</div>
-</div>
 </section>
 <section id="verifiez-votre-comprehension">
 <h2>Vérifiez votre compréhension<a class="headerlink" href="#verifiez-votre-comprehension" title="Permalink to this heading">#</a></h2>
@@ -649,65 +588,6 @@ document.write(`
 <p>C’est vrai.</p>
 </div>
 </div>
-<div class="question admonition">
-<p class="admonition-title">Questions 5</p>
-<p>Qu’est-ce qu’une onde stationnaire ?</p>
-<ol class="arabic simple">
-<li><p>Des vagues qui semblent rester au même endroit et ne semblent pas bouger</p></li>
-<li><p>Des vagues qui semblent se déplacer le long d’une trajectoire</p></li>
-</ol>
-<div class="dropdown questionsol admonition">
-<p class="admonition-title"><em>réponse</em></p>
-<p>Réponse 1.</p>
-<p>Des vagues qui semblent rester au même endroit et ne semblent pas bouger.</p>
-</div>
-</div>
-<div class="question admonition">
-<p class="admonition-title">Questions 6</p>
-<p>Comment se forment les ondes stationnaires ?</p>
-<ol class="arabic simple">
-<li><p>Les ondes stationnaires sont formées par la superposition de deux ou plusieurs ondes se déplaçant dans des directions opposées.</p></li>
-<li><p>Les ondes stationnaires sont formées par la superposition de deux ou plusieurs ondes se déplaçant dans la même direction.</p></li>
-<li><p>Les ondes stationnaires sont formées par la superposition de deux ou plusieurs ondes se déplaçant dans des directions perpendiculaires.</p></li>
-<li><p>Les ondes stationnaires sont formées par la superposition de deux ou plusieurs ondes se déplaçant dans des directions arbitraires.</p></li>
-</ol>
-<div class="dropdown questionsol admonition">
-<p class="admonition-title"><em>réponse</em></p>
-<p>Réponse 1.</p>
-<p>Les ondes stationnaires sont formées par la superposition de deux ou plusieurs ondes se déplaçant dans des directions opposées.</p>
-</div>
-</div>
-<div class="question admonition">
-<p class="admonition-title">Questions 7</p>
-<p>Qu’est-ce que le reflet d’une onde ?</p>
-<ol class="arabic simple">
-<li><p>La réflexion d’une onde est le changement d’amplitude d’une onde lorsqu’elle rebondit sur une barrière.</p></li>
-<li><p>La réflexion d’une onde est le changement de fréquence d’une onde lorsqu’elle rebondit sur une barrière.</p></li>
-<li><p>La réflexion d’une onde est le changement de vitesse d’une onde lorsqu’elle rebondit sur une barrière.</p></li>
-<li><p>La réflexion d’une vague est le changement de direction d’une vague lorsqu’elle rebondit sur une barrière.</p></li>
-</ol>
-<div class="dropdown questionsol admonition">
-<p class="admonition-title"><em>réponse</em></p>
-<p>Réponse 4.</p>
-<p>La réflexion d’une vague est le changement de direction d’une vague lorsqu’elle rebondit sur une barrière.</p>
-<p><em>On peut éventuellement accepter la réponse 3. puisque, en changeant de direction, la direction, et uniquement la direction de la vitesse de l’onde change</em></p>
-</div>
-</div>
-<div class="question admonition">
-<p class="admonition-title">Questions 8</p>
-<p>Qu’est-ce que l’inversion d’une onde ?</p>
-<ol class="arabic simple">
-<li><p>L’inversion se produit lorsqu’une onde se réfléchit sur une extrémité fixe et que l’amplitude de l’onde change de signe.</p></li>
-<li><p>L’inversion se produit lorsqu’une onde se réfléchit sur une extrémité libre et que l’amplitude de l’onde change de signe.</p></li>
-<li><p>L’inversion se produit lorsqu’une onde se réfléchit sur une extrémité fixe sans que le signe de changement d’amplitude de l’onde.</p></li>
-<li><p>L’inversion se produit lorsqu’une onde se réfléchit sur une extrémité libre sans que le signe de changement d’amplitude de l’onde.</p></li>
-</ol>
-<div class="dropdown questionsol admonition">
-<p class="admonition-title"><em>réponse</em></p>
-<p>Réponse 1.</p>
-<p>L’inversion se produit lorsqu’une onde se réfléchit sur une extrémité fixe et que l’amplitude de l’onde change de signe.</p>
-</div>
-</div>
 </section>
 </section>
 
@@ -751,11 +631,11 @@ document.write(`
       </div>
     </a>
     <a class="right-next"
-       href="6-QCM.html"
+       href="6-4-ondes_stationnaires.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title"><span class="section-number">2.4. </span>Choix multiple</p>
+        <p class="prev-next-title"><span class="section-number">2.4. </span>Ondes stationnaires</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -781,8 +661,6 @@ document.write(`
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#battements">Battements</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ondes-stationnaires">Ondes stationnaires</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#reflexion-et-refraction-des-ondes">Réflexion et réfraction des ondes</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#verifiez-votre-comprehension">Vérifiez votre compréhension</a></li>
 </ul>
   </nav></div>
