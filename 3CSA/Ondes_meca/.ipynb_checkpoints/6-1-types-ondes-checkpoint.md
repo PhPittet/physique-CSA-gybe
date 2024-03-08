@@ -78,7 +78,7 @@ Considérons la vague sur l'eau simplifiée dans la {numref}`OceanWave`. Cette o
 *Une vague océanique idéalisée passe sous une mouette qui se déplace de haut en bas dans un simple mouvement harmonique.*
 :::
 
-## Ondes longitudinales et ondes transversales
+## Ondes transversales et ondes longitudinales
 Les ondes mécaniques sont classées en fonction de leur type de mouvement et se répartissent en deux catégories : *transversales* ou *longitudinales*. Notez que les ondes transversales et longitudinales peuvent être périodiques. `Une onde transversale` se propage de sorte que la perturbation est perpendiculaire à la direction de propagation. Un exemple d'onde transversale est illustré à la {numref}`ressort1`, où une femme déplace un ressort de jouet de haut en bas, générant des ondes qui se propagent loin d'elle-même dans le sens horizontal tout en perturbant le ressort du jouet dans le sens vertical.
 
 :::{figure} figures/ressort1.jpg
@@ -95,11 +95,6 @@ En revanche, dans `une onde longitudinale`, la perturbation est parallèle à la
 :align: center
 :width: 60%
 *Dans cet exemple d'onde longitudinale, l'onde se propage horizontalement et la perturbation dans le ressort jouet se fait également dans le sens horizontal.*
-:::
-
-:::{admonition} Remarque
-:class: astuce
-Les ondes longitudinales sont parfois appelées *ondes de compression* ou *ondes primaire $\text{P}$*, et les ondes transversales sont parfois appelées *ondes de cisaillement*.
 :::
 
 Les ondes peuvent être *transversales*, *longitudinales* ou *une combinaison des deux*. Les ondes sur les cordes des instruments de musique sont transversales (comme le montre la {numref}`corde`), de même que les ondes électromagnétiques, telles que la lumière visible. Les ondes sonores dans l'air et l'eau sont longitudinales. Leurs perturbations sont des variations périodiques de pression qui se transmettent dans les fluides.

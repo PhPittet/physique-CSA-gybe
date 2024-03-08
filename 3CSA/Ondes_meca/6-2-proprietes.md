@@ -11,28 +11,28 @@ Une onde mécanique est définie par sa :
 
 Fréquence $f$ :
 : La fréquence $f$ est le nombre d'ondes passant par un point spécifique par seconde.\
-  Elle se mesure en inverse de seconde  ($\text{s}^{-1}$) ou en Hertz  ($\text{Hz}$)
+  Elle se mesure en inverse de seconde [$\frac{1}{s}=\text{s}^{-1}$] ou en Hertz [$\text{Hz}$].
 
 Période $T$ :
 : La période $T$ d'une d'une onde est le temps nécessaire à la réalisation d'un cycle d'onde périodique.\
-  Elle se mesure en seconde ($\text{s}$)
+  Elle se mesure en seconde [$\text{s}$].
 
 Longueur d'onde $\lambda$ :
 : La longueur d'onde $\lambda$ est la distance entre deux parties identiques adjacentes d'une onde (par exemple, deux *sommets* successifs de l'onde), parallèle à la direction de propagation.\
-  Elle se mesure en mètre ($\text{m}$)
+  Elle se mesure en mètre [$\text{m}$]
 
 Vitesse d'onde $v_{w}$ :
 : La vitesse de l'onde $v_{w}$ est la vitesse à laquelle la perturbation se déplace.\
-  Elle se mesure en mètre par seconde ($\text{m/s}$)
+  Elle se mesure en mètre par seconde [$\text{m/s}$]
 
 Amplitude $A$ :
 : L'amplitude $A$ d'une onde est la distance entre la position de repos et le déplacement maximal de l'onde.\
-  Elle se mesure en mètre ($\text{m}$)\
+  Elle se mesure en mètre [$\text{m}$]\
   *L'amplitude n'est pas vraiment une grandeur importante pour comprendre les ondes mécaniques.*
 
 ::::
 
-:::{admonition} Conseils pour réussir
+:::{admonition} Remarque
 :class: astuce
 La vitesse des vagues est parfois aussi appelée *vitesse de propagation* (ou *célérité*) car la perturbation se propage d'un endroit à un autre.
 :::
@@ -74,13 +74,14 @@ v_w=\dfrac{d}{t}=\dfrac{10}{25}=0.4\,m/s
 La force de tension $F_T$ d'une corde tendue, joue également un rôle dans la vitesse de propagation : on observe que plus une corde est tendue, plus la vitesse de propagation des ondes est grande. Des mesures expérimentales nous montrent que le carré de la vitesse de propagation $v_w$ d'une onde dans une corde est :
 - proportionnel à la force de tension $F_T$ de la corde ;
 - inversement proportionnel à la masse linéaire $\mu$ de la corde.
+
 Ces propriétés se traduisent par la relation algébrique :
 :::{math}
 :label: eq:tensiononde
 v_w=\sqrt{\dfrac{F_{T}}{\mu}}
 :::
 ou :
-- $v$ est la vitesse de propagation en $(\text{m/s})$
+- $v_w$ est la vitesse de propagation en $(\text{m/s})$
 - $F_T$ la force de tension de la corde en $(\text{N})$
 - $\mu$ la masse linéaire de la corde en $(\text{kg/m})$
 
